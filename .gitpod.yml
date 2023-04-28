@@ -14,13 +14,14 @@ tasks:
   command: |
     echo "switching root user"
     sudo su
+    whoami
     echo "Creating the Splunk user"
     sudo useradd splunk
     echo "Creating the Splunk directory"
-    cd /opt
-    mkdir splunk
+    mkdir /opt/splunk/
     chown -R splunk:splunk /opt/
     echo "Downloading the Splunk package"
+    cd /opt/
     wget -O splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.0.4.1/linux/splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm"
     echo "Installing package"
     chmod 644 splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm
