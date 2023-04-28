@@ -9,6 +9,8 @@ ports:
   onOpen: open-preview
 - port: 9997
   onOpen: open-preview
+- port: 8065
+  onOpen: open-preview
 tasks:
 - name: Terminal
   command: |
