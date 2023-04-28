@@ -12,6 +12,8 @@ ports:
 tasks:
 - name: Terminal
   command: |
+    echo "switching root user"
+    sudo su
     echo "Creating the Splunk user"
     sudo useradd splunk
     echo "Creating the Splunk directory"
