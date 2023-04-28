@@ -1,0 +1,38 @@
+image: gitpod/workspace-full:latest
+
+ports:
+- port: 8080
+  onOpen: open-preview
+- port: 8000
+  onOpen: open-preview
+- port: 8089
+  onOpen: open-preview
+- port: 8191
+  onOpen: open-preview
+- port: 9997
+  onOpen: open-preview
+- port: 8065
+  onOpen: open-preview
+tasks:
+  - init: |
+      # Install dependencies
+      sudo apt-get update
+      sudo apt-get install -y wget
+  - command: |
+      
+      if ! id -u splunk > /dev/null 2>&1; then
+        sudo useradd --create-home --shell /bin/bash splunk
+      fi
+      
+      # Download Splunk Enterprise
+      wget -O splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.2.2&product=splunk&filename=splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb&wget=true'
+
+      # Install Splunk Enterprise
+      sudo dpkg -i splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb
+
+      # Start Splunk and enable on boot
+      sudo /opt/splunk/bin/splunk enable boot-start -user splunk
+      sudo /opt/splunk/bin/splunk start --accept-license --answer-yes --no-prompt
+
+      # Open the Splunk web interface
+      echo "Splunk is now running and available at: https://$(gp url 8000)"
