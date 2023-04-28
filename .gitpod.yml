@@ -1,0 +1,23 @@
+ports:
+- port: 8080
+  onOpen: open-preview
+- port: 8000
+  onOpen: open-preview
+- port: 8089
+  onOpen: open-preview
+- port: 8191
+  onOpen: open-preview
+- port: 9997
+  onOpen: open-preview
+tasks:
+- name: Terminal
+  command: >
+    echo "Creating the Splunk user";
+    sudo useradd splunk
+    echo "Creating the Splunk directory";
+    cd /opt && mkdir splunk && chown -R splunk:splunk /opt/
+    echo "Downloading the Splunk package";
+    wget -O splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.0.4.1/linux/splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm"
+    echo "Installing package";
+    chmod 644 splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm && su splunk && cd /opt/ && rpm -i splunk-9.0.4.1-419ad9369127-linux-2.6-x86_64.rpm
+
