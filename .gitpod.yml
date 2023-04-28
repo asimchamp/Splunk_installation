@@ -25,10 +25,17 @@ tasks:
       fi
       
       # Download Splunk Enterprise
-      wget -O splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.2.2&product=splunk&filename=splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb&wget=true'
+      wget -O splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/9.0.4.1/linux/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz"
 
       # Install Splunk Enterprise
-      sudo dpkg -i splunk-8.2.2-87344edfcdb4-linux-2.6-amd64.deb
+      sudo mkdir /opt/splunk/
+      sudo chown -R splunk:splunk /opt/
+      sudo chmod 644 /workspace/Splunk_installation/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz
+      sudo tar -xvzf /workspace/Splunk_installation/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz -C /opt/
+      sudo chown -R splunk:splunk /opt/splunk/
+      sudo chmod -R 644 /opt/splunk/*
+      sudo cp /opt/splunk/etc/splunk-launch.conf.default /opt/splunk/etc/splunk-launch.conf
+      sudo -u splunk echo "OPTIMISTIC_ABOUT_FILE_LOCKING = 1" >> /opt/splunk/etc/splunk-launch.con
 
       # Start Splunk and enable on boot
       sudo /opt/splunk/bin/splunk enable boot-start -user splunk
