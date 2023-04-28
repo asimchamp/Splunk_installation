@@ -24,4 +24,7 @@ tasks:
     echo "Installing package"
     sudo chmod 644 /workspace/Splunk_installation/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz
     sudo tar -xvzf /workspace/Splunk_installation/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz -C /opt/
+    sudo chown -R splunk:splunk /opt/splunk/
+    sudo chmod -R 644 /opt/splunk/*
+   
 
