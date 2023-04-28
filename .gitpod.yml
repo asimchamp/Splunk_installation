@@ -26,6 +26,7 @@ tasks:
     sudo tar -xvzf /workspace/Splunk_installation/splunk-9.0.4.1-419ad9369127-Linux-x86_64.tgz -C /opt/
     sudo chown -R splunk:splunk /opt/splunk/
     sudo chmod -R 644 /opt/splunk/*
+    sudo cp /opt/splunk/etc/splunk-launch.conf.default /opt/splunk/etc/splunk-launch.conf
     sudo echo "OPTIMISTIC_ABOUT_FILE_LOCKING = 1" >> /opt/splunk/etc/splunk-launch.conf
     sudo /opt/splunk/bin/splunk enable boot-start -systemd-managed 1 -user splunk
     sudo /opt/splunk/bin/splunk start
