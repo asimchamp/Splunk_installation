@@ -35,7 +35,9 @@ tasks:
       sudo chown -R splunk:splunk /opt/splunk/
       sudo chmod -R 644 /opt/splunk/*
       sudo cp /opt/splunk/etc/splunk-launch.conf.default /opt/splunk/etc/splunk-launch.conf
-      sudo -u splunk echo "OPTIMISTIC_ABOUT_FILE_LOCKING = 1" >> /opt/splunk/etc/splunk-launch.con
+      sudo chown -R splunk:splunk /opt/splunk/etc/splunk-launch.conf
+      sudo su && echo "" >> /opt/splunk/etc/splunk-launch.conf
+      sudo su && echo "OPTIMISTIC_ABOUT_FILE_LOCKING = 1" >> /opt/splunk/etc/splunk-launch.conf
 
       # Start Splunk and enable on boot
       sudo /opt/splunk/bin/splunk enable boot-start -user splunk
