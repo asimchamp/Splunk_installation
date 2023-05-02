@@ -1,0 +1,2 @@
+2023-05-02 10:00:28.226 +0000 splunkd started (build 419ad9369127) pid=15715
+2023-05-02 10:02:10.366 +0000 Interrupt signal received sent by PID 16741, command="/workspaces/Splunk_installation/splunk/bin/splunk stop" (UID 1000, same as my group)

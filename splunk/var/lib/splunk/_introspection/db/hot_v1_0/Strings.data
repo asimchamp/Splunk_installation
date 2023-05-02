@@ -1,0 +1,1573 @@
+1	datetime	  0	0	0	0	
+2	log_level	  0	0	0	0	
+3	component	  0	0	0	0	
+4	data.host	  0	0	0	0	
+5	data.version	  0	0	0	0	
+6	data.process	  0	0	0	0	
+7	data.pid	  0	0	0	0	
+8	data.uptime	  0	0	0	0	
+9	data.uptimeMillis	  0	0	0	0	
+10	data.uptimeEstimate	  0	0	0	0	
+11	data.localTime	  0	0	0	0	
+12	data.asserts.regular	  0	0	0	0	
+13	data.asserts.warning	  0	0	0	0	
+14	data.asserts.msg	  0	0	0	0	
+15	data.asserts.user	  0	0	0	0	
+16	data.asserts.rollovers	  0	0	0	0	
+17	data.connections.current	  0	0	0	0	
+18	data.connections.available	  0	0	0	0	
+19	data.connections.totalCreated	  0	0	0	0	
+20	data.connections.active	  0	0	0	0	
+21	data.electionMetrics.stepUpCmd.called	  0	0	0	0	
+22	data.electionMetrics.stepUpCmd.successful	  0	0	0	0	
+23	data.electionMetrics.priorityTakeover.called	  0	0	0	0	
+24	data.electionMetrics.priorityTakeover.successful	  0	0	0	0	
+25	data.electionMetrics.catchUpTakeover.called	  0	0	0	0	
+26	data.electionMetrics.catchUpTakeover.successful	  0	0	0	0	
+27	data.electionMetrics.electionTimeout.called	  0	0	0	0	
+28	data.electionMetrics.electionTimeout.successful	  0	0	0	0	
+29	data.electionMetrics.freezeTimeout.called	  0	0	0	0	
+30	data.electionMetrics.freezeTimeout.successful	  0	0	0	0	
+31	data.electionMetrics.numStepDownsCausedByHigherTerm	  0	0	0	0	
+32	data.electionMetrics.numCatchUps	  0	0	0	0	
+33	data.electionMetrics.numCatchUpsSucceeded	  0	0	0	0	
+34	data.electionMetrics.numCatchUpsAlreadyCaughtUp	  0	0	0	0	
+35	data.electionMetrics.numCatchUpsSkipped	  0	0	0	0	
+36	data.electionMetrics.numCatchUpsTimedOut	       0	0	0	0	
+37	data.electionMetrics.numCatchUpsFailedWithError	  0	0	0	0	
+38	data.electionMetrics.numCatchUpsFailedWithNewTerm	  0	0	0	0	
+39	data.electionMetrics.numCatchUpsFailedWithReplSetAbortPrimaryCatchUpCmd	  0	0	0	0	
+40	data.electionMetrics.averageCatchUpOps	  0	0	0	0	
+41	data.extra_info.note	  0	0	0	0	
+42	data.extra_info.user_time_us	  0	0	0	0	
+43	data.extra_info.system_time_us	  0	0	0	0	
+44	data.extra_info.maximum_resident_set_kb	  0	0	0	0	
+45	data.extra_info.input_blocks	  0	0	0	0	
+46	data.extra_info.output_blocks	  0	0	0	0	
+47	data.extra_info.page_reclaims	  0	0	0	0	
+48	data.extra_info.page_faults	  0	0	0	0	
+49	data.extra_info.voluntary_context_switches	  0	0	0	0	
+50	data.extra_info.involuntary_context_switches	  0	0	0	0	
+51	data.flowControl.enabled	  0	0	0	0	
+52	true	  0	0	0	0	
+53	data.flowControl.targetRateLimit	  0	0	0	0	
+54	data.flowControl.timeAcquiringMicros	  0	0	0	0	
+55	data.flowControl.locksPerOp	  0	0	0	0	
+56	data.flowControl.sustainerRate	  0	0	0	0	
+57	data.flowControl.isLagged	  0	0	0	0	
+58	false	  0	0	0	0	
+59	data.flowControl.isLaggedCount	  0	0	0	0	
+60	data.flowControl.isLaggedTimeMicros	  0	0	0	0	
+61	data.globalLock.totalTime	  0	0	0	0	
+62	data.globalLock.currentQueue.total	  0	0	0	0	
+63	data.globalLock.currentQueue.readers	  0	0	0	0	
+64	data.globalLock.currentQueue.writers	  0	0	0	0	
+65	data.globalLock.activeClients.total	  0	0	0	0	
+66	data.globalLock.activeClients.readers	  0	0	0	0	
+67	data.globalLock.activeClients.writers	  0	0	0	0	
+68	data.locks.ParallelBatchWriterMode.acquireCount.r	  0	0	0	0	
+69	data.locks.ReplicationStateTransition.acquireCount.w	  0	0	0	0	
+70	data.locks.Global.acquireCount.r	  0	0	0	0	
+71	data.locks.Global.acquireCount.w	  0	0	0	0	
+72	data.locks.Global.acquireCount.W	  0	0	0	0	
+73	data.locks.Database.acquireCount.r	  0	0	0	0	
+74	data.locks.Database.acquireCount.w	  0	0	0	0	
+75	data.locks.Database.acquireCount.W	  0	0	0	0	
+76	data.locks.Collection.acquireCount.r	  0	0	0	0	
+77	data.locks.Collection.acquireCount.w	  0	0	0	0	
+78	data.locks.Collection.acquireCount.W	    0	0	0	0	
+79	data.locks.Mutex.acquireCount.r	  0	0	0	0	
+80	data.locks.oplog.acquireCount.r	  0	0	0	0	
+81	data.locks.oplog.acquireCount.w	  0	0	0	0	
+82	data.logicalSessionRecordCache.activeSessionsCount	  0	0	0	0	
+83	data.logicalSessionRecordCache.sessionsCollectionJobCount	  0	0	0	0	
+84	data.logicalSessionRecordCache.lastSessionsCollectionJobDurationMillis	  0	0	0	0	
+85	data.logicalSessionRecordCache.lastSessionsCollectionJobTimestamp.$date	  0	0	0	0	
+86	data.logicalSessionRecordCache.lastSessionsCollectionJobEntriesRefreshed	  0	0	0	0	
+87	data.logicalSessionRecordCache.lastSessionsCollectionJobEntriesEnded	  0	0	0	0	
+88	data.logicalSessionRecordCache.lastSessionsCollectionJobCursorsClosed	  0	0	0	0	
+89	data.logicalSessionRecordCache.transactionReaperJobCount	  0	0	0	0	
+90	data.logicalSessionRecordCache.lastTransactionReaperJobDurationMillis	  0	0	0	0	
+91	data.logicalSessionRecordCache.lastTransactionReaperJobTimestamp.$date	  0	0	0	0	
+92	data.logicalSessionRecordCache.lastTransactionReaperJobEntriesCleanedUp	  0	0	0	0	
+93	data.logicalSessionRecordCache.sessionCatalogSize	  0	0	0	0	
+94	data.network.bytesIn	  0	0	0	0	
+95	data.network.bytesOut	  0	0	0	0	
+96	data.network.physicalBytesIn	  0	0	0	0	
+97	data.network.physicalBytesOut	  0	0	0	0	
+98	data.network.numRequests	  0	0	0	0	
+99	data.network.compression.snappy.compressor.bytesIn	  0	0	0	0	
+100	data.network.compression.snappy.compressor.bytesOut	  0	0	0	0	
+101	data.network.compression.snappy.decompressor.bytesIn	  0	0	0	0	
+102	data.network.compression.snappy.decompressor.bytesOut	  0	0	0	0	
+103	data.network.compression.zstd.compressor.bytesIn	  0	0	0	0	
+104	data.network.compression.zstd.compressor.bytesOut	  0	0	0	0	
+105	data.network.compression.zstd.decompressor.bytesIn	  0	0	0	0	
+106	data.network.compression.zstd.decompressor.bytesOut	  0	0	0	0	
+107	data.network.compression.zlib.compressor.bytesIn	  0	0	0	0	
+108	data.network.compression.zlib.compressor.bytesOut	  0	0	0	0	
+109	data.network.compression.zlib.decompressor.bytesIn	  0	0	0	0	
+110	data.network.compression.zlib.decompressor.bytesOut	  0	0	0	0	
+111	data.network.serviceExecutorTaskStats.executor	  0	0	0	0	
+112	data.network.serviceExecutorTaskStats.threadsRunning	  0	0	0	0	
+113	data.opLatencies.reads.latency	  0	0	0	0	
+114	data.opLatencies.reads.ops	  0	0	0	0	
+115	data.opLatencies.writes.latency	  0	0	0	0	
+116	data.opLatencies.writes.ops	  0	0	0	0	
+117	data.opLatencies.commands.latency	  0	0	0	0	
+118	data.opLatencies.commands.ops	  0	0	0	0	
+119	data.opLatencies.transactions.latency	  0	0	0	0	
+120	data.opLatencies.transactions.ops	  0	0	0	0	
+121	data.opReadConcernCounters.available	  0	0	0	0	
+122	data.opReadConcernCounters.linearizable	  0	0	0	0	
+123	data.opReadConcernCounters.local	  0	0	0	0	
+124	data.opReadConcernCounters.majority	  0	0	0	0	
+125	data.opReadConcernCounters.snapshot	  0	0	0	0	
+126	data.opReadConcernCounters.none	  0	0	0	0	
+127	data.opcounters.insert	  0	0	0	0	
+128	data.opcounters.query	  0	0	0	0	
+129	data.opcounters.update	  0	0	0	0	
+130	data.opcounters.delete	  0	0	0	0	
+131	data.opcounters.getmore	  0	0	0	0	
+132	data.opcounters.command	  0	0	0	0	
+133	data.opcountersRepl.insert	  0	0	0	0	
+134	data.opcountersRepl.query	  0	0	0	0	
+135	data.opcountersRepl.update	  0	0	0	0	
+136	data.opcountersRepl.delete	  0	0	0	0	
+137	data.opcountersRepl.getmore	  0	0	0	0	
+138	data.opcountersRepl.command	  0	0	0	0	
+139	data.repl.ismaster	  0	0	0	0	
+140	data.repl.secondary	  0	0	0	0	
+141	data.repl.info	  0	0	0	0	
+142	data.repl.isreplicaset	  0	0	0	0	
+143	data.repl.rbid	  0	0	0	0	
+144	data.scramCache.SCRAM-SHA-1.count	  0	0	0	0	
+145	data.scramCache.SCRAM-SHA-1.hits	  0	0	0	0	
+146	data.scramCache.SCRAM-SHA-1.misses	  0	0	0	0	
+147	data.scramCache.SCRAM-SHA-256.count	  0	0	0	0	
+148	data.scramCache.SCRAM-SHA-256.hits	  0	0	0	0	
+149	data.scramCache.SCRAM-SHA-256.misses	  0	0	0	0	
+150	data.security.SSLServerSubjectName	  0	0	0	0	
+151	data.security.SSLServerHasCertificateAuthority	  0	0	0	0	
+152	data.security.SSLServerCertificateExpirationDate.$date	  0	0	0	0	
+153	data.storageEngine.name	  0	0	0	0	
+154	data.storageEngine.supportsCommittedReads	  0	0	0	0	
+155	data.storageEngine.oldestRequiredTimestampForCrashRecovery.$timestamp.t	  0	0	0	0	
+156	data.storageEngine.oldestRequiredTimestampForCrashRecovery.$timestamp.i	  0	0	0	0	
+157	data.storageEngine.supportsPendingDrops	  0	0	0	0	
+158	data.storageEngine.dropPendingIdents	  0	0	0	0	
+159	data.storageEngine.supportsSnapshotReadConcern	  0	0	0	0	
+160	data.storageEngine.readOnly	  0	0	0	0	
+161	data.storageEngine.persistent	  0	0	0	0	
+162	data.storageEngine.backupCursorOpen	  0	0	0	0	
+163	data.tcmalloc.generic.current_allocated_bytes	  0	0	0	0	
+164	data.tcmalloc.generic.heap_size	  0	0	0	0	
+165	data.tcmalloc.tcmalloc.pageheap_free_bytes	  0	0	0	0	
+166	data.tcmalloc.tcmalloc.pageheap_unmapped_bytes	  0	0	0	0	
+167	data.tcmalloc.tcmalloc.max_total_thread_cache_bytes	  0	0	0	0	
+168	data.tcmalloc.tcmalloc.current_total_thread_cache_bytes	  0	0	0	0	
+169	data.tcmalloc.tcmalloc.total_free_bytes	  0	0	0	0	
+170	data.tcmalloc.tcmalloc.central_cache_free_bytes	  0	0	0	0	
+171	data.tcmalloc.tcmalloc.transfer_cache_free_bytes	  0	0	0	0	
+172	data.tcmalloc.tcmalloc.thread_cache_free_bytes	  0	0	0	0	
+173	data.tcmalloc.tcmalloc.aggressive_memory_decommit	  0	0	0	0	
+174	data.tcmalloc.tcmalloc.pageheap_committed_bytes	  0	0	0	0	
+175	data.tcmalloc.tcmalloc.pageheap_scavenge_count	  0	0	0	0	
+176	data.tcmalloc.tcmalloc.pageheap_commit_count	  0	0	0	0	
+177	data.tcmalloc.tcmalloc.pageheap_total_commit_bytes	  0	0	0	0	
+178	data.tcmalloc.tcmalloc.pageheap_decommit_count	  0	0	0	0	
+179	data.tcmalloc.tcmalloc.pageheap_total_decommit_bytes	  0	0	0	0	
+180	data.tcmalloc.tcmalloc.pageheap_reserve_count	  0	0	0	0	
+181	data.tcmalloc.tcmalloc.pageheap_total_reserve_bytes	  0	0	0	0	
+182	data.tcmalloc.tcmalloc.spinlock_total_delay_ns	  0	0	0	0	
+183	data.tcmalloc.tcmalloc.release_rate	  0	0	0	0	
+184	data.tcmalloc.tcmalloc.formattedString	  0	0	0	0	
+185	data.trafficRecording.running	  0	0	0	0	
+186	data.transactions.retriedCommandsCount	  0	0	0	0	
+187	data.transactions.retriedStatementsCount	  0	0	0	0	
+188	data.transactions.transactionsCollectionWriteCount	  0	0	0	0	
+189	data.transactions.currentActive	  0	0	0	0	
+190	data.transactions.currentInactive	  0	0	0	0	
+191	data.transactions.currentOpen	  0	0	0	0	
+192	data.transactions.totalAborted	  0	0	0	0	
+193	data.transactions.totalCommitted	  0	0	0	0	
+194	data.transactions.totalStarted	  0	0	0	0	
+195	data.transactions.totalPrepared	  0	0	0	0	
+196	data.transactions.totalPreparedThenCommitted	  0	0	0	0	
+197	data.transactions.totalPreparedThenAborted	  0	0	0	0	
+198	data.transactions.currentPrepared	  0	0	0	0	
+199	data.transportSecurity.1.0	  0	0	0	0	
+200	data.transportSecurity.1.1	  0	0	0	0	
+201	data.transportSecurity.1.2	  0	0	0	0	
+202	data.transportSecurity.1.3	  0	0	0	0	
+203	data.transportSecurity.unknown	  0	0	0	0	
+204	data.twoPhaseCommitCoordinator.totalCreated	  0	0	0	0	
+205	data.twoPhaseCommitCoordinator.totalStartedTwoPhaseCommit	  0	0	0	0	
+206	data.twoPhaseCommitCoordinator.totalAbortedTwoPhaseCommit	  0	0	0	0	
+207	data.twoPhaseCommitCoordinator.totalCommittedTwoPhaseCommit	  0	0	0	0	
+208	data.twoPhaseCommitCoordinator.currentInSteps.writingParticipantList	  0	0	0	0	
+209	data.twoPhaseCommitCoordinator.currentInSteps.waitingForVotes	  0	0	0	0	
+210	data.twoPhaseCommitCoordinator.currentInSteps.writingDecision	  0	0	0	0	
+211	data.twoPhaseCommitCoordinator.currentInSteps.waitingForDecisionAcks	  0	0	0	0	
+212	data.twoPhaseCommitCoordinator.currentInSteps.deletingCoordinatorDoc	  0	0	0	0	
+213	data.wiredTiger.uri	  0	0	0	0	
+214	data.wiredTiger.async.current work queue length	  0	0	0	0	
+215	data.wiredTiger.async.maximum work queue length	  0	0	0	0	
+216	data.wiredTiger.async.number of allocation state races	  0	0	0	0	
+217	data.wiredTiger.async.number of flush calls	  0	0	0	0	
+218	data.wiredTiger.async.number of operation slots viewed for allocation	  0	0	0	0	
+219	data.wiredTiger.async.number of times operation allocation failed	  0	0	0	0	
+220	data.wiredTiger.async.number of times worker found no work	  0	0	0	0	
+221	data.wiredTiger.async.total allocations	  0	0	0	0	
+222	data.wiredTiger.async.total compact calls	  0	0	0	0	
+223	data.wiredTiger.async.total insert calls	  0	0	0	0	
+224	data.wiredTiger.async.total remove calls	  0	0	0	0	
+225	data.wiredTiger.async.total search calls	  0	0	0	0	
+226	data.wiredTiger.async.total update calls	  0	0	0	0	
+227	data.wiredTiger.block-manager.blocks pre-loaded	  0	0	0	0	
+228	data.wiredTiger.block-manager.blocks read	  0	0	0	0	
+229	data.wiredTiger.block-manager.blocks written	  0	0	0	0	
+230	data.wiredTiger.block-manager.bytes read	  0	0	0	0	
+231	data.wiredTiger.block-manager.bytes written	  0	0	0	0	
+232	data.wiredTiger.block-manager.bytes written for checkpoint	  0	0	0	0	
+233	data.wiredTiger.block-manager.mapped blocks read	  0	0	0	0	
+234	data.wiredTiger.block-manager.mapped bytes read	  0	0	0	0	
+235	data.wiredTiger.cache.application threads page read from disk to cache count	  0	0	0	0	
+236	data.wiredTiger.cache.application threads page read from disk to cache time (usecs)	  0	0	0	0	
+237	data.wiredTiger.cache.application threads page write from cache to disk count	        0	0	0	0	
+238	data.wiredTiger.cache.application threads page write from cache to disk time (usecs)	  0	0	0	0	
+239	data.wiredTiger.cache.bytes belonging to page images in the cache	  0	0	0	0	
+240	data.wiredTiger.cache.bytes belonging to the cache overflow table in the cache	  0	0	0	0	
+241	data.wiredTiger.cache.bytes currently in the cache	  0	0	0	0	
+242	data.wiredTiger.cache.bytes dirty in the cache cumulative	  0	0	0	0	
+243	data.wiredTiger.cache.bytes not belonging to page images in the cache	  0	0	0	0	
+244	data.wiredTiger.cache.bytes read into cache	  0	0	0	0	
+245	data.wiredTiger.cache.bytes written from cache	  0	0	0	0	
+246	data.wiredTiger.cache.cache overflow cursor application thread wait time (usecs)	  0	0	0	0	
+247	data.wiredTiger.cache.cache overflow cursor internal thread wait time (usecs)	  0	0	0	0	
+248	data.wiredTiger.cache.cache overflow score	  0	0	0	0	
+249	data.wiredTiger.cache.cache overflow table entries	  0	0	0	0	
+250	data.wiredTiger.cache.cache overflow table insert calls	  0	0	0	0	
+251	data.wiredTiger.cache.cache overflow table max on-disk size	  0	0	0	0	
+252	data.wiredTiger.cache.cache overflow table on-disk size	  0	0	0	0	
+253	data.wiredTiger.cache.cache overflow table remove calls	  0	0	0	0	
+254	data.wiredTiger.cache.checkpoint blocked page eviction	  0	0	0	0	
+255	data.wiredTiger.cache.eviction calls to get a page	  0	0	0	0	
+256	data.wiredTiger.cache.eviction calls to get a page found queue empty	  0	0	0	0	
+257	data.wiredTiger.cache.eviction calls to get a page found queue empty after locking	  0	0	0	0	
+258	data.wiredTiger.cache.eviction currently operating in aggressive mode	  0	0	0	0	
+259	data.wiredTiger.cache.eviction empty score	  0	0	0	0	
+260	data.wiredTiger.cache.eviction passes of a file	  0	0	0	0	
+261	data.wiredTiger.cache.eviction server candidate queue empty when topping up	  0	0	0	0	
+262	data.wiredTiger.cache.eviction server candidate queue not empty when topping up	  0	0	0	0	
+263	data.wiredTiger.cache.eviction server evicting pages	  0	0	0	0	
+264	data.wiredTiger.cache.eviction server slept, because we did not make progress with eviction	  0	0	0	0	
+265	data.wiredTiger.cache.eviction server unable to reach eviction goal	  0	0	0	0	
+266	data.wiredTiger.cache.eviction server waiting for a leaf page	  0	0	0	0	
+267	data.wiredTiger.cache.eviction state	  0	0	0	0	
+268	data.wiredTiger.cache.eviction walk target pages histogram - 0-9	  0	0	0	0	
+269	data.wiredTiger.cache.eviction walk target pages histogram - 10-31	  0	0	0	0	
+270	data.wiredTiger.cache.eviction walk target pages histogram - 128 and higher	  0	0	0	0	
+271	data.wiredTiger.cache.eviction walk target pages histogram - 32-63	  0	0	0	0	
+272	data.wiredTiger.cache.eviction walk target pages histogram - 64-128	  0	0	0	0	
+273	data.wiredTiger.cache.eviction walk target strategy both clean and dirty pages	  0	0	0	0	
+274	data.wiredTiger.cache.eviction walk target strategy only clean pages	  0	0	0	0	
+275	data.wiredTiger.cache.eviction walk target strategy only dirty pages	  0	0	0	0	
+276	data.wiredTiger.cache.eviction walks abandoned	  0	0	0	0	
+277	data.wiredTiger.cache.eviction walks gave up because they restarted their walk twice	  0	0	0	0	
+278	data.wiredTiger.cache.eviction walks gave up because they saw too many pages and found no candidates	  0	0	0	0	
+279	data.wiredTiger.cache.eviction walks gave up because they saw too many pages and found too few candidates	  0	0	0	0	
+280	data.wiredTiger.cache.eviction walks reached end of tree	  0	0	0	0	
+281	data.wiredTiger.cache.eviction walks started from root of tree	  0	0	0	0	
+282	data.wiredTiger.cache.eviction walks started from saved location in tree	  0	0	0	0	
+283	data.wiredTiger.cache.eviction worker thread active	  0	0	0	0	
+284	data.wiredTiger.cache.eviction worker thread created	  0	0	0	0	
+285	data.wiredTiger.cache.eviction worker thread evicting pages	  0	0	0	0	
+286	data.wiredTiger.cache.eviction worker thread removed	  0	0	0	0	
+287	data.wiredTiger.cache.eviction worker thread stable number	  0	0	0	0	
+288	data.wiredTiger.cache.files with active eviction walks	  0	0	0	0	
+289	data.wiredTiger.cache.files with new eviction walks started	  0	0	0	0	
+290	data.wiredTiger.cache.force re-tuning of eviction workers once in a while	  0	0	0	0	
+291	data.wiredTiger.cache.forced eviction - pages evicted that were clean count	  0	0	0	0	
+292	data.wiredTiger.cache.forced eviction - pages evicted that were clean time (usecs)	  0	0	0	0	
+293	data.wiredTiger.cache.forced eviction - pages evicted that were dirty count	  0	0	0	0	
+294	data.wiredTiger.cache.forced eviction - pages evicted that were dirty time (usecs)	           0	0	0	0	
+295	data.wiredTiger.cache.forced eviction - pages selected because of too many deleted items count	  0	0	0	0	
+296	data.wiredTiger.cache.forced eviction - pages selected count	  0	0	0	0	
+297	data.wiredTiger.cache.forced eviction - pages selected unable to be evicted count	  0	0	0	0	
+298	data.wiredTiger.cache.forced eviction - pages selected unable to be evicted time	  0	0	0	0	
+299	data.wiredTiger.cache.hazard pointer blocked page eviction	  0	0	0	0	
+300	data.wiredTiger.cache.hazard pointer check calls	  0	0	0	0	
+301	data.wiredTiger.cache.hazard pointer check entries walked	  0	0	0	0	
+302	data.wiredTiger.cache.hazard pointer maximum array length	  0	0	0	0	
+303	data.wiredTiger.cache.in-memory page passed criteria to be split	  0	0	0	0	
+304	data.wiredTiger.cache.in-memory page splits	  0	0	0	0	
+305	data.wiredTiger.cache.internal pages evicted	  0	0	0	0	
+306	data.wiredTiger.cache.internal pages queued for eviction	  0	0	0	0	
+307	data.wiredTiger.cache.internal pages seen by eviction walk	  0	0	0	0	
+308	data.wiredTiger.cache.internal pages seen by eviction walk that are already queued	  0	0	0	0	
+309	data.wiredTiger.cache.internal pages split during eviction	  0	0	0	0	
+310	data.wiredTiger.cache.leaf pages split during eviction	  0	0	0	0	
+311	data.wiredTiger.cache.maximum bytes configured	  0	0	0	0	
+312	data.wiredTiger.cache.maximum page size at eviction	  0	0	0	0	
+313	data.wiredTiger.cache.modified pages evicted	  0	0	0	0	
+314	data.wiredTiger.cache.modified pages evicted by application threads	  0	0	0	0	
+315	data.wiredTiger.cache.operations timed out waiting for space in cache	  0	0	0	0	
+316	data.wiredTiger.cache.overflow pages read into cache	  0	0	0	0	
+317	data.wiredTiger.cache.page split during eviction deepened the tree	  0	0	0	0	
+318	data.wiredTiger.cache.page written requiring cache overflow records	  0	0	0	0	
+319	data.wiredTiger.cache.pages currently held in the cache	  0	0	0	0	
+320	data.wiredTiger.cache.pages evicted by application threads	  0	0	0	0	
+321	data.wiredTiger.cache.pages queued for eviction	  0	0	0	0	
+322	data.wiredTiger.cache.pages queued for eviction post lru sorting	  0	0	0	0	
+323	data.wiredTiger.cache.pages queued for urgent eviction	  0	0	0	0	
+324	data.wiredTiger.cache.pages queued for urgent eviction during walk	  0	0	0	0	
+325	data.wiredTiger.cache.pages read into cache	  0	0	0	0	
+326	data.wiredTiger.cache.pages read into cache after truncate	  0	0	0	0	
+327	data.wiredTiger.cache.pages read into cache after truncate in prepare state	  0	0	0	0	
+328	data.wiredTiger.cache.pages read into cache requiring cache overflow entries	  0	0	0	0	
+329	data.wiredTiger.cache.pages read into cache requiring cache overflow for checkpoint	  0	0	0	0	
+330	data.wiredTiger.cache.pages read into cache skipping older cache overflow entries	  0	0	0	0	
+331	data.wiredTiger.cache.pages read into cache with skipped cache overflow entries needed later	  0	0	0	0	
+332	data.wiredTiger.cache.pages read into cache with skipped cache overflow entries needed later by checkpoint	  0	0	0	0	
+333	data.wiredTiger.cache.pages requested from the cache	  0	0	0	0	
+334	data.wiredTiger.cache.pages seen by eviction walk	  0	0	0	0	
+335	data.wiredTiger.cache.pages seen by eviction walk that are already queued	  0	0	0	0	
+336	data.wiredTiger.cache.pages selected for eviction unable to be evicted	  0	0	0	0	
+337	data.wiredTiger.cache.pages selected for eviction unable to be evicted as the parent page has overflow items	  0	0	0	0	
+338	data.wiredTiger.cache.pages selected for eviction unable to be evicted because of active children on an internal page	  0	0	0	0	
+339	data.wiredTiger.cache.pages selected for eviction unable to be evicted because of failure in reconciliation	  0	0	0	0	
+340	data.wiredTiger.cache.pages selected for eviction unable to be evicted due to newer modifications on a clean page	  0	0	0	0	
+341	data.wiredTiger.cache.pages walked for eviction	  0	0	0	0	
+342	data.wiredTiger.cache.pages written from cache	  0	0	0	0	
+343	data.wiredTiger.cache.pages written requiring in-memory restoration	  0	0	0	0	
+344	data.wiredTiger.cache.percentage overhead	  0	0	0	0	
+345	data.wiredTiger.cache.tracked bytes belonging to internal pages in the cache	  0	0	0	0	
+346	data.wiredTiger.cache.tracked bytes belonging to leaf pages in the cache	  0	0	0	0	
+347	data.wiredTiger.cache.tracked dirty bytes in the cache	  0	0	0	0	
+348	data.wiredTiger.cache.tracked dirty pages in the cache	  0	0	0	0	
+349	data.wiredTiger.cache.unmodified pages evicted	  0	0	0	0	
+350	data.wiredTiger.capacity.background fsync file handles considered	  0	0	0	0	
+351	data.wiredTiger.capacity.background fsync file handles synced	  0	0	0	0	
+352	data.wiredTiger.capacity.background fsync time (msecs)	  0	0	0	0	
+353	data.wiredTiger.capacity.bytes read	  0	0	0	0	
+354	data.wiredTiger.capacity.bytes written for checkpoint	  0	0	0	0	
+355	data.wiredTiger.capacity.bytes written for eviction	  0	0	0	0	
+356	data.wiredTiger.capacity.bytes written for log	  0	0	0	0	
+357	data.wiredTiger.capacity.bytes written total	  0	0	0	0	
+358	data.wiredTiger.capacity.threshold to call fsync	  0	0	0	0	
+359	data.wiredTiger.capacity.time waiting due to total capacity (usecs)	  0	0	0	0	
+360	data.wiredTiger.capacity.time waiting during checkpoint (usecs)	  0	0	0	0	
+361	data.wiredTiger.capacity.time waiting during eviction (usecs)	  0	0	0	0	
+362	data.wiredTiger.capacity.time waiting during logging (usecs)	  0	0	0	0	
+363	data.wiredTiger.capacity.time waiting during read (usecs)	  0	0	0	0	
+364	data.wiredTiger.connection.auto adjusting condition resets	  0	0	0	0	
+365	data.wiredTiger.connection.auto adjusting condition wait calls	       0	0	0	0	
+366	data.wiredTiger.connection.detected system time went backwards	  0	0	0	0	
+367	data.wiredTiger.connection.files currently open	  0	0	0	0	
+368	data.wiredTiger.connection.hash bucket array size for data handles	  0	0	0	0	
+369	data.wiredTiger.connection.hash bucket array size general	  0	0	0	0	
+370	data.wiredTiger.connection.memory allocations	  0	0	0	0	
+371	data.wiredTiger.connection.memory frees	  0	0	0	0	
+372	data.wiredTiger.connection.memory re-allocations	  0	0	0	0	
+373	data.wiredTiger.connection.pthread mutex condition wait calls	  0	0	0	0	
+374	data.wiredTiger.connection.pthread mutex shared lock read-lock calls	  0	0	0	0	
+375	data.wiredTiger.connection.pthread mutex shared lock write-lock calls	  0	0	0	0	
+376	data.wiredTiger.connection.total fsync I/Os	  0	0	0	0	
+377	data.wiredTiger.connection.total read I/Os	  0	0	0	0	
+378	data.wiredTiger.connection.total write I/Os	  0	0	0	0	
+379	data.wiredTiger.cursor.cached cursor count	  0	0	0	0	
+380	data.wiredTiger.cursor.cursor bulk loaded cursor insert calls	  0	0	0	0	
+381	data.wiredTiger.cursor.cursor close calls that result in cache	  0	0	0	0	
+382	data.wiredTiger.cursor.cursor create calls	  0	0	0	0	
+383	data.wiredTiger.cursor.cursor insert calls	  0	0	0	0	
+384	data.wiredTiger.cursor.cursor insert key and value bytes	  0	0	0	0	
+385	data.wiredTiger.cursor.cursor modify calls	  0	0	0	0	
+386	data.wiredTiger.cursor.cursor modify key and value bytes affected	  0	0	0	0	
+387	data.wiredTiger.cursor.cursor modify value bytes modified	  0	0	0	0	
+388	data.wiredTiger.cursor.cursor next calls	  0	0	0	0	
+389	data.wiredTiger.cursor.cursor operation restarted	  0	0	0	0	
+390	data.wiredTiger.cursor.cursor prev calls	  0	0	0	0	
+391	data.wiredTiger.cursor.cursor remove calls	  0	0	0	0	
+392	data.wiredTiger.cursor.cursor remove key bytes removed	  0	0	0	0	
+393	data.wiredTiger.cursor.cursor reserve calls	  0	0	0	0	
+394	data.wiredTiger.cursor.cursor reset calls	  0	0	0	0	
+395	data.wiredTiger.cursor.cursor search calls	  0	0	0	0	
+396	data.wiredTiger.cursor.cursor search near calls	  0	0	0	0	
+397	data.wiredTiger.cursor.cursor sweep buckets	  0	0	0	0	
+398	data.wiredTiger.cursor.cursor sweep cursors closed	  0	0	0	0	
+399	data.wiredTiger.cursor.cursor sweep cursors examined	  0	0	0	0	
+400	data.wiredTiger.cursor.cursor sweeps	  0	0	0	0	
+401	data.wiredTiger.cursor.cursor truncate calls	  0	0	0	0	
+402	data.wiredTiger.cursor.cursor update calls	  0	0	0	0	
+403	data.wiredTiger.cursor.cursor update key and value bytes	  0	0	0	0	
+404	data.wiredTiger.cursor.cursor update value size change	    0	0	0	0	
+405	data.wiredTiger.cursor.cursors reused from cache	  0	0	0	0	
+406	data.wiredTiger.cursor.open cursor count	  0	0	0	0	
+407	data.wiredTiger.data-handle.connection data handle size	  0	0	0	0	
+408	data.wiredTiger.data-handle.connection data handles currently active	  0	0	0	0	
+409	data.wiredTiger.data-handle.connection sweep candidate became referenced	  0	0	0	0	
+410	data.wiredTiger.data-handle.connection sweep dhandles closed	  0	0	0	0	
+411	data.wiredTiger.data-handle.connection sweep dhandles removed from hash list	  0	0	0	0	
+412	data.wiredTiger.data-handle.connection sweep time-of-death sets	  0	0	0	0	
+413	data.wiredTiger.data-handle.connection sweeps	  0	0	0	0	
+414	data.wiredTiger.data-handle.connection sweeps skipped due to checkpoint gathering handles	  0	0	0	0	
+415	data.wiredTiger.data-handle.session dhandles swept	  0	0	0	0	
+416	data.wiredTiger.data-handle.session sweep attempts	  0	0	0	0	
+417	data.wiredTiger.lock.checkpoint lock acquisitions	  0	0	0	0	
+418	data.wiredTiger.lock.checkpoint lock application thread wait time (usecs)	  0	0	0	0	
+419	data.wiredTiger.lock.checkpoint lock internal thread wait time (usecs)	  0	0	0	0	
+420	data.wiredTiger.lock.dhandle lock application thread time waiting (usecs)	  0	0	0	0	
+421	data.wiredTiger.lock.dhandle lock internal thread time waiting (usecs)	  0	0	0	0	
+422	data.wiredTiger.lock.dhandle read lock acquisitions	  0	0	0	0	
+423	data.wiredTiger.lock.dhandle write lock acquisitions	  0	0	0	0	
+424	data.wiredTiger.lock.durable timestamp queue lock application thread time waiting (usecs)	  0	0	0	0	
+425	data.wiredTiger.lock.durable timestamp queue lock internal thread time waiting (usecs)	  0	0	0	0	
+426	data.wiredTiger.lock.durable timestamp queue read lock acquisitions	  0	0	0	0	
+427	data.wiredTiger.lock.durable timestamp queue write lock acquisitions	  0	0	0	0	
+428	data.wiredTiger.lock.metadata lock acquisitions	  0	0	0	0	
+429	data.wiredTiger.lock.metadata lock application thread wait time (usecs)	  0	0	0	0	
+430	data.wiredTiger.lock.metadata lock internal thread wait time (usecs)	  0	0	0	0	
+431	data.wiredTiger.lock.read timestamp queue lock application thread time waiting (usecs)	  0	0	0	0	
+432	data.wiredTiger.lock.read timestamp queue lock internal thread time waiting (usecs)	  0	0	0	0	
+433	data.wiredTiger.lock.read timestamp queue read lock acquisitions	  0	0	0	0	
+434	data.wiredTiger.lock.read timestamp queue write lock acquisitions	  0	0	0	0	
+435	data.wiredTiger.lock.schema lock acquisitions	  0	0	0	0	
+436	data.wiredTiger.lock.schema lock application thread wait time (usecs)	  0	0	0	0	
+437	data.wiredTiger.lock.schema lock internal thread wait time (usecs)	  0	0	0	0	
+438	data.wiredTiger.lock.table lock application thread time waiting for the table lock (usecs)	  0	0	0	0	
+439	data.wiredTiger.lock.table lock internal thread time waiting for the table lock (usecs)	  0	0	0	0	
+440	data.wiredTiger.lock.table read lock acquisitions	  0	0	0	0	
+441	data.wiredTiger.lock.table write lock acquisitions	  0	0	0	0	
+442	data.wiredTiger.lock.txn global lock application thread time waiting (usecs)	  0	0	0	0	
+443	data.wiredTiger.lock.txn global lock internal thread time waiting (usecs)	  0	0	0	0	
+444	data.wiredTiger.lock.txn global read lock acquisitions	  0	0	0	0	
+445	data.wiredTiger.lock.txn global write lock acquisitions	  0	0	0	0	
+446	data.wiredTiger.log.busy returns attempting to switch slots	  0	0	0	0	
+447	data.wiredTiger.log.force archive time sleeping (usecs)	  0	0	0	0	
+448	data.wiredTiger.log.log bytes of payload data	  0	0	0	0	
+449	data.wiredTiger.log.log bytes written	        0	0	0	0	
+450	data.wiredTiger.log.log files manually zero-filled	  0	0	0	0	
+451	data.wiredTiger.log.log flush operations	  0	0	0	0	
+452	data.wiredTiger.log.log force write operations	  0	0	0	0	
+453	data.wiredTiger.log.log force write operations skipped	  0	0	0	0	
+454	data.wiredTiger.log.log records compressed	  0	0	0	0	
+455	data.wiredTiger.log.log records not compressed	  0	0	0	0	
+456	data.wiredTiger.log.log records too small to compress	  0	0	0	0	
+457	data.wiredTiger.log.log release advances write LSN	     0	0	0	0	
+458	data.wiredTiger.log.log scan operations	  0	0	0	0	
+459	data.wiredTiger.log.log scan records requiring two reads	  0	0	0	0	
+460	data.wiredTiger.log.log server thread advances write LSN	  0	0	0	0	
+461	data.wiredTiger.log.log server thread write LSN walk skipped	  0	0	0	0	
+462	data.wiredTiger.log.log sync operations	  0	0	0	0	
+463	data.wiredTiger.log.log sync time duration (usecs)	  0	0	0	0	
+464	data.wiredTiger.log.log sync_dir operations	  0	0	0	0	
+465	data.wiredTiger.log.log sync_dir time duration (usecs)	  0	0	0	0	
+466	data.wiredTiger.log.log write operations	  0	0	0	0	
+467	data.wiredTiger.log.logging bytes consolidated	  0	0	0	0	
+468	data.wiredTiger.log.maximum log file size	  0	0	0	0	
+469	data.wiredTiger.log.number of pre-allocated log files to create	  0	0	0	0	
+470	data.wiredTiger.log.pre-allocated log files not ready and missed	  0	0	0	0	
+471	data.wiredTiger.log.pre-allocated log files prepared	  0	0	0	0	
+472	data.wiredTiger.log.pre-allocated log files used	  0	0	0	0	
+473	data.wiredTiger.log.records processed by log scan	  0	0	0	0	
+474	data.wiredTiger.log.slot close lost race	  0	0	0	0	
+475	data.wiredTiger.log.slot close unbuffered waits	  0	0	0	0	
+476	data.wiredTiger.log.slot closures	  0	0	0	0	
+477	data.wiredTiger.log.slot join atomic update races	  0	0	0	0	
+478	data.wiredTiger.log.slot join calls atomic updates raced	  0	0	0	0	
+479	data.wiredTiger.log.slot join calls did not yield	  0	0	0	0	
+480	data.wiredTiger.log.slot join calls found active slot closed	  0	0	0	0	
+481	data.wiredTiger.log.slot join calls slept	  0	0	0	0	
+482	data.wiredTiger.log.slot join calls yielded	  0	0	0	0	
+483	data.wiredTiger.log.slot join found active slot closed	  0	0	0	0	
+484	data.wiredTiger.log.slot joins yield time (usecs)	  0	0	0	0	
+485	data.wiredTiger.log.slot transitions unable to find free slot	  0	0	0	0	
+486	data.wiredTiger.log.slot unbuffered writes	  0	0	0	0	
+487	data.wiredTiger.log.total in-memory size of compressed records	  0	0	0	0	
+488	data.wiredTiger.log.total log buffer size	  0	0	0	0	
+489	data.wiredTiger.log.total size of compressed records	  0	0	0	0	
+490	data.wiredTiger.log.written slots coalesced	  0	0	0	0	
+491	data.wiredTiger.log.yields waiting for previous log file close	  0	0	0	0	
+492	data.wiredTiger.perf.file system read latency histogram (bucket 1) - 10-49ms	  0	0	0	0	
+493	data.wiredTiger.perf.file system read latency histogram (bucket 2) - 50-99ms	  0	0	0	0	
+494	data.wiredTiger.perf.file system read latency histogram (bucket 3) - 100-249ms	  0	0	0	0	
+495	data.wiredTiger.perf.file system read latency histogram (bucket 4) - 250-499ms	  0	0	0	0	
+496	data.wiredTiger.perf.file system read latency histogram (bucket 5) - 500-999ms	  0	0	0	0	
+497	data.wiredTiger.perf.file system read latency histogram (bucket 6) - 1000ms+	  0	0	0	0	
+498	data.wiredTiger.perf.file system write latency histogram (bucket 1) - 10-49ms	  0	0	0	0	
+499	data.wiredTiger.perf.file system write latency histogram (bucket 2) - 50-99ms	  0	0	0	0	
+500	data.wiredTiger.perf.file system write latency histogram (bucket 3) - 100-249ms	       0	0	0	0	
+501	data.wiredTiger.perf.file system write latency histogram (bucket 4) - 250-499ms	  0	0	0	0	
+502	data.wiredTiger.perf.file system write latency histogram (bucket 5) - 500-999ms	  0	0	0	0	
+503	data.wiredTiger.perf.file system write latency histogram (bucket 6) - 1000ms+	  0	0	0	0	
+504	data.wiredTiger.perf.operation read latency histogram (bucket 1) - 100-249us	  0	0	0	0	
+505	data.wiredTiger.perf.operation read latency histogram (bucket 2) - 250-499us	  0	0	0	0	
+506	data.wiredTiger.perf.operation read latency histogram (bucket 3) - 500-999us	  0	0	0	0	
+507	data.wiredTiger.perf.operation read latency histogram (bucket 4) - 1000-9999us	  0	0	0	0	
+508	data.wiredTiger.perf.operation read latency histogram (bucket 5) - 10000us+	  0	0	0	0	
+509	data.wiredTiger.perf.operation write latency histogram (bucket 1) - 100-249us	  0	0	0	0	
+510	data.wiredTiger.perf.operation write latency histogram (bucket 2) - 250-499us	  0	0	0	0	
+511	data.wiredTiger.perf.operation write latency histogram (bucket 3) - 500-999us	   0	0	0	0	
+512	data.wiredTiger.perf.operation write latency histogram (bucket 4) - 1000-9999us	  0	0	0	0	
+513	data.wiredTiger.perf.operation write latency histogram (bucket 5) - 10000us+	  0	0	0	0	
+514	data.wiredTiger.reconciliation.fast-path pages deleted	  0	0	0	0	
+515	data.wiredTiger.reconciliation.page reconciliation calls	  0	0	0	0	
+516	data.wiredTiger.reconciliation.page reconciliation calls for eviction	  0	0	0	0	
+517	data.wiredTiger.reconciliation.pages deleted	  0	0	0	0	
+518	data.wiredTiger.reconciliation.split bytes currently awaiting free	  0	0	0	0	
+519	data.wiredTiger.reconciliation.split objects currently awaiting free	  0	0	0	0	
+520	data.wiredTiger.session.open session count	  0	0	0	0	
+521	data.wiredTiger.session.session query timestamp calls	  0	0	0	0	
+522	data.wiredTiger.session.table alter failed calls	  0	0	0	0	
+523	data.wiredTiger.session.table alter successful calls	  0	0	0	0	
+524	data.wiredTiger.session.table alter unchanged and skipped	  0	0	0	0	
+525	data.wiredTiger.session.table compact failed calls	  0	0	0	0	
+526	data.wiredTiger.session.table compact successful calls	  0	0	0	0	
+527	data.wiredTiger.session.table create failed calls	  0	0	0	0	
+528	data.wiredTiger.session.table create successful calls	  0	0	0	0	
+529	data.wiredTiger.session.table drop failed calls	  0	0	0	0	
+530	data.wiredTiger.session.table drop successful calls	  0	0	0	0	
+531	data.wiredTiger.session.table import failed calls	  0	0	0	0	
+532	data.wiredTiger.session.table import successful calls	  0	0	0	0	
+533	data.wiredTiger.session.table rebalance failed calls	  0	0	0	0	
+534	data.wiredTiger.session.table rebalance successful calls	  0	0	0	0	
+535	data.wiredTiger.session.table rename failed calls	  0	0	0	0	
+536	data.wiredTiger.session.table rename successful calls	  0	0	0	0	
+537	data.wiredTiger.session.table salvage failed calls	  0	0	0	0	
+538	data.wiredTiger.session.table salvage successful calls	  0	0	0	0	
+539	data.wiredTiger.session.table truncate failed calls	  0	0	0	0	
+540	data.wiredTiger.session.table truncate successful calls	  0	0	0	0	
+541	data.wiredTiger.session.table verify failed calls	  0	0	0	0	
+542	data.wiredTiger.session.table verify successful calls	  0	0	0	0	
+543	data.wiredTiger.thread-state.active filesystem fsync calls	  0	0	0	0	
+544	data.wiredTiger.thread-state.active filesystem read calls	  0	0	0	0	
+545	data.wiredTiger.thread-state.active filesystem write calls	  0	0	0	0	
+546	data.wiredTiger.thread-yield.application thread time evicting (usecs)	  0	0	0	0	
+547	data.wiredTiger.thread-yield.application thread time waiting for cache (usecs)	  0	0	0	0	
+548	data.wiredTiger.thread-yield.connection close blocked waiting for transaction state stabilization	  0	0	0	0	
+549	data.wiredTiger.thread-yield.connection close yielded for lsm manager shutdown	  0	0	0	0	
+550	data.wiredTiger.thread-yield.data handle lock yielded	  0	0	0	0	
+551	data.wiredTiger.thread-yield.get reference for page index and slot time sleeping (usecs)	  0	0	0	0	
+552	data.wiredTiger.thread-yield.log server sync yielded for log write	  0	0	0	0	
+553	data.wiredTiger.thread-yield.page access yielded due to prepare state change	  0	0	0	0	
+554	data.wiredTiger.thread-yield.page acquire busy blocked	  0	0	0	0	
+555	data.wiredTiger.thread-yield.page acquire eviction blocked	  0	0	0	0	
+556	data.wiredTiger.thread-yield.page acquire locked blocked	  0	0	0	0	
+557	data.wiredTiger.thread-yield.page acquire read blocked	  0	0	0	0	
+558	data.wiredTiger.thread-yield.page acquire time sleeping (usecs)	  0	0	0	0	
+559	data.wiredTiger.thread-yield.page delete rollback time sleeping for state change (usecs)	  0	0	0	0	
+560	data.wiredTiger.thread-yield.page reconciliation yielded due to child modification	  0	0	0	0	
+561	data.wiredTiger.transaction.Number of prepared updates	  0	0	0	0	
+562	data.wiredTiger.transaction.Number of prepared updates added to cache overflow	  0	0	0	0	
+563	data.wiredTiger.transaction.durable timestamp queue entries walked	  0	0	0	0	
+564	data.wiredTiger.transaction.durable timestamp queue insert to empty	  0	0	0	0	
+565	data.wiredTiger.transaction.durable timestamp queue inserts to head	  0	0	0	0	
+566	data.wiredTiger.transaction.durable timestamp queue inserts total	  0	0	0	0	
+567	data.wiredTiger.transaction.durable timestamp queue length	  0	0	0	0	
+568	data.wiredTiger.transaction.number of named snapshots created	  0	0	0	0	
+569	data.wiredTiger.transaction.number of named snapshots dropped	  0	0	0	0	
+570	data.wiredTiger.transaction.prepared transactions	  0	0	0	0	
+571	data.wiredTiger.transaction.prepared transactions committed	  0	0	0	0	
+572	data.wiredTiger.transaction.prepared transactions currently active	  0	0	0	0	
+573	data.wiredTiger.transaction.prepared transactions rolled back	  0	0	0	0	
+574	data.wiredTiger.transaction.query timestamp calls	  0	0	0	0	
+575	data.wiredTiger.transaction.read timestamp queue entries walked	  0	0	0	0	
+576	data.wiredTiger.transaction.read timestamp queue insert to empty	  0	0	0	0	
+577	data.wiredTiger.transaction.read timestamp queue inserts to head	  0	0	0	0	
+578	data.wiredTiger.transaction.read timestamp queue inserts total	           0	0	0	0	
+579	data.wiredTiger.transaction.read timestamp queue length	  0	0	0	0	
+580	data.wiredTiger.transaction.rollback to stable calls	  0	0	0	0	
+581	data.wiredTiger.transaction.rollback to stable updates aborted	  0	0	0	0	
+582	data.wiredTiger.transaction.rollback to stable updates removed from cache overflow	  0	0	0	0	
+583	data.wiredTiger.transaction.set timestamp calls	  0	0	0	0	
+584	data.wiredTiger.transaction.set timestamp durable calls	  0	0	0	0	
+585	data.wiredTiger.transaction.set timestamp durable updates	  0	0	0	0	
+586	data.wiredTiger.transaction.set timestamp oldest calls	  0	0	0	0	
+587	data.wiredTiger.transaction.set timestamp oldest updates	  0	0	0	0	
+588	data.wiredTiger.transaction.set timestamp stable calls	  0	0	0	0	
+589	data.wiredTiger.transaction.set timestamp stable updates	  0	0	0	0	
+590	data.wiredTiger.transaction.transaction begins	  0	0	0	0	
+591	data.wiredTiger.transaction.transaction checkpoint currently running	  0	0	0	0	
+592	data.wiredTiger.transaction.transaction checkpoint generation	  0	0	0	0	
+593	data.wiredTiger.transaction.transaction checkpoint max time (msecs)	  0	0	0	0	
+594	data.wiredTiger.transaction.transaction checkpoint min time (msecs)	  0	0	0	0	
+595	data.wiredTiger.transaction.transaction checkpoint most recent duration for gathering all handles (usecs)	  0	0	0	0	
+596	data.wiredTiger.transaction.transaction checkpoint most recent duration for gathering applied handles (usecs)	  0	0	0	0	
+597	data.wiredTiger.transaction.transaction checkpoint most recent duration for gathering skipped handles (usecs)	  0	0	0	0	
+598	data.wiredTiger.transaction.transaction checkpoint most recent handles applied	  0	0	0	0	
+599	data.wiredTiger.transaction.transaction checkpoint most recent handles skipped	  0	0	0	0	
+600	data.wiredTiger.transaction.transaction checkpoint most recent handles walked	  0	0	0	0	
+601	data.wiredTiger.transaction.transaction checkpoint most recent time (msecs)	  0	0	0	0	
+602	data.wiredTiger.transaction.transaction checkpoint scrub dirty target	  0	0	0	0	
+603	data.wiredTiger.transaction.transaction checkpoint scrub time (msecs)	  0	0	0	0	
+604	data.wiredTiger.transaction.transaction checkpoint total time (msecs)	  0	0	0	0	
+605	data.wiredTiger.transaction.transaction checkpoints	  0	0	0	0	
+606	data.wiredTiger.transaction.transaction checkpoints skipped because database was clean	  0	0	0	0	
+607	data.wiredTiger.transaction.transaction failures due to cache overflow	  0	0	0	0	
+608	data.wiredTiger.transaction.transaction fsync calls for checkpoint after allocating the transaction ID	  0	0	0	0	
+609	data.wiredTiger.transaction.transaction fsync duration for checkpoint after allocating the transaction ID (usecs)	  0	0	0	0	
+610	data.wiredTiger.transaction.transaction range of IDs currently pinned	  0	0	0	0	
+611	data.wiredTiger.transaction.transaction range of IDs currently pinned by a checkpoint	  0	0	0	0	
+612	data.wiredTiger.transaction.transaction range of IDs currently pinned by named snapshots	  0	0	0	0	
+613	data.wiredTiger.transaction.transaction range of timestamps currently pinned	  0	0	0	0	
+614	data.wiredTiger.transaction.transaction range of timestamps pinned by a checkpoint	  0	0	0	0	
+615	data.wiredTiger.transaction.transaction range of timestamps pinned by the oldest active read timestamp	  0	0	0	0	
+616	data.wiredTiger.transaction.transaction range of timestamps pinned by the oldest timestamp	  0	0	0	0	
+617	data.wiredTiger.transaction.transaction read timestamp of the oldest active reader	  0	0	0	0	
+618	data.wiredTiger.transaction.transaction sync calls	  0	0	0	0	
+619	data.wiredTiger.transaction.transactions committed	  0	0	0	0	
+620	data.wiredTiger.transaction.transactions rolled back	  0	0	0	0	
+621	data.wiredTiger.transaction.update conflicts	  0	0	0	0	
+622	data.wiredTiger.concurrentTransactions.write.out	  0	0	0	0	
+623	data.wiredTiger.concurrentTransactions.write.available	  0	0	0	0	
+624	data.wiredTiger.concurrentTransactions.write.totalTickets	  0	0	0	0	
+625	data.wiredTiger.concurrentTransactions.read.out	  0	0	0	0	
+626	data.wiredTiger.concurrentTransactions.read.available	  0	0	0	0	
+627	data.wiredTiger.concurrentTransactions.read.totalTickets	  0	0	0	0	
+628	data.wiredTiger.snapshot-window-settings.cache pressure percentage threshold	  0	0	0	0	
+629	data.wiredTiger.snapshot-window-settings.current cache pressure percentage	  0	0	0	0	
+630	data.wiredTiger.snapshot-window-settings.total number of SnapshotTooOld errors	  0	0	0	0	
+631	data.wiredTiger.snapshot-window-settings.max target available snapshots window size in seconds	  0	0	0	0	
+632	data.wiredTiger.snapshot-window-settings.target available snapshots window size in seconds	  0	0	0	0	
+633	data.wiredTiger.snapshot-window-settings.current available snapshots window size in seconds	  0	0	0	0	
+634	data.wiredTiger.snapshot-window-settings.latest majority snapshot timestamp available	  0	0	0	0	
+635	data.wiredTiger.snapshot-window-settings.oldest majority snapshot timestamp available	  0	0	0	0	
+636	data.wiredTiger.oplog.visibility timestamp.$timestamp.t	  0	0	0	0	
+637	data.wiredTiger.oplog.visibility timestamp.$timestamp.i	           0	0	0	0	
+638	data.mem.bits	  0	0	0	0	
+639	data.mem.resident	  0	0	0	0	
+640	data.mem.virtual	  0	0	0	0	
+641	data.mem.supported	  0	0	0	0	
+642	data.metrics.aggStageCounters.$_internalInhibitOptimization	  0	0	0	0	
+643	data.metrics.aggStageCounters.$_internalSplitPipeline	  0	0	0	0	
+644	data.metrics.aggStageCounters.$addFields	  0	0	0	0	
+645	data.metrics.aggStageCounters.$bucket	  0	0	0	0	
+646	data.metrics.aggStageCounters.$bucketAuto	  0	0	0	0	
+647	data.metrics.aggStageCounters.$changeStream	  0	0	0	0	
+648	data.metrics.aggStageCounters.$collStats	  0	0	0	0	
+649	data.metrics.aggStageCounters.$count	  0	0	0	0	
+650	data.metrics.aggStageCounters.$currentOp	  0	0	0	0	
+651	data.metrics.aggStageCounters.$facet	  0	0	0	0	
+652	data.metrics.aggStageCounters.$geoNear	  0	0	0	0	
+653	data.metrics.aggStageCounters.$graphLookup	  0	0	0	0	
+654	data.metrics.aggStageCounters.$group	  0	0	0	0	
+655	data.metrics.aggStageCounters.$indexStats	  0	0	0	0	
+656	data.metrics.aggStageCounters.$limit	  0	0	0	0	
+657	data.metrics.aggStageCounters.$listLocalSessions	  0	0	0	0	
+658	data.metrics.aggStageCounters.$listSessions	  0	0	0	0	
+659	data.metrics.aggStageCounters.$lookup	  0	0	0	0	
+660	data.metrics.aggStageCounters.$match	  0	0	0	0	
+661	data.metrics.aggStageCounters.$merge	  0	0	0	0	
+662	data.metrics.aggStageCounters.$mergeCursors	  0	0	0	0	
+663	data.metrics.aggStageCounters.$out	  0	0	0	0	
+664	data.metrics.aggStageCounters.$planCacheStats	  0	0	0	0	
+665	data.metrics.aggStageCounters.$project	  0	0	0	0	
+666	data.metrics.aggStageCounters.$redact	  0	0	0	0	
+667	data.metrics.aggStageCounters.$replaceRoot	  0	0	0	0	
+668	data.metrics.aggStageCounters.$replaceWith	  0	0	0	0	
+669	data.metrics.aggStageCounters.$sample	  0	0	0	0	
+670	data.metrics.aggStageCounters.$set	  0	0	0	0	
+671	data.metrics.aggStageCounters.$skip	  0	0	0	0	
+672	data.metrics.aggStageCounters.$sort	  0	0	0	0	
+673	data.metrics.aggStageCounters.$sortByCount	  0	0	0	0	
+674	data.metrics.aggStageCounters.$unset	  0	0	0	0	
+675	data.metrics.aggStageCounters.$unwind	  0	0	0	0	
+676	data.metrics.commands.<UNKNOWN>	  0	0	0	0	
+677	data.metrics.commands._addShard.failed	  0	0	0	0	
+678	data.metrics.commands._addShard.total	  0	0	0	0	
+679	data.metrics.commands._cloneCatalogData.failed	  0	0	0	0	
+680	data.metrics.commands._cloneCatalogData.total	  0	0	0	0	
+681	data.metrics.commands._cloneCollectionOptionsFromPrimaryShard.failed	  0	0	0	0	
+682	data.metrics.commands._cloneCollectionOptionsFromPrimaryShard.total	  0	0	0	0	
+683	data.metrics.commands._configsvrAddShard.failed	  0	0	0	0	
+684	data.metrics.commands._configsvrAddShard.total	  0	0	0	0	
+685	data.metrics.commands._configsvrAddShardToZone.failed	  0	0	0	0	
+686	data.metrics.commands._configsvrAddShardToZone.total	  0	0	0	0	
+687	data.metrics.commands._configsvrBalancerStart.failed	  0	0	0	0	
+688	data.metrics.commands._configsvrBalancerStart.total	  0	0	0	0	
+689	data.metrics.commands._configsvrBalancerStatus.failed	  0	0	0	0	
+690	data.metrics.commands._configsvrBalancerStatus.total	  0	0	0	0	
+691	data.metrics.commands._configsvrBalancerStop.failed	  0	0	0	0	
+692	data.metrics.commands._configsvrBalancerStop.total	  0	0	0	0	
+693	data.metrics.commands._configsvrClearJumboFlag.failed	  0	0	0	0	
+694	data.metrics.commands._configsvrClearJumboFlag.total	  0	0	0	0	
+695	data.metrics.commands._configsvrCommitChunkMerge.failed	  0	0	0	0	
+696	data.metrics.commands._configsvrCommitChunkMerge.total	  0	0	0	0	
+697	data.metrics.commands._configsvrCommitChunkMigration.failed	  0	0	0	0	
+698	data.metrics.commands._configsvrCommitChunkMigration.total	  0	0	0	0	
+699	data.metrics.commands._configsvrCommitChunkSplit.failed	  0	0	0	0	
+700	data.metrics.commands._configsvrCommitChunkSplit.total	  0	0	0	0	
+701	data.metrics.commands._configsvrCommitChunksMerge.failed	  0	0	0	0	
+702	data.metrics.commands._configsvrCommitChunksMerge.total	  0	0	0	0	
+703	data.metrics.commands._configsvrCommitMovePrimary.failed	  0	0	0	0	
+704	data.metrics.commands._configsvrCommitMovePrimary.total	  0	0	0	0	
+705	data.metrics.commands._configsvrCreateCollection.failed	  0	0	0	0	
+706	data.metrics.commands._configsvrCreateCollection.total	  0	0	0	0	
+707	data.metrics.commands._configsvrCreateDatabase.failed	  0	0	0	0	
+708	data.metrics.commands._configsvrCreateDatabase.total	  0	0	0	0	
+709	data.metrics.commands._configsvrDropCollection.failed	  0	0	0	0	
+710	data.metrics.commands._configsvrDropCollection.total	  0	0	0	0	
+711	data.metrics.commands._configsvrDropDatabase.failed	  0	0	0	0	
+712	data.metrics.commands._configsvrDropDatabase.total	  0	0	0	0	
+713	data.metrics.commands._configsvrEnableSharding.failed	  0	0	0	0	
+714	data.metrics.commands._configsvrEnableSharding.total	  0	0	0	0	
+715	data.metrics.commands._configsvrMoveChunk.failed	  0	0	0	0	
+716	data.metrics.commands._configsvrMoveChunk.total	  0	0	0	0	
+717	data.metrics.commands._configsvrMovePrimary.failed	  0	0	0	0	
+718	data.metrics.commands._configsvrMovePrimary.total	  0	0	0	0	
+719	data.metrics.commands._configsvrRemoveShard.failed	  0	0	0	0	
+720	data.metrics.commands._configsvrRemoveShard.total	  0	0	0	0	
+721	data.metrics.commands._configsvrRemoveShardFromZone.failed	  0	0	0	0	
+722	data.metrics.commands._configsvrRemoveShardFromZone.total	  0	0	0	0	
+723	data.metrics.commands._configsvrShardCollection.failed	  0	0	0	0	
+724	data.metrics.commands._configsvrShardCollection.total	  0	0	0	0	
+725	data.metrics.commands._configsvrUpdateZoneKeyRange.failed	  0	0	0	0	
+726	data.metrics.commands._configsvrUpdateZoneKeyRange.total	  0	0	0	0	
+727	data.metrics.commands._flushDatabaseCacheUpdates.failed	  0	0	0	0	
+728	data.metrics.commands._flushDatabaseCacheUpdates.total	  0	0	0	0	
+729	data.metrics.commands._flushRoutingTableCacheUpdates.failed	  0	0	0	0	
+730	data.metrics.commands._flushRoutingTableCacheUpdates.total	  0	0	0	0	
+731	data.metrics.commands._getNextSessionMods.failed	  0	0	0	0	
+732	data.metrics.commands._getNextSessionMods.total	  0	0	0	0	
+733	data.metrics.commands._getUserCacheGeneration.failed	  0	0	0	0	
+734	data.metrics.commands._getUserCacheGeneration.total	  0	0	0	0	
+735	data.metrics.commands._isSelf.failed	  0	0	0	0	
+736	data.metrics.commands._isSelf.total	  0	0	0	0	
+737	data.metrics.commands._mergeAuthzCollections.failed	  0	0	0	0	
+738	data.metrics.commands._mergeAuthzCollections.total	  0	0	0	0	
+739	data.metrics.commands._migrateClone.failed	  0	0	0	0	
+740	data.metrics.commands._migrateClone.total	  0	0	0	0	
+741	data.metrics.commands._movePrimary.failed	  0	0	0	0	
+742	data.metrics.commands._movePrimary.total	  0	0	0	0	
+743	data.metrics.commands._recvChunkAbort.failed	  0	0	0	0	
+744	data.metrics.commands._recvChunkAbort.total	  0	0	0	0	
+745	data.metrics.commands._recvChunkCommit.failed	  0	0	0	0	
+746	data.metrics.commands._recvChunkCommit.total	  0	0	0	0	
+747	data.metrics.commands._recvChunkStart.failed	  0	0	0	0	
+748	data.metrics.commands._recvChunkStart.total	  0	0	0	0	
+749	data.metrics.commands._recvChunkStatus.failed	  0	0	0	0	
+750	data.metrics.commands._recvChunkStatus.total	  0	0	0	0	
+751	data.metrics.commands._shardsvrShardCollection.failed	  0	0	0	0	
+752	data.metrics.commands._shardsvrShardCollection.total	  0	0	0	0	
+753	data.metrics.commands._transferMods.failed	  0	0	0	0	
+754	data.metrics.commands._transferMods.total	  0	0	0	0	
+755	data.metrics.commands.abortTransaction.failed	  0	0	0	0	
+756	data.metrics.commands.abortTransaction.total	  0	0	0	0	
+757	data.metrics.commands.aggregate.failed	  0	0	0	0	
+758	data.metrics.commands.aggregate.total	  0	0	0	0	
+759	data.metrics.commands.appendOplogNote.failed	  0	0	0	0	
+760	data.metrics.commands.appendOplogNote.total	  0	0	0	0	
+761	data.metrics.commands.applyOps.failed	  0	0	0	0	
+762	data.metrics.commands.applyOps.total	  0	0	0	0	
+763	data.metrics.commands.authenticate.failed	  0	0	0	0	
+764	data.metrics.commands.authenticate.total	  0	0	0	0	
+765	data.metrics.commands.availableQueryOptions.failed	  0	0	0	0	
+766	data.metrics.commands.availableQueryOptions.total	  0	0	0	0	
+767	data.metrics.commands.buildInfo.failed	  0	0	0	0	
+768	data.metrics.commands.buildInfo.total	  0	0	0	0	
+769	data.metrics.commands.checkShardingIndex.failed	  0	0	0	0	
+770	data.metrics.commands.checkShardingIndex.total	  0	0	0	0	
+771	data.metrics.commands.cleanupOrphaned.failed	  0	0	0	0	
+772	data.metrics.commands.cleanupOrphaned.total	  0	0	0	0	
+773	data.metrics.commands.cloneCollection.failed	  0	0	0	0	
+774	data.metrics.commands.cloneCollection.total	  0	0	0	0	
+775	data.metrics.commands.cloneCollectionAsCapped.failed	  0	0	0	0	
+776	data.metrics.commands.cloneCollectionAsCapped.total	  0	0	0	0	
+777	data.metrics.commands.collMod.failed	  0	0	0	0	
+778	data.metrics.commands.collMod.total	  0	0	0	0	
+779	data.metrics.commands.collStats.failed	   0	0	0	0	
+780	data.metrics.commands.collStats.total	  0	0	0	0	
+781	data.metrics.commands.commitTransaction.failed	  0	0	0	0	
+782	data.metrics.commands.commitTransaction.total	  0	0	0	0	
+783	data.metrics.commands.compact.failed	  0	0	0	0	
+784	data.metrics.commands.compact.total	  0	0	0	0	
+785	data.metrics.commands.connPoolStats.failed	  0	0	0	0	
+786	data.metrics.commands.connPoolStats.total	  0	0	0	0	
+787	data.metrics.commands.connPoolSync.failed	  0	0	0	0	
+788	data.metrics.commands.connPoolSync.total	       0	0	0	0	
+789	data.metrics.commands.connectionStatus.failed	  0	0	0	0	
+790	data.metrics.commands.connectionStatus.total	  0	0	0	0	
+791	data.metrics.commands.convertToCapped.failed	  0	0	0	0	
+792	data.metrics.commands.convertToCapped.total	  0	0	0	0	
+793	data.metrics.commands.coordinateCommitTransaction.failed	  0	0	0	0	
+794	data.metrics.commands.coordinateCommitTransaction.total	  0	0	0	0	
+795	data.metrics.commands.count.failed	  0	0	0	0	
+796	data.metrics.commands.count.total	  0	0	0	0	
+797	data.metrics.commands.create.failed	  0	0	0	0	
+798	data.metrics.commands.create.total	  0	0	0	0	
+799	data.metrics.commands.createIndexes.failed	  0	0	0	0	
+800	data.metrics.commands.createIndexes.total	  0	0	0	0	
+801	data.metrics.commands.createRole.failed	  0	0	0	0	
+802	data.metrics.commands.createRole.total	  0	0	0	0	
+803	data.metrics.commands.createUser.failed	  0	0	0	0	
+804	data.metrics.commands.createUser.total	  0	0	0	0	
+805	data.metrics.commands.currentOp.failed	  0	0	0	0	
+806	data.metrics.commands.currentOp.total	   0	0	0	0	
+807	data.metrics.commands.dataSize.failed	  0	0	0	0	
+808	data.metrics.commands.dataSize.total	  0	0	0	0	
+809	data.metrics.commands.dbHash.failed	  0	0	0	0	
+810	data.metrics.commands.dbHash.total	  0	0	0	0	
+811	data.metrics.commands.dbStats.failed	  0	0	0	0	
+812	data.metrics.commands.dbStats.total	  0	0	0	0	
+813	data.metrics.commands.delete.failed	  0	0	0	0	
+814	data.metrics.commands.delete.total	  0	0	0	0	
+815	data.metrics.commands.distinct.failed	  0	0	0	0	
+816	data.metrics.commands.distinct.total	  0	0	0	0	
+817	data.metrics.commands.driverOIDTest.failed	  0	0	0	0	
+818	data.metrics.commands.driverOIDTest.total	  0	0	0	0	
+819	data.metrics.commands.drop.failed	  0	0	0	0	
+820	data.metrics.commands.drop.total	  0	0	0	0	
+821	data.metrics.commands.dropAllRolesFromDatabase.failed	  0	0	0	0	
+822	data.metrics.commands.dropAllRolesFromDatabase.total	  0	0	0	0	
+823	data.metrics.commands.dropAllUsersFromDatabase.failed	  0	0	0	0	
+824	data.metrics.commands.dropAllUsersFromDatabase.total	  0	0	0	0	
+825	data.metrics.commands.dropConnections.failed	  0	0	0	0	
+826	data.metrics.commands.dropConnections.total	  0	0	0	0	
+827	data.metrics.commands.dropDatabase.failed	  0	0	0	0	
+828	data.metrics.commands.dropDatabase.total	  0	0	0	0	
+829	data.metrics.commands.dropIndexes.failed	  0	0	0	0	
+830	data.metrics.commands.dropIndexes.total	  0	0	0	0	
+831	data.metrics.commands.dropRole.failed	  0	0	0	0	
+832	data.metrics.commands.dropRole.total	  0	0	0	0	
+833	data.metrics.commands.dropUser.failed	  0	0	0	0	
+834	data.metrics.commands.dropUser.total	  0	0	0	0	
+835	data.metrics.commands.endSessions.failed	  0	0	0	0	
+836	data.metrics.commands.endSessions.total	  0	0	0	0	
+837	data.metrics.commands.explain.failed	  0	0	0	0	
+838	data.metrics.commands.explain.total	  0	0	0	0	
+839	data.metrics.commands.features.failed	  0	0	0	0	
+840	data.metrics.commands.features.total	  0	0	0	0	
+841	data.metrics.commands.filemd5.failed	  0	0	0	0	
+842	data.metrics.commands.filemd5.total	  0	0	0	0	
+843	data.metrics.commands.find.failed	  0	0	0	0	
+844	data.metrics.commands.find.total	  0	0	0	0	
+845	data.metrics.commands.findAndModify.arrayFilters	  0	0	0	0	
+846	data.metrics.commands.findAndModify.failed	  0	0	0	0	
+847	data.metrics.commands.findAndModify.pipeline	  0	0	0	0	
+848	data.metrics.commands.findAndModify.total	  0	0	0	0	
+849	data.metrics.commands.flushRouterConfig.failed	  0	0	0	0	
+850	data.metrics.commands.flushRouterConfig.total	  0	0	0	0	
+851	data.metrics.commands.fsync.failed	  0	0	0	0	
+852	data.metrics.commands.fsync.total	  0	0	0	0	
+853	data.metrics.commands.fsyncUnlock.failed	  0	0	0	0	
+854	data.metrics.commands.fsyncUnlock.total	  0	0	0	0	
+855	data.metrics.commands.geoSearch.failed	  0	0	0	0	
+856	data.metrics.commands.geoSearch.total	  0	0	0	0	
+857	data.metrics.commands.getCmdLineOpts.failed	  0	0	0	0	
+858	data.metrics.commands.getCmdLineOpts.total	  0	0	0	0	
+859	data.metrics.commands.getDatabaseVersion.failed	  0	0	0	0	
+860	data.metrics.commands.getDatabaseVersion.total	  0	0	0	0	
+861	data.metrics.commands.getDiagnosticData.failed	  0	0	0	0	
+862	data.metrics.commands.getDiagnosticData.total	  0	0	0	0	
+863	data.metrics.commands.getFreeMonitoringStatus.failed	  0	0	0	0	
+864	data.metrics.commands.getFreeMonitoringStatus.total	  0	0	0	0	
+865	data.metrics.commands.getLastError.failed	  0	0	0	0	
+866	data.metrics.commands.getLastError.total	  0	0	0	0	
+867	data.metrics.commands.getLog.failed	  0	0	0	0	
+868	data.metrics.commands.getLog.total	  0	0	0	0	
+869	data.metrics.commands.getMore.failed	  0	0	0	0	
+870	data.metrics.commands.getMore.total	  0	0	0	0	
+871	data.metrics.commands.getParameter.failed	  0	0	0	0	
+872	data.metrics.commands.getParameter.total	  0	0	0	0	
+873	data.metrics.commands.getShardMap.failed	  0	0	0	0	
+874	data.metrics.commands.getShardMap.total	  0	0	0	0	
+875	data.metrics.commands.getShardVersion.failed	  0	0	0	0	
+876	data.metrics.commands.getShardVersion.total	  0	0	0	0	
+877	data.metrics.commands.getnonce.failed	  0	0	0	0	
+878	data.metrics.commands.getnonce.total	  0	0	0	0	
+879	data.metrics.commands.grantPrivilegesToRole.failed	  0	0	0	0	
+880	data.metrics.commands.grantPrivilegesToRole.total	  0	0	0	0	
+881	data.metrics.commands.grantRolesToRole.failed	  0	0	0	0	
+882	data.metrics.commands.grantRolesToRole.total	  0	0	0	0	
+883	data.metrics.commands.grantRolesToUser.failed	  0	0	0	0	
+884	data.metrics.commands.grantRolesToUser.total	  0	0	0	0	
+885	data.metrics.commands.hello.failed	  0	0	0	0	
+886	data.metrics.commands.hello.total	  0	0	0	0	
+887	data.metrics.commands.hostInfo.failed	  0	0	0	0	
+888	data.metrics.commands.hostInfo.total	  0	0	0	0	
+889	data.metrics.commands.insert.failed	  0	0	0	0	
+890	data.metrics.commands.insert.total	  0	0	0	0	
+891	data.metrics.commands.invalidateUserCache.failed	  0	0	0	0	
+892	data.metrics.commands.invalidateUserCache.total	  0	0	0	0	
+893	data.metrics.commands.isMaster.failed	  0	0	0	0	
+894	data.metrics.commands.isMaster.total	  0	0	0	0	
+895	data.metrics.commands.killAllSessions.failed	  0	0	0	0	
+896	data.metrics.commands.killAllSessions.total	  0	0	0	0	
+897	data.metrics.commands.killAllSessionsByPattern.failed	       0	0	0	0	
+898	data.metrics.commands.killAllSessionsByPattern.total	  0	0	0	0	
+899	data.metrics.commands.killCursors.failed	  0	0	0	0	
+900	data.metrics.commands.killCursors.total	  0	0	0	0	
+901	data.metrics.commands.killOp.failed	  0	0	0	0	
+902	data.metrics.commands.killOp.total	  0	0	0	0	
+903	data.metrics.commands.killSessions.failed	  0	0	0	0	
+904	data.metrics.commands.killSessions.total	  0	0	0	0	
+905	data.metrics.commands.listCollections.failed	  0	0	0	0	
+906	data.metrics.commands.listCollections.total	  0	0	0	0	
+907	data.metrics.commands.listCommands.failed	  0	0	0	0	
+908	data.metrics.commands.listCommands.total	  0	0	0	0	
+909	data.metrics.commands.listDatabases.failed	  0	0	0	0	
+910	data.metrics.commands.listDatabases.total	  0	0	0	0	
+911	data.metrics.commands.listIndexes.failed	  0	0	0	0	
+912	data.metrics.commands.listIndexes.total	  0	0	0	0	
+913	data.metrics.commands.lockInfo.failed	  0	0	0	0	
+914	data.metrics.commands.lockInfo.total	  0	0	0	0	
+915	data.metrics.commands.logRotate.failed	  0	0	0	0	
+916	data.metrics.commands.logRotate.total	  0	0	0	0	
+917	data.metrics.commands.logout.failed	  0	0	0	0	
+918	data.metrics.commands.logout.total	  0	0	0	0	
+919	data.metrics.commands.mapReduce.failed	  0	0	0	0	
+920	data.metrics.commands.mapReduce.total	  0	0	0	0	
+921	data.metrics.commands.mapreduce.shardedfinish.failed	  0	0	0	0	
+922	data.metrics.commands.mapreduce.shardedfinish.total	  0	0	0	0	
+923	data.metrics.commands.mergeChunks.failed	  0	0	0	0	
+924	data.metrics.commands.mergeChunks.total	  0	0	0	0	
+925	data.metrics.commands.moveChunk.failed	  0	0	0	0	
+926	data.metrics.commands.moveChunk.total	  0	0	0	0	
+927	data.metrics.commands.ping.failed	  0	0	0	0	
+928	data.metrics.commands.ping.total	  0	0	0	0	
+929	data.metrics.commands.planCacheClear.failed	  0	0	0	0	
+930	data.metrics.commands.planCacheClear.total	  0	0	0	0	
+931	data.metrics.commands.planCacheClearFilters.failed	  0	0	0	0	
+932	data.metrics.commands.planCacheClearFilters.total	  0	0	0	0	
+933	data.metrics.commands.planCacheListFilters.failed	  0	0	0	0	
+934	data.metrics.commands.planCacheListFilters.total	  0	0	0	0	
+935	data.metrics.commands.planCacheListPlans.failed	  0	0	0	0	
+936	data.metrics.commands.planCacheListPlans.total	  0	0	0	0	
+937	data.metrics.commands.planCacheListQueryShapes.failed	  0	0	0	0	
+938	data.metrics.commands.planCacheListQueryShapes.total	  0	0	0	0	
+939	data.metrics.commands.planCacheSetFilter.failed	  0	0	0	0	
+940	data.metrics.commands.planCacheSetFilter.total	  0	0	0	0	
+941	data.metrics.commands.prepareTransaction.failed	  0	0	0	0	
+942	data.metrics.commands.prepareTransaction.total	  0	0	0	0	
+943	data.metrics.commands.profile.failed	  0	0	0	0	
+944	data.metrics.commands.profile.total	  0	0	0	0	
+945	data.metrics.commands.reIndex.failed	  0	0	0	0	
+946	data.metrics.commands.reIndex.total	  0	0	0	0	
+947	data.metrics.commands.refreshSessions.failed	  0	0	0	0	
+948	data.metrics.commands.refreshSessions.total	  0	0	0	0	
+949	data.metrics.commands.renameCollection.failed	  0	0	0	0	
+950	data.metrics.commands.renameCollection.total	  0	0	0	0	
+951	data.metrics.commands.repairCursor.failed	  0	0	0	0	
+952	data.metrics.commands.repairCursor.total	  0	0	0	0	
+953	data.metrics.commands.repairDatabase.failed	  0	0	0	0	
+954	data.metrics.commands.repairDatabase.total	  0	0	0	0	
+955	data.metrics.commands.replSetAbortPrimaryCatchUp.failed	  0	0	0	0	
+956	data.metrics.commands.replSetAbortPrimaryCatchUp.total	  0	0	0	0	
+957	data.metrics.commands.replSetFreeze.failed	  0	0	0	0	
+958	data.metrics.commands.replSetFreeze.total	  0	0	0	0	
+959	data.metrics.commands.replSetGetConfig.failed	  0	0	0	0	
+960	data.metrics.commands.replSetGetConfig.total	  0	0	0	0	
+961	data.metrics.commands.replSetGetRBID.failed	  0	0	0	0	
+962	data.metrics.commands.replSetGetRBID.total	  0	0	0	0	
+963	data.metrics.commands.replSetGetStatus.failed	  0	0	0	0	
+964	data.metrics.commands.replSetGetStatus.total	  0	0	0	0	
+965	data.metrics.commands.replSetHeartbeat.failed	  0	0	0	0	
+966	data.metrics.commands.replSetHeartbeat.total	  0	0	0	0	
+967	data.metrics.commands.replSetInitiate.failed	  0	0	0	0	
+968	data.metrics.commands.replSetInitiate.total	  0	0	0	0	
+969	data.metrics.commands.replSetMaintenance.failed	  0	0	0	0	
+970	data.metrics.commands.replSetMaintenance.total	  0	0	0	0	
+971	data.metrics.commands.replSetReconfig.failed	  0	0	0	0	
+972	data.metrics.commands.replSetReconfig.total	  0	0	0	0	
+973	data.metrics.commands.replSetRequestVotes.failed	  0	0	0	0	
+974	data.metrics.commands.replSetRequestVotes.total	  0	0	0	0	
+975	data.metrics.commands.replSetResizeOplog.failed	  0	0	0	0	
+976	data.metrics.commands.replSetResizeOplog.total	  0	0	0	0	
+977	data.metrics.commands.replSetStepDown.failed	  0	0	0	0	
+978	data.metrics.commands.replSetStepDown.total	  0	0	0	0	
+979	data.metrics.commands.replSetStepDownWithForce.failed	  0	0	0	0	
+980	data.metrics.commands.replSetStepDownWithForce.total	  0	0	0	0	
+981	data.metrics.commands.replSetStepUp.failed	  0	0	0	0	
+982	data.metrics.commands.replSetStepUp.total	  0	0	0	0	
+983	data.metrics.commands.replSetSyncFrom.failed	  0	0	0	0	
+984	data.metrics.commands.replSetSyncFrom.total	  0	0	0	0	
+985	data.metrics.commands.replSetUpdatePosition.failed	  0	0	0	0	
+986	data.metrics.commands.replSetUpdatePosition.total	  0	0	0	0	
+987	data.metrics.commands.resetError.failed	  0	0	0	0	
+988	data.metrics.commands.resetError.total	  0	0	0	0	
+989	data.metrics.commands.revokePrivilegesFromRole.failed	  0	0	0	0	
+990	data.metrics.commands.revokePrivilegesFromRole.total	  0	0	0	0	
+991	data.metrics.commands.revokeRolesFromRole.failed	  0	0	0	0	
+992	data.metrics.commands.revokeRolesFromRole.total	   0	0	0	0	
+993	data.metrics.commands.revokeRolesFromUser.failed	  0	0	0	0	
+994	data.metrics.commands.revokeRolesFromUser.total	  0	0	0	0	
+995	data.metrics.commands.rolesInfo.failed	  0	0	0	0	
+996	data.metrics.commands.rolesInfo.total	  0	0	0	0	
+997	data.metrics.commands.saslContinue.failed	  0	0	0	0	
+998	data.metrics.commands.saslContinue.total	  0	0	0	0	
+999	data.metrics.commands.saslStart.failed	  0	0	0	0	
+1000	data.metrics.commands.saslStart.total	  0	0	0	0	
+1001	data.metrics.commands.serverStatus.failed	  0	0	0	0	
+1002	data.metrics.commands.serverStatus.total	  0	0	0	0	
+1003	data.metrics.commands.setFeatureCompatibilityVersion.failed	  0	0	0	0	
+1004	data.metrics.commands.setFeatureCompatibilityVersion.total	  0	0	0	0	
+1005	data.metrics.commands.setParameter.failed	  0	0	0	0	
+1006	data.metrics.commands.setParameter.total	  0	0	0	0	
+1007	data.metrics.commands.setShardVersion.failed	  0	0	0	0	
+1008	data.metrics.commands.setShardVersion.total	  0	0	0	0	
+1009	data.metrics.commands.shardConnPoolStats.failed	     0	0	0	0	
+1010	data.metrics.commands.shardConnPoolStats.total	  0	0	0	0	
+1011	data.metrics.commands.shardingState.failed	  0	0	0	0	
+1012	data.metrics.commands.shardingState.total	  0	0	0	0	
+1013	data.metrics.commands.shutdown.failed	  0	0	0	0	
+1014	data.metrics.commands.shutdown.total	  0	0	0	0	
+1015	data.metrics.commands.splitChunk.failed	  0	0	0	0	
+1016	data.metrics.commands.splitChunk.total	  0	0	0	0	
+1017	data.metrics.commands.splitVector.failed	  0	0	0	0	
+1018	data.metrics.commands.splitVector.total	   0	0	0	0	
+1019	data.metrics.commands.startRecordingTraffic.failed	  0	0	0	0	
+1020	data.metrics.commands.startRecordingTraffic.total	  0	0	0	0	
+1021	data.metrics.commands.startSession.failed	  0	0	0	0	
+1022	data.metrics.commands.startSession.total	  0	0	0	0	
+1023	data.metrics.commands.stopRecordingTraffic.failed	  0	0	0	0	
+1024	data.metrics.commands.stopRecordingTraffic.total	  0	0	0	0	
+1025	data.metrics.commands.top.failed	  0	0	0	0	
+1026	data.metrics.commands.top.total	  0	0	0	0	
+1027	data.metrics.commands.touch.failed	  0	0	0	0	
+1028	data.metrics.commands.touch.total	  0	0	0	0	
+1029	data.metrics.commands.unsetSharding.failed	  0	0	0	0	
+1030	data.metrics.commands.unsetSharding.total	  0	0	0	0	
+1031	data.metrics.commands.update.arrayFilters	  0	0	0	0	
+1032	data.metrics.commands.update.failed	  0	0	0	0	
+1033	data.metrics.commands.update.pipeline	  0	0	0	0	
+1034	data.metrics.commands.update.total	  0	0	0	0	
+1035	data.metrics.commands.updateRole.failed	  0	0	0	0	
+1036	data.metrics.commands.updateRole.total	      0	0	0	0	
+1037	data.metrics.commands.updateUser.failed	  0	0	0	0	
+1038	data.metrics.commands.updateUser.total	  0	0	0	0	
+1039	data.metrics.commands.usersInfo.failed	  0	0	0	0	
+1040	data.metrics.commands.usersInfo.total	  0	0	0	0	
+1041	data.metrics.commands.validate.failed	  0	0	0	0	
+1042	data.metrics.commands.validate.total	  0	0	0	0	
+1043	data.metrics.commands.voteCommitIndexBuild.failed	  0	0	0	0	
+1044	data.metrics.commands.voteCommitIndexBuild.total	  0	0	0	0	
+1045	data.metrics.commands.waitForFailPoint.failed	  0	0	0	0	
+1046	data.metrics.commands.waitForFailPoint.total	  0	0	0	0	
+1047	data.metrics.commands.whatsmyuri.failed	  0	0	0	0	
+1048	data.metrics.commands.whatsmyuri.total	  0	0	0	0	
+1049	data.metrics.cursor.timedOut	  0	0	0	0	
+1050	data.metrics.cursor.open.noTimeout	  0	0	0	0	
+1051	data.metrics.cursor.open.pinned	  0	0	0	0	
+1052	data.metrics.cursor.open.total	  0	0	0	0	
+1053	data.metrics.document.deleted	  0	0	0	0	
+1054	data.metrics.document.inserted	  0	0	0	0	
+1055	data.metrics.document.returned	   0	0	0	0	
+1056	data.metrics.document.updated	  0	0	0	0	
+1057	data.metrics.getLastError.wtime.num	  0	0	0	0	
+1058	data.metrics.getLastError.wtime.totalMillis	  0	0	0	0	
+1059	data.metrics.getLastError.wtimeouts	  0	0	0	0	
+1060	data.metrics.operation.scanAndOrder	  0	0	0	0	
+1061	data.metrics.operation.writeConflicts	  0	0	0	0	
+1062	data.metrics.query.planCacheTotalSizeEstimateBytes	  0	0	0	0	
+1063	data.metrics.query.updateOneOpStyleBroadcastWithExactIDCount	  0	0	0	0	
+1064	data.metrics.queryExecutor.scanned	   0	0	0	0	
+1065	data.metrics.queryExecutor.scannedObjects	  0	0	0	0	
+1066	data.metrics.record.moves	  0	0	0	0	
+1067	data.metrics.repl.executor.pool.inProgressCount	  0	0	0	0	
+1068	data.metrics.repl.executor.queues.networkInProgress	  0	0	0	0	
+1069	data.metrics.repl.executor.queues.sleepers	  0	0	0	0	
+1070	data.metrics.repl.executor.unsignaledEvents	  0	0	0	0	
+1071	data.metrics.repl.executor.shuttingDown	  0	0	0	0	
+1072	data.metrics.repl.executor.networkInterface	  0	0	0	0	
+1073	data.metrics.repl.apply.attemptsToBecomeSecondary	  0	0	0	0	
+1074	data.metrics.repl.apply.batchSize	  0	0	0	0	
+1075	data.metrics.repl.apply.batches.num	  0	0	0	0	
+1076	data.metrics.repl.apply.batches.totalMillis	  0	0	0	0	
+1077	data.metrics.repl.apply.ops	  0	0	0	0	
+1078	data.metrics.repl.buffer.count	  0	0	0	0	
+1079	data.metrics.repl.buffer.maxSizeBytes	  0	0	0	0	
+1080	data.metrics.repl.buffer.sizeBytes	  0	0	0	0	
+1081	data.metrics.repl.initialSync.completed	  0	0	0	0	
+1082	data.metrics.repl.initialSync.failedAttempts	  0	0	0	0	
+1083	data.metrics.repl.initialSync.failures	  0	0	0	0	
+1084	data.metrics.repl.network.bytes	  0	0	0	0	
+1085	data.metrics.repl.network.getmores.num	  0	0	0	0	
+1086	data.metrics.repl.network.getmores.totalMillis	  0	0	0	0	
+1087	data.metrics.repl.network.notPrimaryLegacyUnacknowledgedWrites	  0	0	0	0	
+1088	data.metrics.repl.network.notPrimaryUnacknowledgedWrites	  0	0	0	0	
+1089	data.metrics.repl.network.ops	  0	0	0	0	
+1090	data.metrics.repl.network.readersCreated	  0	0	0	0	
+1091	data.metrics.repl.network.replSetUpdatePosition.num	  0	0	0	0	
+1092	data.metrics.repl.stateTransition.lastStateTransition	  0	0	0	0	
+1093	data.metrics.repl.stateTransition.userOperationsKilled	  0	0	0	0	
+1094	data.metrics.repl.stateTransition.userOperationsRunning	  0	0	0	0	
+1095	data.metrics.repl.syncSource.numSelections	  0	0	0	0	
+1096	data.metrics.repl.syncSource.numTimesChoseDifferent	  0	0	0	0	
+1097	data.metrics.repl.syncSource.numTimesChoseSame	  0	0	0	0	
+1098	data.metrics.repl.syncSource.numTimesCouldNotFind	  0	0	0	0	
+1099	data.metrics.ttl.deletedDocuments	  0	0	0	0	
+1100	data.metrics.ttl.passes	  0	0	0	0	
+1101	data.ok	  0	0	0	0	
+1102	date_second	  0	0	0	0	
+1103	date_hour	  0	0	0	0	
+1104	date_minute	  0	0	0	0	
+1105	date_year	  0	0	0	0	
+1106	date_month	  0	0	0	0	
+1107	may	  0	0	0	0	
+1108	date_mday	  0	0	0	0	
+1109	date_wday	  0	0	0	0	
+1110	tuesday	  0	0	0	0	
+1111	date_zone	  0	0	0	0	
+1112	data.inprog.type	  0	0	0	0	
+1113	data.inprog.host	  0	0	0	0	
+1114	data.inprog.desc	  0	0	0	0	
+1115	data.inprog.active	  0	0	0	0	
+1116	data.inprog.currentOpTime	  0	0	0	0	
+1117	data.inprog.opid	  0	0	0	0	
+1118	data.inprog.op	  0	0	0	0	
+1119	data.inprog.ns	  0	0	0	0	
+1120	data.inprog.numYields	  0	0	0	0	
+1121	data.inprog.waitingForLatch.timestamp.$date	  0	0	0	0	
+1122	data.inprog.waitingForLatch.captureName	  0	0	0	0	
+1123	data.inprog.waitingForLock	  0	0	0	0	
+1124	data.inprog.waitingForFlowControl	  0	0	0	0	
+1125	data.inprog.connectionId	  0	0	0	0	
+1126	data.inprog.client	  0	0	0	0	
+1127	data.inprog.clientMetadata.driver.name	  0	0	0	0	
+1128	data.inprog.clientMetadata.driver.version	  0	0	0	0	
+1129	data.inprog.clientMetadata.os.type	  0	0	0	0	
+1130	data.inprog.clientMetadata.os.name	  0	0	0	0	
+1131	data.inprog.clientMetadata.os.version	  0	0	0	0	
+1132	data.inprog.clientMetadata.os.architecture	  0	0	0	0	
+1133	data.inprog.clientMetadata.platform	  0	0	0	0	
+1134	data.inprog.effectiveUsers.user	  0	0	0	0	
+1135	data.inprog.effectiveUsers.db	  0	0	0	0	
+1136	data.inprog.secs_running	  0	0	0	0	
+1137	data.inprog.microsecs_running	  0	0	0	0	
+1138	data.inprog.command.currentOp	  0	0	0	0	
+1139	data.inprog.command.$all	  0	0	0	0	
+1140	data.inprog.command.$db	  0	0	0	0	
+1141	data.inprog.command.$readPreference.mode	  0	0	0	0	
+1142	data.name	  0	0	0	0	
+1143	data.max_size	  0	0	0	0	
+1144	data.volume_path	  0	0	0	0	
+1145	data.total_size	  0	0	0	0	
+1146	data.key_count	  0	0	0	0	
+1147	data.capacity	  0	0	0	0	
+1148	data.fs_type	  0	0	0	0	
+1149	data.mount_point	  0	0	0	0	
+1150	data.available	  0	0	0	0	
+1151	data.free	  0	0	0	0	
+1152	data.status	  0	0	0	0	
+1153	data.t_count	         0	0	0	0	
+1154	data.mem_used	  0	0	0	0	
+1155	data.pct_memory	  0	0	0	0	
+1156	data.page_faults	  0	0	0	0	
+1157	data.pct_cpu	  0	0	0	0	
+1158	data.normalized_pct_cpu	  0	0	0	0	
+1159	data.read_mb	  0	0	0	0	
+1160	data.written_mb	  0	0	0	0	
+1161	data.fd_used	  0	0	0	0	
+1162	data.elapsed	  0	0	0	0	
+1163	data.args	  0	0	0	0	
+1164	data.process_type	  0	0	0	0	
+1165	data.ppid	  0	0	0	0	
+1166	data.cpu_arch	  0	0	0	0	
+1167	data.os_name	  0	0	0	0	
+1168	data.os_name_ext	  0	0	0	0	
+1169	data.os_build	  0	0	0	0	
+1170	data.os_version	  0	0	0	0	
+1171	data.instance_guid	  0	0	0	0	
+1172	data.splunk_version	  0	0	0	0	
+1173	data.mem	  0	0	0	0	
+1174	data.swap	  0	0	0	0	
+1175	data.swap_used	  0	0	0	0	
+1176	data.pg_paged_out	  0	0	0	0	
+1177	data.pg_swapped_out	  0	0	0	0	
+1178	data.forks	  0	0	0	0	
+1179	data.cpu_count	  0	0	0	0	
+1180	data.virtual_cpu_count	  0	0	0	0	
+1181	data.runnable_process_count	  0	0	0	0	
+1182	data.normalized_load_avg_1min	  0	0	0	0	
+1183	data.cpu_user_pct	  0	0	0	0	
+1184	data.cpu_system_pct	  0	0	0	0	
+1185	data.cpu_idle_pct	  0	0	0	0	
+1186	timestamp	  0	0	0	0	
+1187	type	  0	0	0	0	
+1188	search_id	  0	0	0	0	
+1189	status	  0	0	0	0	
+1190	ast.ast_optimize	  0	0	0	0	
+1191	ast.ast_visitor{}	  0	0	0	0	
+1192	ast.ast_modified{}	  0	0	0	0	
+1193	desc.app	  0	0	0	0	
+1194	desc.comments	  0	0	0	0	
+1195	desc.batch_mode_search	  0	0	0	0	
+1196	desc.nested_subsearches_flag	  0	0	0	0	
+1197	desc.search_process_modes.undefined	  0	0	0	0	
+1198	desc.search_process_modes.freestanding	  0	0	0	0	
+1199	desc.search_process_modes.forked	        0	0	0	0	
+1200	desc.search_process_modes.preforked_first	  0	0	0	0	
+1201	desc.search_process_modes.preforked_same_user	  0	0	0	0	
+1202	desc.search_process_modes.preforked_different_user	  0	0	0	0	
+1203	perf.bytes_read	  0	0	0	0	
+1204	perf.scan_count	  0	0	0	0	
+1205	perf.results_count	  0	0	0	0	
+1206	perf.subsearch_count	  0	0	0	0	
+1207	perf.search_runtime_secs	  0	0	0	0	
+1208	perf.search_preview_time_secs	  0	0	0	0	
+1209	perf.execution_cost.dispatch.finalWriteToDisk	  0	0	0	0	
+1210	perf.execution_cost.dispatch.evaluate	  0	0	0	0	
+1211	perf.execution_cost.dispatch.createdSearchResultInfrastructure	  0	0	0	0	
+1212	perf.execution_cost.dispatch.localSearch	  0	0	0	0	
+1213	perf.execution_cost.dispatch.writeStatus	  0	0	0	0	
+1214	perf.execution_cost.dispatch.stream.local	  0	0	0	0	
+1215	phases.phases_count	  0	0	0	0	
+1216	phases.phase_1.elapsed_time_aggregations.avg	  0	0	0	0	
+1217	phases.phase_1.elapsed_time_aggregations.max	  0	0	0	0	
+1218	phases.phase_1.elapsed_time_aggregations.min	  0	0	0	0	
+1219	phases.phase_1.elapsed_time_aggregations.sum	  0	0	0	0	
+1220	phases.phase_1.elapsed_time_aggregations.count	  0	0	0	0	
+1221	phases.phase_1.nodes_count	  0	0	0	0	
+1222	buckets.bloom_eliminated_rawsize	  0	0	0	0	
+1223	buckets.bloom_eliminated_buckets	  0	0	0	0	
+1224	buckets.meta_eliminated_buckets	  0	0	0	0	
+1225	buckets.searched_buckets	  0	0	0	0	
+1226	buckets.max_bucket_fetch_secs	  0	0	0	0	
+1227	feature_flags.enabled{}	  0	0	0	0	
+1228	search_commands{}.name	  0	0	0	0	
+1229	search_commands{}.duration	  0	0	0	0	
+1230	search_commands{}.maxPeerDuration	  0	0	0	0	
+1231	search_commands{}.aggregates.outputCount.min	  0	0	0	0	
+1232	search_commands{}.aggregates.outputCount.max	  0	0	0	0	
+1233	search_commands{}.aggregates.outputCount.sum	  0	0	0	0	
+1234	search_commands{}.aggregates.outputCount.avg	  0	0	0	0	
+1235	search_commands{}.aggregates.outputCount.count	  0	0	0	0	
+1236	search_commands{}.telemetryID	  0	0	0	0	
+1237	search_commands{}.dagID	  0	0	0	0	
+1238	search_commands{}.gaugeMap.groupby_fields_size	  0	0	0	0	
+1239	timestartpos	  0	0	0	0	
+1240	timeendpos	  0	0	0	0	
+1241	desc.provenance	  0	0	0	0	
+1242	desc.savedsearch_name	  0	0	0	0	
+1243	desc.latest_time	  0	0	0	0	
+1244	search_commands{}.outputCount	  0	0	0	0	
+1245	search_commands{}.inputCount	  0	0	0	0	
+1246	search_commands{}.gaugeMap.if	  0	0	0	0	
+1247	search_commands{}.gaugeMap.isnotnull	  0	0	0	0	
+1248	data.locks.ReplicationStateTransition.acquireCount.W	  0	0	0	0	
+1249	data.locks.ReplicationStateTransition.acquireWaitCount.w	  0	0	0	0	
+1250	data.locks.ReplicationStateTransition.acquireWaitCount.W	  0	0	0	0	
+1251	data.locks.ReplicationStateTransition.timeAcquiringMicros.w	  0	0	0	0	
+1252	data.locks.ReplicationStateTransition.timeAcquiringMicros.W	  0	0	0	0	
+1253	data.locks.Global.acquireWaitCount.w	  0	0	0	0	
+1254	data.locks.Global.acquireWaitCount.W	  0	0	0	0	
+1255	data.locks.Global.timeAcquiringMicros.w	  0	0	0	0	
+1256	data.locks.Global.timeAcquiringMicros.W	  0	0	0	0	
+1257	data.locks.Database.acquireWaitCount.r	  0	0	0	0	
+1258	data.locks.Database.timeAcquiringMicros.r	   0	0	0	0	
+1259	data.locks.Collection.acquireCount.R	  0	0	0	0	
+1260	data.locks.oplog.acquireCount.W	  0	0	0	0	
+1261	data.opcounters.deprecated.total	  0	0	0	0	
+1262	data.opcounters.deprecated.insert	  0	0	0	0	
+1263	data.opcounters.deprecated.query	  0	0	0	0	
+1264	data.opcounters.deprecated.update	  0	0	0	0	
+1265	data.opcounters.deprecated.delete	  0	0	0	0	
+1266	data.opcounters.deprecated.getmore	  0	0	0	0	
+1267	data.opcounters.deprecated.killcursors	  0	0	0	0	
+1268	data.oplogTruncation.totalTimeProcessingMicros	  0	0	0	0	
+1269	data.oplogTruncation.processingMethod	  0	0	0	0	
+1270	data.oplogTruncation.totalTimeTruncatingMicros	  0	0	0	0	
+1271	data.oplogTruncation.truncateCount	  0	0	0	0	
+1272	data.repl.hosts	  0	0	0	0	
+1273	data.repl.setName	  0	0	0	0	
+1274	data.repl.setVersion	  0	0	0	0	
+1275	data.repl.primary	  0	0	0	0	
+1276	data.repl.tags.all	  0	0	0	0	
+1277	data.repl.tags.instance	  0	0	0	0	
+1278	data.repl.me	  0	0	0	0	
+1279	data.repl.electionId.$oid	  0	0	0	0	
+1280	data.repl.lastWrite.opTime.ts.$timestamp.t	  0	0	0	0	
+1281	data.repl.lastWrite.opTime.ts.$timestamp.i	  0	0	0	0	
+1282	data.repl.lastWrite.opTime.t	  0	0	0	0	
+1283	data.repl.lastWrite.lastWriteDate.$date	  0	0	0	0	
+1284	data.repl.lastWrite.majorityOpTime.ts.$timestamp.t	  0	0	0	0	
+1285	data.repl.lastWrite.majorityOpTime.ts.$timestamp.i	  0	0	0	0	
+1286	data.repl.lastWrite.majorityOpTime.t	  0	0	0	0	
+1287	data.repl.lastWrite.majorityWriteDate.$date	  0	0	0	0	
+1288	data.$clusterTime.clusterTime.$timestamp.t	  0	0	0	0	
+1289	data.$clusterTime.clusterTime.$timestamp.i	  0	0	0	0	
+1290	data.$clusterTime.signature.hash.$binary	  0	0	0	0	
+1291	data.$clusterTime.signature.hash.$type	  0	0	0	0	
+1292	data.$clusterTime.signature.keyId	  0	0	0	0	
+1293	data.operationTime.$timestamp.t	  0	0	0	0	
+1294	data.operationTime.$timestamp.i	  0	0	0	0	
+1295	data.inprog.lockStats.ParallelBatchWriterMode.acquireCount.r	  0	0	0	0	
+1296	data.inprog.lockStats.ReplicationStateTransition.acquireCount.w	  0	0	0	0	
+1297	data.inprog.lockStats.Global.acquireCount.r	  0	0	0	0	
+1298	data.inprog.lockStats.Database.acquireCount.r	  0	0	0	0	
+1299	data.inprog.lockStats.Collection.acquireCount.r	  0	0	0	0	
+1300	data.inprog.lockStats.Mutex.acquireCount.r	  0	0	0	0	
+1301	data.inprog.lsid.id.$binary	  0	0	0	0	
+1302	data.inprog.lsid.id.$type	  0	0	0	0	
+1303	data.inprog.lsid.uid.$binary	  0	0	0	0	
+1304	data.inprog.lsid.uid.$type	  0	0	0	0	
+1305	data.inprog.command.lsid.id.$binary	  0	0	0	0	
+1306	data.inprog.command.lsid.id.$type	  0	0	0	0	
+1307	data.inprog.command.$clusterTime.clusterTime.$timestamp.t	  0	0	0	0	
+1308	data.inprog.command.$clusterTime.clusterTime.$timestamp.i	  0	0	0	0	
+1309	data.inprog.command.$clusterTime.signature.hash.$binary	  0	0	0	0	
+1310	data.inprog.command.$clusterTime.signature.hash.$type	  0	0	0	0	
+1311	data.inprog.command.$clusterTime.signature.keyId	  0	0	0	0	
+1312	data.inprog.lockStats.Global.acquireCount.w	  0	0	0	0	
+1313	data.inprog.lockStats.Global.acquireWaitCount.w	  0	0	0	0	
+1314	data.inprog.lockStats.Global.timeAcquiringMicros.w	  0	0	0	0	
+1315	data.inprog.lockStats.Database.acquireCount.w	  0	0	0	0	
+1316	data.inprog.flowControlStats.acquireCount	  0	0	0	0	
+1317	data.inprog.flowControlStats.timeAcquiringMicros	  0	0	0	0	
+1318	data.replSetStats.set	  0	0	0	0	
+1319	data.replSetStats.date	  0	0	0	0	
+1320	data.replSetStats.myState	  0	0	0	0	
+1321	data.replSetStats.term	  0	0	0	0	
+1322	data.replSetStats.syncingTo	  0	0	0	0	
+1323	data.replSetStats.syncSourceHost	  0	0	0	0	
+1324	data.replSetStats.syncSourceId	  0	0	0	0	
+1325	data.replSetStats.heartbeatIntervalMillis	          0	0	0	0	
+1326	data.replSetStats.majorityVoteCount	  0	0	0	0	
+1327	data.replSetStats.writeMajorityCount	  0	0	0	0	
+1328	data.replSetStats.optimes.lastCommittedOpTime.ts.$timestamp.t	  0	0	0	0	
+1329	data.replSetStats.optimes.lastCommittedOpTime.ts.$timestamp.i	  0	0	0	0	
+1330	data.replSetStats.optimes.lastCommittedOpTime.t	  0	0	0	0	
+1331	data.replSetStats.optimes.lastCommittedWallTime.$date	  0	0	0	0	
+1332	data.replSetStats.optimes.readConcernMajorityOpTime.ts.$timestamp.t	  0	0	0	0	
+1333	data.replSetStats.optimes.readConcernMajorityOpTime.ts.$timestamp.i	  0	0	0	0	
+1334	data.replSetStats.optimes.readConcernMajorityOpTime.t	  0	0	0	0	
+1335	data.replSetStats.optimes.readConcernMajorityWallTime.$date	  0	0	0	0	
+1336	data.replSetStats.optimes.appliedOpTime.ts.$timestamp.t	  0	0	0	0	
+1337	data.replSetStats.optimes.appliedOpTime.ts.$timestamp.i	  0	0	0	0	
+1338	data.replSetStats.optimes.appliedOpTime.t	  0	0	0	0	
+1339	data.replSetStats.optimes.durableOpTime.ts.$timestamp.t	  0	0	0	0	
+1340	data.replSetStats.optimes.durableOpTime.ts.$timestamp.i	  0	0	0	0	
+1341	data.replSetStats.optimes.durableOpTime.t	  0	0	0	0	
+1342	data.replSetStats.optimes.lastAppliedWallTime.$date	  0	0	0	0	
+1343	data.replSetStats.optimes.lastDurableWallTime.$date	  0	0	0	0	
+1344	data.replSetStats.lastStableRecoveryTimestamp.$timestamp.t	  0	0	0	0	
+1345	data.replSetStats.lastStableRecoveryTimestamp.$timestamp.i	  0	0	0	0	
+1346	data.replSetStats.lastStableCheckpointTimestamp.$timestamp.t	  0	0	0	0	
+1347	data.replSetStats.lastStableCheckpointTimestamp.$timestamp.i	  0	0	0	0	
+1348	data.replSetStats.electionCandidateMetrics.lastElectionReason	  0	0	0	0	
+1349	data.replSetStats.electionCandidateMetrics.lastElectionDate.$date	  0	0	0	0	
+1350	data.replSetStats.electionCandidateMetrics.electionTerm	  0	0	0	0	
+1351	data.replSetStats.electionCandidateMetrics.lastCommittedOpTimeAtElection.ts.$timestamp.t	  0	0	0	0	
+1352	data.replSetStats.electionCandidateMetrics.lastCommittedOpTimeAtElection.ts.$timestamp.i	  0	0	0	0	
+1353	data.replSetStats.electionCandidateMetrics.lastCommittedOpTimeAtElection.t	  0	0	0	0	
+1354	data.replSetStats.electionCandidateMetrics.lastSeenOpTimeAtElection.ts.$timestamp.t	  0	0	0	0	
+1355	data.replSetStats.electionCandidateMetrics.lastSeenOpTimeAtElection.ts.$timestamp.i	  0	0	0	0	
+1356	data.replSetStats.electionCandidateMetrics.lastSeenOpTimeAtElection.t	  0	0	0	0	
+1357	data.replSetStats.electionCandidateMetrics.numVotesNeeded	  0	0	0	0	
+1358	data.replSetStats.electionCandidateMetrics.priorityAtElection	  0	0	0	0	
+1359	data.replSetStats.electionCandidateMetrics.electionTimeoutMillis	  0	0	0	0	
+1360	data.replSetStats.electionCandidateMetrics.newTermStartDate.$date	  0	0	0	0	
+1361	data.replSetStats.electionCandidateMetrics.wMajorityWriteAvailabilityDate.$date	  0	0	0	0	
+1362	data.replSetStats.members._id	  0	0	0	0	
+1363	data.replSetStats.members.name	  0	0	0	0	
+1364	data.replSetStats.members.health	  0	0	0	0	
+1365	data.replSetStats.members.state	  0	0	0	0	
+1366	data.replSetStats.members.stateStr	  0	0	0	0	
+1367	data.replSetStats.members.uptime	  0	0	0	0	
+1368	data.replSetStats.members.optime.t	  0	0	0	0	
+1369	data.replSetStats.members.optime.i	  0	0	0	0	
+1370	data.replSetStats.members.optimeDate	  0	0	0	0	
+1371	data.replSetStats.members.syncingTo	  0	0	0	0	
+1372	data.replSetStats.members.syncSourceHost	  0	0	0	0	
+1373	data.replSetStats.members.syncSourceId	  0	0	0	0	
+1374	data.replSetStats.members.infoMessage	  0	0	0	0	
+1375	data.replSetStats.members.electionTime.t	  0	0	0	0	
+1376	data.replSetStats.members.electionTime.i	  0	0	0	0	
+1377	data.replSetStats.members.electionDate	  0	0	0	0	
+1378	data.replSetStats.members.configVersion	  0	0	0	0	
+1379	data.replSetStats.members.self	  0	0	0	0	
+1380	data.replSetStats.members.lastHeartbeatMessage	  0	0	0	0	
+1381	data.replSetStats.ok	  0	0	0	0	
+1382	data.replSetStats.$clusterTime.clusterTime.$timestamp.t	  0	0	0	0	
+1383	data.replSetStats.$clusterTime.clusterTime.$timestamp.i	  0	0	0	0	
+1384	data.replSetStats.$clusterTime.signature.hash.$binary	  0	0	0	0	
+1385	data.replSetStats.$clusterTime.signature.hash.$type	  0	0	0	0	
+1386	data.replSetStats.$clusterTime.signature.keyId	  0	0	0	0	
+1387	data.replSetStats.operationTime.$timestamp.t	  0	0	0	0	
+1388	data.replSetStats.operationTime.$timestamp.i	  0	0	0	0	
+1389	data.oplogInfo.start	  0	0	0	0	
+1390	data.oplogInfo.end	  0	0	0	0	
+1391	data.oplogInfo.collectionStats.ns	  0	0	0	0	
+1392	data.oplogInfo.collectionStats.size	  0	0	0	0	
+1393	data.oplogInfo.collectionStats.count	  0	0	0	0	
+1394	data.oplogInfo.collectionStats.avgObjSize	  0	0	0	0	
+1395	data.oplogInfo.collectionStats.storageSize	  0	0	0	0	
+1396	data.oplogInfo.collectionStats.capped	  0	0	0	0	
+1397	data.oplogInfo.collectionStats.max	  0	0	0	0	
+1398	data.oplogInfo.collectionStats.maxSize	  0	0	0	0	
+1399	data.oplogInfo.collectionStats.sleepCount	  0	0	0	0	
+1400	data.oplogInfo.collectionStats.sleepMS	  0	0	0	0	
+1401	data.oplogInfo.collectionStats.wiredTiger.metadata.formatVersion	  0	0	0	0	
+1402	data.oplogInfo.collectionStats.wiredTiger.metadata.oplogKeyExtractionVersion	  0	0	0	0	
+1403	data.oplogInfo.collectionStats.wiredTiger.creationString	  0	0	0	0	
+1404	data.oplogInfo.collectionStats.wiredTiger.type	  0	0	0	0	
+1405	data.oplogInfo.collectionStats.wiredTiger.uri	  0	0	0	0	
+1406	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filter false positives	  0	0	0	0	
+1407	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filter hits	  0	0	0	0	
+1408	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filter misses	  0	0	0	0	
+1409	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filter pages evicted from cache	       0	0	0	0	
+1410	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filter pages read into cache	  0	0	0	0	
+1411	data.oplogInfo.collectionStats.wiredTiger.LSM.bloom filters in the LSM tree	  0	0	0	0	
+1412	data.oplogInfo.collectionStats.wiredTiger.LSM.chunks in the LSM tree	  0	0	0	0	
+1413	data.oplogInfo.collectionStats.wiredTiger.LSM.highest merge generation in the LSM tree	  0	0	0	0	
+1414	data.oplogInfo.collectionStats.wiredTiger.LSM.queries that could have benefited from a Bloom filter that did not exist	  0	0	0	0	
+1415	data.oplogInfo.collectionStats.wiredTiger.LSM.sleep for LSM checkpoint throttle	  0	0	0	0	
+1416	data.oplogInfo.collectionStats.wiredTiger.LSM.sleep for LSM merge throttle	  0	0	0	0	
+1417	data.oplogInfo.collectionStats.wiredTiger.LSM.total size of bloom filters	  0	0	0	0	
+1418	data.oplogInfo.collectionStats.wiredTiger.block-manager.allocations requiring file extension	  0	0	0	0	
+1419	data.oplogInfo.collectionStats.wiredTiger.block-manager.blocks allocated	  0	0	0	0	
+1420	data.oplogInfo.collectionStats.wiredTiger.block-manager.blocks freed	  0	0	0	0	
+1421	data.oplogInfo.collectionStats.wiredTiger.block-manager.checkpoint size	  0	0	0	0	
+1422	data.oplogInfo.collectionStats.wiredTiger.block-manager.file allocation unit size	  0	0	0	0	
+1423	data.oplogInfo.collectionStats.wiredTiger.block-manager.file bytes available for reuse	  0	0	0	0	
+1424	data.oplogInfo.collectionStats.wiredTiger.block-manager.file magic number	  0	0	0	0	
+1425	data.oplogInfo.collectionStats.wiredTiger.block-manager.file major version number	  0	0	0	0	
+1426	data.oplogInfo.collectionStats.wiredTiger.block-manager.file size in bytes	  0	0	0	0	
+1427	data.oplogInfo.collectionStats.wiredTiger.block-manager.minor version number	  0	0	0	0	
+1428	data.oplogInfo.collectionStats.wiredTiger.btree.btree checkpoint generation	  0	0	0	0	
+1429	data.oplogInfo.collectionStats.wiredTiger.btree.btree clean tree checkpoint expiration time	  0	0	0	0	
+1430	data.oplogInfo.collectionStats.wiredTiger.btree.column-store fixed-size leaf pages	  0	0	0	0	
+1431	data.oplogInfo.collectionStats.wiredTiger.btree.column-store internal pages	  0	0	0	0	
+1432	data.oplogInfo.collectionStats.wiredTiger.btree.column-store variable-size RLE encoded values	  0	0	0	0	
+1433	data.oplogInfo.collectionStats.wiredTiger.btree.column-store variable-size deleted values	  0	0	0	0	
+1434	data.oplogInfo.collectionStats.wiredTiger.btree.column-store variable-size leaf pages	  0	0	0	0	
+1435	data.oplogInfo.collectionStats.wiredTiger.btree.fixed-record size	  0	0	0	0	
+1436	data.oplogInfo.collectionStats.wiredTiger.btree.maximum internal page key size	  0	0	0	0	
+1437	data.oplogInfo.collectionStats.wiredTiger.btree.maximum internal page size	  0	0	0	0	
+1438	data.oplogInfo.collectionStats.wiredTiger.btree.maximum leaf page key size	  0	0	0	0	
+1439	data.oplogInfo.collectionStats.wiredTiger.btree.maximum leaf page size	  0	0	0	0	
+1440	data.oplogInfo.collectionStats.wiredTiger.btree.maximum leaf page value size	  0	0	0	0	
+1441	data.oplogInfo.collectionStats.wiredTiger.btree.maximum tree depth	          0	0	0	0	
+1442	data.oplogInfo.collectionStats.wiredTiger.btree.number of key/value pairs	  0	0	0	0	
+1443	data.oplogInfo.collectionStats.wiredTiger.btree.overflow pages	  0	0	0	0	
+1444	data.oplogInfo.collectionStats.wiredTiger.btree.pages rewritten by compaction	  0	0	0	0	
+1445	data.oplogInfo.collectionStats.wiredTiger.btree.row-store empty values	  0	0	0	0	
+1446	data.oplogInfo.collectionStats.wiredTiger.btree.row-store internal pages	  0	0	0	0	
+1447	data.oplogInfo.collectionStats.wiredTiger.btree.row-store leaf pages	  0	0	0	0	
+1448	data.oplogInfo.collectionStats.wiredTiger.cache.bytes currently in the cache	  0	0	0	0	
+1449	data.oplogInfo.collectionStats.wiredTiger.cache.bytes dirty in the cache cumulative	  0	0	0	0	
+1450	data.oplogInfo.collectionStats.wiredTiger.cache.bytes read into cache	  0	0	0	0	
+1451	data.oplogInfo.collectionStats.wiredTiger.cache.bytes written from cache	  0	0	0	0	
+1452	data.oplogInfo.collectionStats.wiredTiger.cache.checkpoint blocked page eviction	  0	0	0	0	
+1453	data.oplogInfo.collectionStats.wiredTiger.cache.data source pages selected for eviction unable to be evicted	  0	0	0	0	
+1454	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk passes of a file	  0	0	0	0	
+1455	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk target pages histogram - 0-9	  0	0	0	0	
+1456	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk target pages histogram - 10-31	  0	0	0	0	
+1457	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk target pages histogram - 128 and higher	  0	0	0	0	
+1458	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk target pages histogram - 32-63	  0	0	0	0	
+1459	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walk target pages histogram - 64-128	  0	0	0	0	
+1460	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks abandoned	  0	0	0	0	
+1461	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks gave up because they restarted their walk twice	  0	0	0	0	
+1462	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks gave up because they saw too many pages and found no candidates	  0	0	0	0	
+1463	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks gave up because they saw too many pages and found too few candidates	  0	0	0	0	
+1464	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks reached end of tree	  0	0	0	0	
+1465	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks started from root of tree	  0	0	0	0	
+1466	data.oplogInfo.collectionStats.wiredTiger.cache.eviction walks started from saved location in tree	  0	0	0	0	
+1467	data.oplogInfo.collectionStats.wiredTiger.cache.hazard pointer blocked page eviction	  0	0	0	0	
+1468	data.oplogInfo.collectionStats.wiredTiger.cache.in-memory page passed criteria to be split	  0	0	0	0	
+1469	data.oplogInfo.collectionStats.wiredTiger.cache.in-memory page splits	  0	0	0	0	
+1470	data.oplogInfo.collectionStats.wiredTiger.cache.internal pages evicted	  0	0	0	0	
+1471	data.oplogInfo.collectionStats.wiredTiger.cache.internal pages split during eviction	    0	0	0	0	
+1472	data.oplogInfo.collectionStats.wiredTiger.cache.leaf pages split during eviction	  0	0	0	0	
+1473	data.oplogInfo.collectionStats.wiredTiger.cache.modified pages evicted	  0	0	0	0	
+1474	data.oplogInfo.collectionStats.wiredTiger.cache.overflow pages read into cache	  0	0	0	0	
+1475	data.oplogInfo.collectionStats.wiredTiger.cache.page split during eviction deepened the tree	  0	0	0	0	
+1476	data.oplogInfo.collectionStats.wiredTiger.cache.page written requiring cache overflow records	  0	0	0	0	
+1477	data.oplogInfo.collectionStats.wiredTiger.cache.pages read into cache	  0	0	0	0	
+1478	data.oplogInfo.collectionStats.wiredTiger.cache.pages read into cache after truncate	  0	0	0	0	
+1479	data.oplogInfo.collectionStats.wiredTiger.cache.pages read into cache after truncate in prepare state	  0	0	0	0	
+1480	data.oplogInfo.collectionStats.wiredTiger.cache.pages read into cache requiring cache overflow entries	  0	0	0	0	
+1481	data.oplogInfo.collectionStats.wiredTiger.cache.pages requested from the cache	         0	0	0	0	
+1482	data.oplogInfo.collectionStats.wiredTiger.cache.pages seen by eviction walk	  0	0	0	0	
+1483	data.oplogInfo.collectionStats.wiredTiger.cache.pages written from cache	  0	0	0	0	
+1484	data.oplogInfo.collectionStats.wiredTiger.cache.pages written requiring in-memory restoration	  0	0	0	0	
+1485	data.oplogInfo.collectionStats.wiredTiger.cache.tracked dirty bytes in the cache	  0	0	0	0	
+1486	data.oplogInfo.collectionStats.wiredTiger.cache.unmodified pages evicted	  0	0	0	0	
+1487	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Average difference between current eviction generation when the page was last considered	  0	0	0	0	
+1488	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Average on-disk page image size seen	  0	0	0	0	
+1489	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Average time in cache for pages that have been visited by the eviction server	  0	0	0	0	
+1490	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Average time in cache for pages that have not been visited by the eviction server	  0	0	0	0	
+1491	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Clean pages currently in cache	  0	0	0	0	
+1492	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Current eviction generation	  0	0	0	0	
+1493	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Dirty pages currently in cache	  0	0	0	0	
+1494	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Entries in the root page	  0	0	0	0	
+1495	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Internal pages currently in cache	     0	0	0	0	
+1496	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Leaf pages currently in cache	  0	0	0	0	
+1497	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Maximum difference between current eviction generation when the page was last considered	  0	0	0	0	
+1498	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Maximum page size seen	  0	0	0	0	
+1499	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Minimum on-disk page image size seen	  0	0	0	0	
+1500	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Number of pages never visited by eviction server	  0	0	0	0	
+1501	data.oplogInfo.collectionStats.wiredTiger.cache_walk.On-disk page image sizes smaller than a single allocation unit	  0	0	0	0	
+1502	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Pages created in memory and never written	  0	0	0	0	
+1503	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Pages currently queued for eviction	  0	0	0	0	
+1504	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Pages that could not be queued for eviction	  0	0	0	0	
+1505	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Refs skipped during cache traversal	  0	0	0	0	
+1506	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Size of the root page	  0	0	0	0	
+1507	data.oplogInfo.collectionStats.wiredTiger.cache_walk.Total number of pages currently in cache	  0	0	0	0	
+1508	data.oplogInfo.collectionStats.wiredTiger.compression.compressed page maximum internal page size prior to compression	  0	0	0	0	
+1509	data.oplogInfo.collectionStats.wiredTiger.compression.compressed page maximum leaf page size prior to compression 	  0	0	0	0	
+1510	data.oplogInfo.collectionStats.wiredTiger.compression.compressed pages read	  0	0	0	0	
+1511	data.oplogInfo.collectionStats.wiredTiger.compression.compressed pages written	  0	0	0	0	
+1512	data.oplogInfo.collectionStats.wiredTiger.compression.page written failed to compress	  0	0	0	0	
+1513	data.oplogInfo.collectionStats.wiredTiger.compression.page written was too small to compress	  0	0	0	0	
+1514	data.oplogInfo.collectionStats.wiredTiger.cursor.bulk loaded cursor insert calls	  0	0	0	0	
+1515	data.oplogInfo.collectionStats.wiredTiger.cursor.cache cursors reuse count	  0	0	0	0	
+1516	data.oplogInfo.collectionStats.wiredTiger.cursor.close calls that result in cache	  0	0	0	0	
+1517	data.oplogInfo.collectionStats.wiredTiger.cursor.create calls	  0	0	0	0	
+1518	data.oplogInfo.collectionStats.wiredTiger.cursor.insert calls	  0	0	0	0	
+1519	data.oplogInfo.collectionStats.wiredTiger.cursor.insert key and value bytes	  0	0	0	0	
+1520	data.oplogInfo.collectionStats.wiredTiger.cursor.modify	  0	0	0	0	
+1521	data.oplogInfo.collectionStats.wiredTiger.cursor.modify key and value bytes affected	  0	0	0	0	
+1522	data.oplogInfo.collectionStats.wiredTiger.cursor.modify value bytes modified	  0	0	0	0	
+1523	data.oplogInfo.collectionStats.wiredTiger.cursor.next calls	  0	0	0	0	
+1524	data.oplogInfo.collectionStats.wiredTiger.cursor.open cursor count	  0	0	0	0	
+1525	data.oplogInfo.collectionStats.wiredTiger.cursor.operation restarted	  0	0	0	0	
+1526	data.oplogInfo.collectionStats.wiredTiger.cursor.prev calls	  0	0	0	0	
+1527	data.oplogInfo.collectionStats.wiredTiger.cursor.remove calls	  0	0	0	0	
+1528	data.oplogInfo.collectionStats.wiredTiger.cursor.remove key bytes removed	  0	0	0	0	
+1529	data.oplogInfo.collectionStats.wiredTiger.cursor.reserve calls	  0	0	0	0	
+1530	data.oplogInfo.collectionStats.wiredTiger.cursor.reset calls	  0	0	0	0	
+1531	data.oplogInfo.collectionStats.wiredTiger.cursor.search calls	  0	0	0	0	
+1532	data.oplogInfo.collectionStats.wiredTiger.cursor.search near calls	  0	0	0	0	
+1533	data.oplogInfo.collectionStats.wiredTiger.cursor.truncate calls	  0	0	0	0	
+1534	data.oplogInfo.collectionStats.wiredTiger.cursor.update calls	  0	0	0	0	
+1535	data.oplogInfo.collectionStats.wiredTiger.cursor.update key and value bytes	  0	0	0	0	
+1536	data.oplogInfo.collectionStats.wiredTiger.cursor.update value size change	  0	0	0	0	
+1537	data.oplogInfo.collectionStats.wiredTiger.reconciliation.dictionary matches	  0	0	0	0	
+1538	data.oplogInfo.collectionStats.wiredTiger.reconciliation.fast-path pages deleted	  0	0	0	0	
+1539	data.oplogInfo.collectionStats.wiredTiger.reconciliation.internal page key bytes discarded using suffix compression	  0	0	0	0	
+1540	data.oplogInfo.collectionStats.wiredTiger.reconciliation.internal page multi-block writes	  0	0	0	0	
+1541	data.oplogInfo.collectionStats.wiredTiger.reconciliation.internal-page overflow keys	  0	0	0	0	
+1542	data.oplogInfo.collectionStats.wiredTiger.reconciliation.leaf page key bytes discarded using prefix compression	      0	0	0	0	
+1543	data.oplogInfo.collectionStats.wiredTiger.reconciliation.leaf page multi-block writes	  0	0	0	0	
+1544	data.oplogInfo.collectionStats.wiredTiger.reconciliation.leaf-page overflow keys	  0	0	0	0	
+1545	data.oplogInfo.collectionStats.wiredTiger.reconciliation.maximum blocks required for a page	  0	0	0	0	
+1546	data.oplogInfo.collectionStats.wiredTiger.reconciliation.overflow values written	  0	0	0	0	
+1547	data.oplogInfo.collectionStats.wiredTiger.reconciliation.page checksum matches	  0	0	0	0	
+1548	data.oplogInfo.collectionStats.wiredTiger.reconciliation.page reconciliation calls	  0	0	0	0	
+1549	data.oplogInfo.collectionStats.wiredTiger.reconciliation.page reconciliation calls for eviction	  0	0	0	0	
+1550	data.oplogInfo.collectionStats.wiredTiger.reconciliation.pages deleted	  0	0	0	0	
+1551	data.oplogInfo.collectionStats.wiredTiger.session.object compaction	  0	0	0	0	
+1552	data.oplogInfo.collectionStats.wiredTiger.transaction.update conflicts	  0	0	0	0	
+1553	data.oplogInfo.collectionStats.nindexes	  0	0	0	0	
+1554	data.oplogInfo.collectionStats.totalIndexSize	  0	0	0	0	
+1555	data.oplogInfo.collectionStats.scaleFactor	  0	0	0	0	
+1556	data.oplogInfo.collectionStats.ok	  0	0	0	0	
+1557	data.oplogInfo.collectionStats.$clusterTime.clusterTime.$timestamp.t	  0	0	0	0	
+1558	data.oplogInfo.collectionStats.$clusterTime.clusterTime.$timestamp.i	  0	0	0	0	
+1559	data.oplogInfo.collectionStats.$clusterTime.signature.hash.$binary	  0	0	0	0	
+1560	data.oplogInfo.collectionStats.$clusterTime.signature.hash.$type	         0	0	0	0	
+1561	data.oplogInfo.collectionStats.$clusterTime.signature.keyId	  0	0	0	0	
+1562	data.oplogInfo.collectionStats.operationTime.$timestamp.t	  0	0	0	0	
+1563	data.oplogInfo.collectionStats.operationTime.$timestamp.i	  0	0	0	0	
+1564	data.device	  0	0	0	0	
+1565	data.interval	  0	0	0	0	
+1566	data.reads_ps	  0	0	0	0	
+1567	data.writes_ps	  0	0	0	0	
+1568	data.reads_kb_ps	  0	0	0	0	
+1569	data.writes_kb_ps	  0	0	0	0	
+1570	data.avg_total_ms	  0	0	0	0	
+1571	data.avg_service_ms	  0	0	0	0	
+1572	data.cpu_pct	     0	0	0	0	
+1573	none	  0	0	0	0	

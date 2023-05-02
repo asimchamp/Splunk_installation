@@ -1,0 +1,54 @@
+05-02-2023 10:00:58.117 +0000 INFO  PeriodicHealthReporter - product="splunkd" color=green node_type=product node_path=splunkd
+05-02-2023 10:00:58.117 +0000 INFO  PeriodicHealthReporter - feature="File Monitor Input" color=green node_type=category node_path=splunkd.file_monitor_input
+05-02-2023 10:00:58.117 +0000 INFO  PeriodicHealthReporter - feature="Forwarder Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency_reported" node_type=feature node_path=splunkd.file_monitor_input.forwarder_ingestion_latency
+05-02-2023 10:00:58.117 +0000 INFO  PeriodicHealthReporter - feature="Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency" node_type=feature node_path=splunkd.file_monitor_input.ingestion_latency
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Large and Archive File Reader-0" color=green due_to_stanza="feature:batchreader" node_type=feature node_path=splunkd.file_monitor_input.large_and_archive_file_reader-0
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Real-time Reader-0" color=green due_to_stanza="feature:tailreader" node_type=feature node_path=splunkd.file_monitor_input.real-time_reader-0
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Index Processor" color=green node_type=category node_path=splunkd.index_processor
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Buckets" color=green due_to_stanza="feature:buckets" node_type=feature node_path=splunkd.index_processor.buckets
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Disk Space" color=green due_to_stanza="feature:disk_space" node_type=feature node_path=splunkd.index_processor.disk_space
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Index Optimization" color=green due_to_stanza="feature:splunkoptimize_processes" node_type=feature node_path=splunkd.index_processor.index_optimization
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Search Scheduler" color=green node_type=category node_path=splunkd.search_scheduler
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Scheduler Suppression" color=green due_to_stanza="feature:scheduler_suppression" node_type=feature node_path=splunkd.search_scheduler.scheduler_suppression
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Search Lag" color=green due_to_stanza="feature:search_lag" node_type=feature node_path=splunkd.search_scheduler.search_lag
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Searches Delayed" color=green due_to_stanza="feature:searches_delayed" node_type=feature node_path=splunkd.search_scheduler.searches_delayed
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Searches Skipped in the last 24 hours" color=green due_to_stanza="feature:searches_skipped" node_type=feature node_path=splunkd.search_scheduler.searches_skipped_in_the_last_24_hours
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Workload Management" color=green node_type=category node_path=splunkd.workload_management
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="Configuration Check" color=green due_to_stanza="feature:wlm_configuration_check" node_type=feature node_path=splunkd.workload_management.configuration_check
+05-02-2023 10:00:58.118 +0000 INFO  PeriodicHealthReporter - feature="System Check" color=green due_to_stanza="feature:wlm_system_check" node_type=feature node_path=splunkd.workload_management.system_check
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - product="splunkd" color=green node_type=product node_path=splunkd
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="File Monitor Input" color=green node_type=category node_path=splunkd.file_monitor_input
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Forwarder Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency_reported" node_type=feature node_path=splunkd.file_monitor_input.forwarder_ingestion_latency
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency" node_type=feature node_path=splunkd.file_monitor_input.ingestion_latency
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Large and Archive File Reader-0" color=green due_to_stanza="feature:batchreader" node_type=feature node_path=splunkd.file_monitor_input.large_and_archive_file_reader-0
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Real-time Reader-0" color=green due_to_stanza="feature:tailreader" node_type=feature node_path=splunkd.file_monitor_input.real-time_reader-0
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Index Processor" color=green node_type=category node_path=splunkd.index_processor
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Buckets" color=green due_to_stanza="feature:buckets" node_type=feature node_path=splunkd.index_processor.buckets
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Disk Space" color=green due_to_stanza="feature:disk_space" node_type=feature node_path=splunkd.index_processor.disk_space
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Index Optimization" color=green due_to_stanza="feature:splunkoptimize_processes" node_type=feature node_path=splunkd.index_processor.index_optimization
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Search Scheduler" color=green node_type=category node_path=splunkd.search_scheduler
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Scheduler Suppression" color=green due_to_stanza="feature:scheduler_suppression" node_type=feature node_path=splunkd.search_scheduler.scheduler_suppression
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Search Lag" color=green due_to_stanza="feature:search_lag" node_type=feature node_path=splunkd.search_scheduler.search_lag
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Searches Delayed" color=green due_to_stanza="feature:searches_delayed" node_type=feature node_path=splunkd.search_scheduler.searches_delayed
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Searches Skipped in the last 24 hours" color=green due_to_stanza="feature:searches_skipped" node_type=feature node_path=splunkd.search_scheduler.searches_skipped_in_the_last_24_hours
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Workload Management" color=green node_type=category node_path=splunkd.workload_management
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="Configuration Check" color=green due_to_stanza="feature:wlm_configuration_check" node_type=feature node_path=splunkd.workload_management.configuration_check
+05-02-2023 10:01:28.117 +0000 INFO  PeriodicHealthReporter - feature="System Check" color=green due_to_stanza="feature:wlm_system_check" node_type=feature node_path=splunkd.workload_management.system_check
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - product="splunkd" color=green node_type=product node_path=splunkd
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="File Monitor Input" color=green node_type=category node_path=splunkd.file_monitor_input
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Forwarder Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency_reported" node_type=feature node_path=splunkd.file_monitor_input.forwarder_ingestion_latency
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Ingestion Latency" color=green due_to_stanza="feature:ingestion_latency" node_type=feature node_path=splunkd.file_monitor_input.ingestion_latency
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Large and Archive File Reader-0" color=green due_to_stanza="feature:batchreader" node_type=feature node_path=splunkd.file_monitor_input.large_and_archive_file_reader-0
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Real-time Reader-0" color=green due_to_stanza="feature:tailreader" node_type=feature node_path=splunkd.file_monitor_input.real-time_reader-0
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Index Processor" color=green node_type=category node_path=splunkd.index_processor
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Buckets" color=green due_to_stanza="feature:buckets" node_type=feature node_path=splunkd.index_processor.buckets
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Disk Space" color=green due_to_stanza="feature:disk_space" node_type=feature node_path=splunkd.index_processor.disk_space
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Index Optimization" color=green due_to_stanza="feature:splunkoptimize_processes" node_type=feature node_path=splunkd.index_processor.index_optimization
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Search Scheduler" color=green node_type=category node_path=splunkd.search_scheduler
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Scheduler Suppression" color=green due_to_stanza="feature:scheduler_suppression" node_type=feature node_path=splunkd.search_scheduler.scheduler_suppression
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Search Lag" color=green due_to_stanza="feature:search_lag" node_type=feature node_path=splunkd.search_scheduler.search_lag
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Searches Delayed" color=green due_to_stanza="feature:searches_delayed" node_type=feature node_path=splunkd.search_scheduler.searches_delayed
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Searches Skipped in the last 24 hours" color=green due_to_stanza="feature:searches_skipped" node_type=feature node_path=splunkd.search_scheduler.searches_skipped_in_the_last_24_hours
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Workload Management" color=green node_type=category node_path=splunkd.workload_management
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="Configuration Check" color=green due_to_stanza="feature:wlm_configuration_check" node_type=feature node_path=splunkd.workload_management.configuration_check
+05-02-2023 10:01:58.117 +0000 INFO  PeriodicHealthReporter - feature="System Check" color=green due_to_stanza="feature:wlm_system_check" node_type=feature node_path=splunkd.workload_management.system_check

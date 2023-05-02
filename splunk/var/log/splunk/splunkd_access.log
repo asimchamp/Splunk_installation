@@ -1,0 +1,128 @@
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.557 +0000] "GET /services/shcluster/config?output_mode=json HTTP/1.0" 200 1759 "-" "Python-httplib2/0.13.1 (gzip)" - - - 19ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.560 +0000] "GET /servicesNS/nobody/splunk_instrumentation/telemetry/general HTTP/1.0" 200 6326 "-" "splunk-sdk-python/1.6.15" - - - 51ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.581 +0000] "GET /servicesNS/nobody/splunk_monitoring_console/configs/conf-splunk_monitoring_console_assets/settings?output_mode=json HTTP/1.0" 200 1906 "-" "Python-httplib2/0.13.1 (gzip)" - - - 34ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.616 +0000] "GET /services/server/info HTTP/1.0" 200 6149 "-" "splunk-sdk-python/1.6.15" - - - 36ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.779 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 5ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.803 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 11ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.563 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 294ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.941 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 3ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:39.966 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.013 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.078 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.093 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.100 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.113 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.113 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.105 +0000] "POST //servicesNS/nobody/splunk_assist/configs/conf-assist/metadata HTTP/1.0" 200 4059 "-" "Python-httplib2/0.13.1 (gzip)" - - - 16ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.168 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.690 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:40.702 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - - [02/May/2023:10:00:42.479 +0000] "GET /services/server/info HTTP/1.0" 401 148 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:44.872 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 38ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:49.662 +0000] "GET /services/server/info HTTP/1.0" 200 6149 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:49.924 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 46ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.707 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.717 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.863 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.876 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.887 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.941 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.949 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:53.960 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:54.983 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 39ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:00:59.675 +0000] "GET /services/server/info HTTP/1.0" 200 6149 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:00.035 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 66ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:00.218 +0000] "GET /servicesNS/nobody/system/web-features/feature:quarantine_files HTTP/1.0" 200 4642 "-" "Python-httplib2/0.13.1 (gzip)" - - - 5ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:00.232 +0000] "GET /servicesNS/nobody/system/web-features/feature:quarantine_files HTTP/1.0" 200 4642 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:00.240 +0000] "GET /servicesNS/nobody/system/configs/conf-web/settings HTTP/1.0" 200 12836 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:05.116 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 902 "-" "Python-httplib2/0.13.1 (gzip)" - - - 44ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.745 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.757 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.769 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.825 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.833 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.833 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.844 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:08.845 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:09.663 +0000] "GET /servicesNS/-/splunk_monitoring_console/admin/summarization?actual_only=false&_nop_sid=1ab282a7ca24ccd6_tmp&use_normalized=yes&noProxy=true&nodetails=1&search=summary.normHash%3DNSa8bfe1668406b8b4%20AND%20eai:acl.app%3Dsplunk_monitoring_console&sort_key=summary.size&sort_dir=desc&sort_mode=num HTTP/1.0" 200 1721 "-" "Splunkd/9.0.4.1 (Linux 5.4.0-1106-azure; arch=x86_64)" - - - 6ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:09.686 +0000] "GET /services/server/info HTTP/1.0" 200 6149 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:09.692 +0000] "GET /services/search/distributed/groups?count=0 HTTP/1.1" 200 1711 "-" "Splunk/9.0.4.1 (Linux 5.4.0-1106-azure; arch=x86_64)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:09.707 +0000] "GET /services/server/info?count=0 HTTP/1.1" 200 6165 "-" "Splunk/9.0.4.1 (Linux 5.4.0-1106-azure; arch=x86_64)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:09.717 +0000] "POST /servicesNS/nobody/splunk_monitoring_console/saved/searches/DMC%20Asset%20-%20Build%20Standalone%20Asset%20Table/notify?trigger.condition_state=1 HTTP/1.1" 200 2011 "-" "Splunk/9.0.4.1 (Linux 5.4.0-1106-azure; arch=x86_64)" - - - 3ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:10.171 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 1446 "-" "Python-httplib2/0.13.1 (gzip)" - - - 74ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:10.739 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 789 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:10.746 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:15.260 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 1446 "-" "Python-httplib2/0.13.1 (gzip)" - - - 61ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:19.700 +0000] "GET /services/server/info HTTP/1.0" 200 6149 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:20.336 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 1446 "-" "Python-httplib2/0.13.1 (gzip)" - - - 97ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.715 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.724 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.856 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.868 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.881 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.946 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.954 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:23.962 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.447 +0000] "GET /services/kvstore/status?output_mode=json HTTP/1.0" 200 1443 "-" "Python-httplib2/0.13.1 (gzip)" - - - 54ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.509 +0000] "GET /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons?fields=_key HTTP/1.0" 200 3 "-" "Python-httplib2/0.13.1 (gzip)" - - - 2ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.523 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 63 "-" "Python-httplib2/0.13.1 (gzip)" - - - 10ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.541 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 65 "-" "Python-httplib2/0.13.1 (gzip)" - - - 7ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.555 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 65 "-" "Python-httplib2/0.13.1 (gzip)" - - - 8ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.571 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 68 "-" "Python-httplib2/0.13.1 (gzip)" - - - 16ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.596 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 64 "-" "Python-httplib2/0.13.1 (gzip)" - - - 7ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.610 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 63 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.631 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 69 "-" "Python-httplib2/0.13.1 (gzip)" - - - 7ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.645 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 62 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.671 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 63 "-" "Python-httplib2/0.13.1 (gzip)" - - - 17ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.696 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 71 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.717 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 67 "-" "Python-httplib2/0.13.1 (gzip)" - - - 8ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.733 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 66 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.755 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 64 "-" "Python-httplib2/0.13.1 (gzip)" - - - 7ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.770 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 64 "-" "Python-httplib2/0.13.1 (gzip)" - - - 14ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.793 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 74 "-" "Python-httplib2/0.13.1 (gzip)" - - - 7ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:25.807 +0000] "POST /servicesNS/nobody/splunk-dashboard-studio/storage/collections/data/splunk-dashboard-icons HTTP/1.0" 201 68 "-" "Python-httplib2/0.13.1 (gzip)" - - - 17ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.714 +0000] "GET /services/server/info HTTP/1.0" 200 6184 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.718 +0000] "GET /servicesNS/nobody/splunk_instrumentation/telemetry/general/masterSettings HTTP/1.0" 200 2265 "-" "splunk-sdk-python/1.6.15" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.721 +0000] "POST /servicesNS/nobody/splunk_instrumentation/telemetry/general HTTP/1.0" 200 5056 "-" "splunk-sdk-python/1.6.15" - - - 4ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.728 +0000] "GET /servicesNS/nobody/splunk_instrumentation/telemetry/general/masterSettings HTTP/1.0" 200 2265 "-" "splunk-sdk-python/1.6.15" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.730 +0000] "GET /servicesNS/nobody/splunk_instrumentation/storage/collections/data/instrumentation/instrumentation_deploymentID HTTP/1.0" 500 158 "-" "splunk-sdk-python/1.6.15" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.733 +0000] "POST /servicesNS/nobody/splunk_instrumentation/telemetry/general HTTP/1.0" 200 5136 "-" "splunk-sdk-python/1.6.15" - - - 2ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.738 +0000] "GET /servicesNS/nobody/splunk_instrumentation/telemetry/general HTTP/1.0" 200 6487 "-" "splunk-sdk-python/1.6.15" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:29.741 +0000] "POST /servicesNS/nobody/splunk_instrumentation/telemetry/general HTTP/1.0" 200 5136 "-" "splunk-sdk-python/1.6.15" - - - 2ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.809 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.818 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.827 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.830 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.836 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.837 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.844 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:38.848 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:40.785 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:40.792 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:40.800 +0000] "GET //servicesNS/nobody/splunk_secure_gateway/storage/collections/data/meta/soc2_opt_in HTTP/1.0" 404 140 "-" "Python-httplib2/0.13.1 (gzip)" - - - 2ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:40.809 +0000] "GET //services/server/info?output_mode=json HTTP/1.0" 200 2183 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:40.978 +0000] "GET /services/server/info HTTP/1.1" 200 6194 "-" "curl" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:41.624 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:41.631 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:41.639 +0000] "GET //servicesNS/nobody/splunk_secure_gateway/storage/collections/data/meta/soc2_opt_in HTTP/1.0" 404 140 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:41.648 +0000] "GET //services/server/info?output_mode=json HTTP/1.0" 200 2183 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:41.815 +0000] "GET /services/server/info HTTP/1.1" 200 6194 "-" "curl" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.766 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.780 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.841 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.855 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.867 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.912 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.924 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:01:53.932 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:00.203 +0000] "GET /servicesNS/nobody/system/web-features/feature:quarantine_files HTTP/1.0" 200 4642 "-" "Python-httplib2/0.13.1 (gzip)" - - - 1ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:00.213 +0000] "GET /servicesNS/nobody/system/web-features/feature:quarantine_files HTTP/1.0" 200 4642 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:00.220 +0000] "GET /servicesNS/nobody/system/configs/conf-web/settings HTTP/1.0" 200 12836 "-" "Python-httplib2/0.13.1 (gzip)" - - - 4ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.792 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.805 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.817 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.832 +0000] "GET /services/properties/telemetry/general/sendSupportUsage HTTP/1.0" 200 5 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.840 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.847 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.878 +0000] "GET //services/server/roles?output_mode=json HTTP/1.0" 200 800 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms
+127.0.0.1 - splunk-system-user [02/May/2023:10:02:08.886 +0000] "GET //services/cluster/config?output_mode=json HTTP/1.0" 200 2612 "-" "Python-httplib2/0.13.1 (gzip)" - - - 0ms

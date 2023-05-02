@@ -1,0 +1,15 @@
+{"datetime":"05-02-2023 10:00:36.236 +0000","log_level":"INFO","component":"Dispatch","data":{"top_users":[],"top_apps":[],"top_named_searches":[]}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Volumes","data":{"name":"_splunk_summaries","max_size":"infinite","volume_path":"/workspaces/Splunk_installation/splunk/var/lib/splunk"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_audit","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_configtracker","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_internal","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_introspection","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_metrics","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_metrics_rollup","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_telemetry","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"_thefishbucket","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"history","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"main","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Indexes","data":{"name":"summary","total_size":"0.000"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Fishbucket","data":{"total_size":"0.004","key_count":"1"}}
+{"datetime":"05-02-2023 10:00:36.237 +0000","log_level":"INFO","component":"Partitions","data":{"capacity":"32077.812","fs_type":"ext4","mount_point":"/workspaces","available":"16564.277","free":"18218.672"}}

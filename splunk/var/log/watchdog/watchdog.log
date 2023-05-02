@@ -1,0 +1,5 @@
+05-02-2023 10:00:36.118 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+05-02-2023 10:00:36.119 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=15715. Threads monitoring is enabled with response timeout set to 8000 ms.
+05-02-2023 10:01:17.347 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7fc1bb9fea10 within elapsed=8000 ms. Looks like thread_name="KVStoreConfigurationThread" thread_id=15880 is busy !? Starting to trace with timeout=8000 ms interval.
+05-02-2023 10:01:25.348 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7fc1bb9fea10 - thread_name="KVStoreConfigurationThread" thread_id=15880 - finally received after 16001 ms (estimation only).
+05-02-2023 10:02:22.292 +0000 INFO  Watchdog - Stopping WatchdogThread.

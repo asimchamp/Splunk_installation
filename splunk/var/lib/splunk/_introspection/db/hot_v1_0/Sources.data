@@ -1,0 +1,7 @@
+0	6	129	1683021636	1683021735	1683021735	
+1	source::/workspaces/Splunk_installation/splunk/var/log/introspection/kvstore.log	  7	1683021638	1683021719	1683021719	
+2	source::/workspaces/Splunk_installation/splunk/var/log/introspection/disk_objects.log	 15	1683021636	1683021636	1683021639	
+3	source::/workspaces/Splunk_installation/splunk/var/log/introspection/resource_usage.log	104	1683021648	1683021728	1683021731	
+4	source::/workspaces/Splunk_installation/splunk/var/run/splunk/search_telemetry/b83c4477783117a9_alertsmanager_1683021649.1_search_telemetry.json	  1	1683021649	1683021649	1683021649	
+5	source::/workspaces/Splunk_installation/splunk/var/run/splunk/search_telemetry/962df41318d9c1ac_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1683021638_0_search_telemetry.json	  1	1683021669	1683021669	1683021669	
+6	source::telemetry_api	  1	1683021735	1683021735	1683021735	

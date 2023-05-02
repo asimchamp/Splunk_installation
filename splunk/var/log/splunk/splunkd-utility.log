@@ -1,0 +1,16 @@
+05-02-2023 10:00:26.418 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+05-02-2023 10:00:26.418 +0000 INFO  ServerConfig - No '/workspaces/Splunk_installation/splunk/etc/auth/server.pem' certificate found.  Splunkd communication will not work without this.  If this is a fresh installation, this should be OK.
+05-02-2023 10:00:26.419 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+05-02-2023 10:00:26.419 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+05-02-2023 10:00:27.160 +0000 INFO  loader - Getting configuration data from: /workspaces/Splunk_installation/splunk/etc/myinstall/splunkd.xml
+05-02-2023 10:00:27.161 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:00:27.161 +0000 INFO  loader - loading modules from /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:00:27.162 +0000 INFO  loader - Writing out composite configuration file: /workspaces/Splunk_installation/splunk/var/run/splunk/composite.xml
+05-02-2023 10:00:27.174 +0000 INFO  loader - Validated 11 indexes in 5.377 milliseconds
+05-02-2023 10:00:27.237 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+05-02-2023 10:00:27.237 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+05-02-2023 10:00:27.237 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+05-02-2023 10:00:27.625 +0000 INFO  loader - Getting configuration data from: /workspaces/Splunk_installation/splunk/etc/myinstall/splunkd.xml
+05-02-2023 10:00:27.626 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:00:27.626 +0000 INFO  loader - loading modules from /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:00:27.627 +0000 INFO  loader - Writing out composite configuration file: /workspaces/Splunk_installation/splunk/var/run/splunk/composite.xml

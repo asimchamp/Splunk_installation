@@ -1,0 +1,230 @@
+2023-05-02 10:00:25,615 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+.+++++
+.............................................................................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2023-05-02 10:00:25,761 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+............................+++++
+.............+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2023-05-02 10:00:41,566 +0000 INFO	__init__:174 - Using default logging config file: /workspaces/Splunk_installation/splunk/etc/log.cfg
+2023-05-02 10:00:41,567 +0000 INFO	__init__:212 - Setting logger=splunk level=INFO
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.appserver level=INFO
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.controllers level=INFO
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.controllers.proxy level=INFO
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.lib level=WARN
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.pdfgen level=INFO
+2023-05-02 10:00:41,568 +0000 INFO	__init__:212 - Setting logger=splunk.archiver_restoration level=INFO
+2023-05-02 10:00:42,310 +0000 INFO	lists:59 - List controller loaded: JobsListGenerator
+2023-05-02 10:00:42,310 +0000 INFO	lists:65 - Setting lists/jobs
+2023-05-02 10:00:42,311 +0000 INFO	lists:59 - List controller loaded: EntitiesListGenerator
+2023-05-02 10:00:42,311 +0000 INFO	lists:65 - Setting lists/entities
+2023-05-02 10:00:42,323 +0000 INFO	root:358 - Proxied mode ip_address=127.0.0.1 port=8065 exposed_port=8000:
+2023-05-02 10:00:42,472 +0000 INFO	root:631 - overriding JSON MIME type with 'text/plain; charset=UTF-8'
+2023-05-02 10:00:42,481 +0000 INFO	startup:139 - Splunk appserver version=UNKNOWN_VERSION build=000 isFree=False isTrial=True
+2023-05-02 10:00:42,481 +0000 INFO	root:661 - splunkdConnectionTimeout=30
+2023-05-02 10:00:42,482 +0000 INFO	root:168 - ENGINE: Listening for SIGTERM.
+2023-05-02 10:00:42,482 +0000 INFO	root:168 - ENGINE: Listening for SIGHUP.
+2023-05-02 10:00:42,482 +0000 INFO	root:168 - ENGINE: Listening for SIGUSR1.
+2023-05-02 10:00:42,482 +0000 INFO	root:734 - CONFIG: DISPATCH_TIME_FORMAT (str): %s.%Q
+2023-05-02 10:00:42,482 +0000 INFO	root:734 - CONFIG: SSOMode (str): strict
+2023-05-02 10:00:42,482 +0000 INFO	root:734 - CONFIG: acceptFrom (str): *
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: activeLicenseGroup (NoneType): None
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: activeLicenseSubgroup (str): UNKNOWN_LICENSE_SUBGROUP
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: addOns (dict): {}
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: allowSslCompression (bool): False
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: allowSslRenegotiation (bool): True
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: allowSsoWithoutChangingServerConf (int): 0
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: allow_insecure_libraries_toggle (bool): True
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: allowableTemplatePaths (str): 
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: appNavReportsLimit (int): 500
+2023-05-02 10:00:42,483 +0000 INFO	root:734 - CONFIG: appServerPorts (int): 8065
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: appServerProcessLogStderr (bool): False
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: build_number (str): 000
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: busyKeepAliveIdleTimeout (int): 12
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: cacheBytesLimit (int): 4194304
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: cacheEntriesLimit (int): 16384
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: certBasedUserAuthPivOidList (str): 1.3.6.1.4.1.311.20.2.3, Microsoft Universal Principal Name
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: choropleth_shape_limit (int): 10000
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: cipherSuite (str): ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: cpu_arch (str): UNKNOWN_CPU_ARCH
+2023-05-02 10:00:42,484 +0000 INFO	root:734 - CONFIG: crossOriginSharingHeaders (str): 
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: crossOriginSharingPolicy (str): 
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: customFavicon (str): 
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dashboard_html_allow_embeddable_content (bool): False
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dashboard_html_allow_iframes (bool): True
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dashboard_html_allow_inline_styles (bool): True
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dashboard_html_wrap_embed (bool): True
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dashboards_csp_allowed_domains (str): *.api.splkmobile.com
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: dedicatedIoThreads (int): 0
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: docsCheckerBaseURL (str): https://quickdraw.splunk.com/help
+2023-05-02 10:00:42,485 +0000 INFO	root:734 - CONFIG: ecdhCurves (str): prime256v1, secp384r1, secp521r1
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: embed_footer (str): splunk>
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: embed_uri (str): 
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enableSearchJobXslt (bool): True
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enableSplunkWebClientNetloc (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enableSplunkWebSSL (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enableWebDebug (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enable_autocomplete_login (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enable_gzip (bool): True
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enable_insecure_login (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enable_insecure_pdfgen (bool): False
+2023-05-02 10:00:42,486 +0000 INFO	root:734 - CONFIG: enable_pivot_adhoc_acceleration (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enable_proxy_write (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enable_risky_command_check (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enable_risky_command_check_dashboard (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enable_secure_entity_move (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enable_splunk_dashboard_app_feature (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enabled_decomposers (str): plot
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: enforce_dashboards_csp (bool): True
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: engine.autoreload.on (bool): False
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: error_page.default (method): <bound method ErrorController.handle_error of <splunk.appserver.mrsparkle.controllers.error.ErrorController object at 0x7effefe85cd0>>
+2023-05-02 10:00:42,487 +0000 INFO	root:734 - CONFIG: etc_path (str): /workspaces/Splunk_installation/splunk/etc
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: firstTimeLoginMessage (str): 
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: firstTimeLoginMessageOption (str): default
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: flash_major_version (int): 9
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: flash_minor_version (int): 0
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: flash_revision_version (int): 124
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: forceHttp10 (str): auto
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: guid (NoneType): None
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: httpport (int): 8065
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: includeSubDomains (bool): False
+2023-05-02 10:00:42,488 +0000 INFO	root:734 - CONFIG: install_type (str): UNKNOWN_INSTALL_TYPE
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: instance_type (str): cloud
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: is_forwarder_license (bool): False
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: is_free_license (bool): False
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: is_trial_license (bool): True
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: job_default_auto_cancel (int): 62
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: job_max_polling_interval (int): 1000
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: job_min_polling_interval (int): 100
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: js_logger_mode (str): None
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: js_logger_mode_server_end_point (str): util/log/js
+2023-05-02 10:00:42,489 +0000 INFO	root:734 - CONFIG: js_logger_mode_server_max_buffer (int): 100
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: js_logger_mode_server_poll_buffer (int): 1000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_results_limit (int): 10000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_series_limit (int): 100
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_test_mode (bool): False
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_truncation_limit.chrome (int): 50000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_truncation_limit.firefox (int): 50000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_truncation_limit.ie11 (int): 50000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: jschart_truncation_limit.safari (int): 50000
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: keepAliveIdleTimeout (int): 7200
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: license_desc (str): UNKNOWN_LICENSE_DESCRIPTION
+2023-05-02 10:00:42,490 +0000 INFO	root:734 - CONFIG: license_labels (list): []
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: license_state (str): OK
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: listenOnIPv6 (bool): False
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: log.access_maxfiles (int): 5
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: log.access_maxsize (int): 25000000
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: log.error_maxfiles (int): 5
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: log.error_maxsize (int): 25000000
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: log.screen (bool): True
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: loginBackgroundImageOption (str): default
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: loginCustomBackgroundImage (str): 
+2023-05-02 10:00:42,491 +0000 INFO	root:734 - CONFIG: loginCustomLogo (str): 
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: loginDocumentTitleOption (str): default
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: loginDocumentTitleText (str): 
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: loginFooterOption (str): default
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: loginFooterText (str): 
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: loginPasswordHint (str): 
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: login_content (str): 
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: mako_cache_path (str): /workspaces/Splunk_installation/splunk/var/run/splunk/mako_cache
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: master_guid (NoneType): None
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: maxSockets (int): 0
+2023-05-02 10:00:42,492 +0000 INFO	root:734 - CONFIG: maxThreads (int): 0
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: max_view_cache_size (int): 1000
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: mgmtHostPort (str): 127.0.0.1:8089
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: minify_css (bool): True
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: minify_js (bool): True
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: module_dir (str): share/splunk/search_mrsparkle/modules
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: mrsparkle_path (str): /workspaces/Splunk_installation/splunk/share/search/mrsparkle
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: os_name (str): UNKNOWN_OS_NAME
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: override_JSON_MIME_type_with_text_plain (bool): True
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: pdfgen_is_available (int): 1
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: pivot_adhoc_acceleration_mode (str): Elastic
+2023-05-02 10:00:42,493 +0000 INFO	root:734 - CONFIG: preload (bool): False
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: privKeyPath (str): $SPLUNK_HOME/etc/auth/splunkweb/privkey.pem
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: productMenuLabel (str): My Splunk
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: productMenuUriPrefix (str): https://splunkcommunities.force.com
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: product_type (str): splunk
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: remoteGroupsMatchExact (int): 0
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: remoteGroupsQuoted (bool): False
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: remoteUser (str): REMOTE-USER
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: remoteUserMatchExact (int): 0
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: request.show_tracebacks (bool): True
+2023-05-02 10:00:42,494 +0000 INFO	root:734 - CONFIG: response.timeout (int): 7200
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: root_endpoint (str): /
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: rss_endpoint (str): /rss
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: sendStrictTransportSecurityHeader (bool): False
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: server.max_request_body_size (int): 524288000
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: server.socket_host (str): 127.0.0.1
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: server.socket_port (int): 8065
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: server.thread_pool (int): 50
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: serverCert (str): $SPLUNK_HOME/etc/auth/splunkweb/cert.pem
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: serverName (str): 
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: showProductMenu (bool): False
+2023-05-02 10:00:42,495 +0000 INFO	root:734 - CONFIG: showUserMenuProfile (bool): False
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: show_app_context (bool): True
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: simple_error_page (bool): False
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: simplexml_dashboard_create_version (str): 1.1
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: site_packages_path (str): /workspaces/Splunk_installation/splunk/lib/python3.7/site-packages
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: splunk_dashboard_app_name (str): splunk-dashboard-studio
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: splunkdConnectionTimeout (int): 30
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: splunkdTrustedIP (NoneType): None
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: sslVersions (str): tls1.2
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: start_time (float): 1683021642.4816916
+2023-05-02 10:00:42,496 +0000 INFO	root:734 - CONFIG: startwebserver (int): 1
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: staticAssetId (str): 000
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: staticCompressionLevel (int): 9
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: static_dir (str): share/splunk/search_mrsparkle/exposed
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: static_endpoint (str): /static
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: staticdir (str): /workspaces/Splunk_installation/splunk/share/splunk/search_mrsparkle/exposed
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: template_dir (str): share/splunk/search_mrsparkle/templates
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: testing_dir (str): share/splunk/testing
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: testing_endpoint (str): /testing
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: tools.csrfcookie.name (str): splunkweb_csrf_token_8000
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: tools.csrfcookie.port (str): 8000
+2023-05-02 10:00:42,497 +0000 INFO	root:734 - CONFIG: tools.decode.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.encode.encoding (str): utf-8
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.encode.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.encode.text_only (bool): False
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.hook_injection_tool.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.log_headers.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.log_tracebacks.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.response_headers.headers (list): [('Server', 'Splunk')]
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.response_headers.on (bool): True
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.sessions.forceSecure (bool): False
+2023-05-02 10:00:42,498 +0000 INFO	root:734 - CONFIG: tools.sessions.httponly (bool): True
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.name (str): session_id_8000
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.on (bool): True
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.restart_persist (bool): True
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.secure (bool): False
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.storage_path (str): /workspaces/Splunk_installation/splunk/var/run/splunk
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.storage_type (str): file
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.sessions.timeout (int): 60
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: tools.trailing_slash.on (bool): True
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: trap_module_exceptions (bool): True
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: trustedIP (str): 127.0.0.1
+2023-05-02 10:00:42,499 +0000 INFO	root:734 - CONFIG: ui_inactivity_timeout (int): 60
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: updateCheckerBaseURL (str): https://quickdraw.splunk.com/js/
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: use_future_expires (bool): True
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: userRegistrationURL (str): https://www.splunk.com/page/sign_up
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: verifyCookiesWorkDuringLogin (bool): True
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: version_label (str): UNKNOWN_VERSION
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: version_number (str): UNKNOWN_VERSION
+2023-05-02 10:00:42,500 +0000 INFO	root:734 - CONFIG: x_frame_options_sameorigin (bool): True
+2023-05-02 10:00:42,501 +0000 INFO	root:168 - ENGINE: Bus STARTING
+2023-05-02 10:00:42,544 +0000 INFO	root:168 - ENGINE: Started monitor thread 'Monitor'.
+2023-05-02 10:00:42,612 +0000 INFO	root:168 - ENGINE: Serving on http://127.0.0.1:8065
+2023-05-02 10:00:42,613 +0000 INFO	root:168 - ENGINE: Bus STARTED
+2023-05-02 10:02:10,399 +0000 INFO	root:168 - ENGINE: Caught signal SIGTERM.
+2023-05-02 10:02:10,399 +0000 INFO	root:168 - ENGINE: Bus STOPPING
+2023-05-02 10:02:10,402 +0000 INFO	root:168 - ENGINE: HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8065)) shut down
+2023-05-02 10:02:10,403 +0000 INFO	root:168 - ENGINE: Stopped thread 'Monitor'.
+2023-05-02 10:02:10,403 +0000 INFO	root:168 - ENGINE: Bus STOPPED
+2023-05-02 10:02:10,403 +0000 INFO	root:168 - ENGINE: Bus EXITING
+2023-05-02 10:02:10,403 +0000 INFO	root:168 - ENGINE: Bus EXITED
+2023-05-02 10:02:10,410 +0000 INFO	root:168 - ENGINE: Waiting for child threads to terminate...
+2023-05-02 10:02:10,410 +0000 INFO	root:168 - ENGINE: Waiting for thread Thread-1.
