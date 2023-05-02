@@ -14,3 +14,18 @@
 05-02-2023 10:00:27.626 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /workspaces/Splunk_installation/splunk/etc/modules
 05-02-2023 10:00:27.626 +0000 INFO  loader - loading modules from /workspaces/Splunk_installation/splunk/etc/modules
 05-02-2023 10:00:27.627 +0000 INFO  loader - Writing out composite configuration file: /workspaces/Splunk_installation/splunk/var/run/splunk/composite.xml
+05-02-2023 10:29:24.687 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+05-02-2023 10:29:24.690 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+05-02-2023 10:29:24.690 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+05-02-2023 10:29:26.078 +0000 INFO  loader - Getting configuration data from: /workspaces/Splunk_installation/splunk/etc/myinstall/splunkd.xml
+05-02-2023 10:29:26.078 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:29:26.078 +0000 INFO  loader - loading modules from /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:29:26.080 +0000 INFO  loader - Writing out composite configuration file: /workspaces/Splunk_installation/splunk/var/run/splunk/composite.xml
+05-02-2023 10:29:26.140 +0000 INFO  loader - Validated 11 indexes in 39.82 milliseconds
+05-02-2023 10:29:26.237 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+05-02-2023 10:29:26.237 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+05-02-2023 10:29:26.237 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+05-02-2023 10:29:26.965 +0000 INFO  loader - Getting configuration data from: /workspaces/Splunk_installation/splunk/etc/myinstall/splunkd.xml
+05-02-2023 10:29:26.965 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:29:26.965 +0000 INFO  loader - loading modules from /workspaces/Splunk_installation/splunk/etc/modules
+05-02-2023 10:29:26.966 +0000 INFO  loader - Writing out composite configuration file: /workspaces/Splunk_installation/splunk/var/run/splunk/composite.xml

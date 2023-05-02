@@ -1,0 +1,6 @@
+2023-05-02 10:30:24,817 INFO [assist::uiassets_modular_input.py] [uiassets_modular_input] [_run] [4820] Supervisor update required, etag="d245779fec1b5244982aced1a829b532", url=https://beam.scs.splunk.com/com.splunk.assist.ui/latest/com.splunk.assist.ui-assets.tgz
+2023-05-02 10:30:24,887 INFO [assist::uiassets_modular_input.py] [download] [run] [4820] Download command started
+2023-05-02 10:30:25,692 INFO [assist::uiassets_modular_input.py] [logging] [log_process_output] [4820] Download will extract, file=/workspaces/Splunk_installation/splunk/var/splunk_assist/ui/assets/8261262e24ae320a0d8b7b04fdd3c21c7f3fc9d93e9201960919e0582620a125/com.splunk.assist.ui-assets
+2023-05-02 10:30:25,692 INFO [assist::uiassets_modular_input.py] [download] [run] [4820] Download command complete, return_code=0
+2023-05-02 10:30:25,692 INFO [assist::uiassets_modular_input.py] [config] [_set_app_config] [4820] Updating local node config, key=assets_root, value=/workspaces/Splunk_installation/splunk/var/splunk_assist/ui/assets/8261262e24ae320a0d8b7b04fdd3c21c7f3fc9d93e9201960919e0582620a125/com.splunk.assist.ui-assets
+2023-05-02 10:30:25,707 INFO [assist::uiassets_modular_input.py] [config] [_set_app_config] [4820] Updating local node config, key=etag, value="d245779fec1b5244982aced1a829b532"

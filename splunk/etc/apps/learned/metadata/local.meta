@@ -32,3 +32,8 @@ modtime = 1683021640.790290000
 owner = nobody
 version = 9.0.4.1
 modtime = 1683021649.506568000
+
+[props/splunk_instrumentation-too_small]
+owner = nobody
+version = 9.0.4.1
+modtime = 1683023407.096489000

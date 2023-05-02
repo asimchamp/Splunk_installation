@@ -622,3 +622,246 @@
  2023-05-02T10:02:16.176Z I  -        [signalProcessingThread] Dropping the scope cache for shutdown
  2023-05-02T10:02:16.176Z I  CONTROL  [signalProcessingThread] now exiting
  2023-05-02T10:02:16.176Z I  CONTROL  [signalProcessingThread] shutting down with code:0
+ 2023-05-02T10:29:36.822+0000 W  CONTROL  [main] Option: sslMode is deprecated. Please use tlsMode instead.
+ 2023-05-02T10:29:36.822+0000 W  CONTROL  [main] Option: sslPEMKeyFile is deprecated. Please use tlsCertificateKeyFile instead.
+ 2023-05-02T10:29:36.822+0000 W  CONTROL  [main] Option: sslPEMKeyPassword is deprecated. Please use tlsCertificateKeyFilePassword instead.
+ 2023-05-02T10:29:36.822+0000 W  CONTROL  [main] Option: sslCipherConfig is deprecated. Please use tlsCipherConfig instead.
+ 2023-05-02T10:29:36.822+0000 W  CONTROL  [main] Option: sslAllowInvalidHostnames is deprecated. Please use tlsAllowInvalidHostnames instead.
+ 2023-05-02T10:29:36.835Z W  CONTROL  [main] net.tls.tlsCipherConfig is deprecated. It will be removed in a future release.
+ 2023-05-02T10:29:36.894Z W  NETWORK  [main] Server certificate has no compatible Subject Alternative Name. This may prevent TLS clients from connecting
+ 2023-05-02T10:29:36.900Z W  ASIO     [main] No TransportLayer configured during NetworkInterface startup
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] MongoDB starting : pid=3872 port=8191 dbpath=/workspaces/Splunk_installation/splunk/var/lib/splunk/kvstore/mongo 64-bit host=codespaces-1e503f
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] db version v4.2.17-linux-splunk-v4
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] git version: be089838c55d33b6f6039c4219896ee4a3cd704f
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2zf-fips  21 Jun 2022
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] allocator: tcmalloc
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] modules: none
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] build environment:
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten]     distmod: rhel62
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten]     distarch: x86_64
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten]     target_arch: x86_64
+ 2023-05-02T10:29:36.953Z I  CONTROL  [initandlisten] options: { net: { bindIp: "0.0.0.0", port: 8191, tls: { allowInvalidHostnames: true, certificateKeyFile: "/workspaces/Splunk_installation/splunk/etc/auth/server.pem", certificateKeyFilePassword: "<password>", disabledProtocols: "noTLS1_0,noTLS1_1", mode: "requireTLS", tlsCipherConfig: "ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RS..." }, unixDomainSocket: { enabled: false } }, replication: { oplogSizeMB: 200, replSet: "C39C9F92-4A71-49A3-92DB-0A4A14639E88" }, security: { javascriptEnabled: false, keyFile: "/workspaces/Splunk_installation/splunk/var/lib/splunk/kvstore/mongo/splunk.key" }, setParameter: { enableLocalhostAuthBypass: "0", oplogFetcherSteadyStateMaxFetcherRestarts: "0" }, storage: { dbPath: "/workspaces/Splunk_installation/splunk/var/lib/splunk/kvstore/mongo", engine: "wiredTiger", wiredTiger: { engineConfig: { cacheSizeGB: 1.05 } } }, systemLog: { timeStampFormat: "iso8601-utc" } }
+ 2023-05-02T10:29:36.975Z I  STORAGE  [initandlisten] 
+ 2023-05-02T10:29:36.975Z I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+ 2023-05-02T10:29:36.975Z I  STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+ 2023-05-02T10:29:36.975Z I  STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1075M,cache_overflow=(file_max=0M),session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress],
+ 2023-05-02T10:29:37.540Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:540839][3872:0x7fe59ca18b40], txn-recover: Recovering log 1 through 2
+ 2023-05-02T10:29:37.642Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:642384][3872:0x7fe59ca18b40], txn-recover: Recovering log 2 through 2
+ 2023-05-02T10:29:37.735Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:735546][3872:0x7fe59ca18b40], txn-recover: Main recovery loop: starting at 1/551808 to 2/256
+ 2023-05-02T10:29:37.736Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:736288][3872:0x7fe59ca18b40], txn-recover: Recovering log 1 through 2
+ 2023-05-02T10:29:37.803Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:803312][3872:0x7fe59ca18b40], txn-recover: Recovering log 2 through 2
+ 2023-05-02T10:29:37.849Z I  STORAGE  [initandlisten] WiredTiger message [1683023377:849606][3872:0x7fe59ca18b40], txn-recover: Set global recovery timestamp: (1683021730, 1)
+ 2023-05-02T10:29:37.988Z I  RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(1683021730, 1)
+ 2023-05-02T10:29:37.993Z I  STORAGE  [initandlisten] No table logging settings modifications are required for existing WiredTiger tables. Logging enabled? 0
+ 2023-05-02T10:29:38.013Z I  STORAGE  [initandlisten] Starting OplogTruncaterThread local.oplog.rs
+ 2023-05-02T10:29:38.014Z I  STORAGE  [initandlisten] The size storer reports that the oplog contains 166 records totaling to 79201 bytes
+ 2023-05-02T10:29:38.014Z I  STORAGE  [initandlisten] Scanning the oplog to determine where to place markers for truncation
+ 2023-05-02T10:29:38.048Z I  STORAGE  [initandlisten] WiredTiger record store oplog processing took 34ms
+ 2023-05-02T10:29:38.052Z I  STORAGE  [initandlisten] Timestamp monitor starting
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] ** WARNING: This server will not perform X.509 hostname validation
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] ** This may allow your server to make or accept connections to
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] ** untrusted parties
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] 
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] ** WARNING: No client certificate validation can be performed since no CA file has been provided
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] **          Please specify an sslCAFile parameter.
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] 
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] **        We suggest setting it to 'never'
+ 2023-05-02T10:29:38.074Z I  CONTROL  [initandlisten] 
+ 2023-05-02T10:29:38.119Z I  STORAGE  [initandlisten] Flow Control is enabled on this deployment.
+ 2023-05-02T10:29:38.150Z I  FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/workspaces/Splunk_installation/splunk/var/lib/splunk/kvstore/mongo/diagnostic.data'
+ 2023-05-02T10:29:38.212Z I  REPL     [initandlisten] Rollback ID is 1
+ 2023-05-02T10:29:38.213Z I  REPL     [initandlisten] Recovering from stable timestamp: Timestamp(1683021730, 1) (top of oplog: { ts: Timestamp(1683021730, 1), t: 1 }, appliedThrough: { ts: Timestamp(0, 0), t: -1 }, TruncateAfter: Timestamp(0, 0))
+ 2023-05-02T10:29:38.213Z I  REPL     [initandlisten] Starting recovery oplog application at the stable timestamp: Timestamp(1683021730, 1)
+ 2023-05-02T10:29:38.213Z I  REPL     [initandlisten] No oplog entries to apply for recovery. Start point is at the top of the oplog.
+ 2023-05-02T10:29:38.217Z I  REPL     [replexec-0] New replica set config in use: { _id: "C39C9F92-4A71-49A3-92DB-0A4A14639E88", version: 1, protocolVersion: 1, writeConcernMajorityJournalDefault: true, members: [ { _id: 0, host: "127.0.0.1:8191", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: { instance: "C39C9F92-4A71-49A3-92DB-0A4A14639E88", all: "all" }, slaveDelay: 0, votes: 1 } ], settings: { chainingAllowed: true, heartbeatIntervalMillis: 2000, heartbeatTimeoutSecs: 10, electionTimeoutMillis: 10000, catchUpTimeoutMillis: -1, catchUpTakeoverDelayMillis: 30000, getLastErrorModes: {}, getLastErrorDefaults: { w: 1, wtimeout: 0 }, replicaSetId: ObjectId('6450df65d9d387ef225263fc') } }
+ 2023-05-02T10:29:38.217Z I  REPL     [replexec-0] This node is 127.0.0.1:8191 in the config
+ 2023-05-02T10:29:38.217Z I  REPL     [replexec-0] transition to STARTUP2 from STARTUP
+ 2023-05-02T10:29:38.217Z I  REPL     [replexec-0] Starting replication storage threads
+ 2023-05-02T10:29:38.218Z I  REPL     [replexec-0] transition to RECOVERING from STARTUP2
+ 2023-05-02T10:29:38.218Z I  REPL     [replexec-0] Starting replication fetcher thread
+ 2023-05-02T10:29:38.218Z I  REPL     [replexec-0] Starting replication applier thread
+ 2023-05-02T10:29:38.218Z I  REPL     [replexec-0] Starting replication reporter thread
+ 2023-05-02T10:29:38.218Z I  REPL     [rsSync-0] Starting oplog application
+ 2023-05-02T10:29:38.219Z I  REPL     [rsSync-0] transition to SECONDARY from RECOVERING
+ 2023-05-02T10:29:38.219Z I  ELECTION [rsSync-0] conducting a dry run election to see if we could be elected. current term: 1
+ 2023-05-02T10:29:38.219Z I  ELECTION [replexec-0] dry election run succeeded, running for election in term 2
+ 2023-05-02T10:29:38.220Z I  NETWORK  [LogicalSessionCacheRefresh] Starting new replica set monitor for C39C9F92-4A71-49A3-92DB-0A4A14639E88/127.0.0.1:8191
+ 2023-05-02T10:29:38.221Z I  NETWORK  [listener] Listening on 0.0.0.0
+ 2023-05-02T10:29:38.221Z I  NETWORK  [listener] waiting for connections on port 8191 ssl
+ 2023-05-02T10:29:38.252Z I  ELECTION [replexec-0] election succeeded, assuming primary role in term 2
+ 2023-05-02T10:29:38.253Z I  REPL     [replexec-0] transition to PRIMARY from SECONDARY
+ 2023-05-02T10:29:38.253Z I  REPL     [replexec-0] Resetting sync source to empty, which was :27017
+ 2023-05-02T10:29:38.253Z I  REPL     [replexec-0] Entering primary catch-up mode.
+ 2023-05-02T10:29:38.253Z I  REPL     [replexec-0] Exited primary catch-up mode.
+ 2023-05-02T10:29:38.253Z I  REPL     [replexec-0] Stopping replication producer
+ 2023-05-02T10:29:38.253Z I  REPL     [ReplBatcher] Oplog buffer has been drained in term 2
+ 2023-05-02T10:29:38.258Z I  REPL     [RstlKillOpThread] Starting to kill user operations
+ 2023-05-02T10:29:38.258Z I  CONNPOOL [ReplicaSetMonitor-TaskExecutor] Connecting to 127.0.0.1:8191
+ 2023-05-02T10:29:38.259Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36400 #2 (1 connection now open)
+ 2023-05-02T10:29:38.291Z I  NETWORK  [conn2] received client metadata from 127.0.0.1:36400 conn2: { driver: { name: "NetworkInterfaceTL", version: "4.2.17-linux-splunk-v4" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+ 2023-05-02T10:29:38.387Z I  ACCESS   [conn2] Successfully authenticated as principal __system on local from client 127.0.0.1:36400
+ 2023-05-02T10:29:38.387Z W  NETWORK  [ReplicaSetMonitor-TaskExecutor] Unable to reach primary for set C39C9F92-4A71-49A3-92DB-0A4A14639E88
+ 2023-05-02T10:29:38.411Z I  REPL     [RstlKillOpThread] Stopped killing user operations
+ 2023-05-02T10:29:38.411Z I  REPL     [RstlKillOpThread] State transition ops metrics: { lastStateTransition: "stepUp", userOpsKilled: 0, userOpsRunning: 0 }
+ 2023-05-02T10:29:38.413Z I  REPL     [rsSync-0] transition to primary complete; database writes are now permitted
+ 2023-05-02T10:29:38.413Z I  COMMAND  [LogicalSessionCacheReap] command config.system.sessions command: listIndexes { listIndexes: "system.sessions", cursor: {}, $db: "config" } numYields:0 ok:0 errMsg:"ns does not exist: config.system.sessions" errName:NamespaceNotFound errCode:26 reslen:259 locks:{ ReplicationStateTransition: { acquireCount: { w: 1 } }, Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 2 } }, Mutex: { acquireCount: { r: 1 } } } protocol:op_msg 190ms
+ 2023-05-02T10:29:38.413Z I  CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+ 2023-05-02T10:29:38.758Z I  NETWORK  [ReplicaSetMonitor-TaskExecutor] Confirmed replica set for C39C9F92-4A71-49A3-92DB-0A4A14639E88 is C39C9F92-4A71-49A3-92DB-0A4A14639E88/127.0.0.1:8191
+ 2023-05-02T10:29:38.758Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36408 #4 (2 connections now open)
+ 2023-05-02T10:29:38.761Z I  NETWORK  [conn4] received client metadata from 127.0.0.1:36408 conn4: { driver: { name: "MongoDB Internal Client", version: "4.2.17-linux-splunk-v4" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+ 2023-05-02T10:29:38.761Z I  NETWORK  [LogicalSessionCacheRefresh] Successfully connected to 127.0.0.1:8191 (1 connections now open to 127.0.0.1:8191 with a 0 second timeout)
+ 2023-05-02T10:29:38.762Z I  ACCESS   [conn4] Successfully authenticated as principal __system on local from client 127.0.0.1:36408
+ 2023-05-02T10:29:38.762Z I  NETWORK  [conn4] end connection 127.0.0.1:36408 (1 connection now open)
+ 2023-05-02T10:29:38.763Z I  CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: config.system.sessions does not exist
+ 2023-05-02T10:29:38.907Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36416 #5 (2 connections now open)
+ 2023-05-02T10:29:38.919Z I  NETWORK  [conn5] received client metadata from 127.0.0.1:36416 conn5: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:38.921Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36418 #6 (3 connections now open)
+ 2023-05-02T10:29:38.921Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36420 #7 (4 connections now open)
+ 2023-05-02T10:29:38.921Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36422 #8 (5 connections now open)
+ 2023-05-02T10:29:38.921Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36440 #9 (6 connections now open)
+ 2023-05-02T10:29:38.922Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36456 #10 (7 connections now open)
+ 2023-05-02T10:29:38.943Z I  NETWORK  [conn8] received client metadata from 127.0.0.1:36422 conn8: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:38.944Z I  NETWORK  [conn9] received client metadata from 127.0.0.1:36440 conn9: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:38.944Z I  NETWORK  [conn10] received client metadata from 127.0.0.1:36456 conn10: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:38.947Z I  NETWORK  [conn6] received client metadata from 127.0.0.1:36418 conn6: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:38.954Z I  NETWORK  [conn7] received client metadata from 127.0.0.1:36420 conn7: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:39.177Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36466 #11 (8 connections now open)
+ 2023-05-02T10:29:39.224Z I  NETWORK  [conn11] received client metadata from 127.0.0.1:36466 conn11: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:39.311Z I  ACCESS   [conn6] Successfully authenticated as principal __system on local from client 127.0.0.1:36418
+ 2023-05-02T10:29:39.335Z I  ACCESS   [conn8] Successfully authenticated as principal __system on local from client 127.0.0.1:36422
+ 2023-05-02T10:29:39.368Z I  ACCESS   [conn7] Successfully authenticated as principal __system on local from client 127.0.0.1:36420
+ 2023-05-02T10:29:39.370Z I  ACCESS   [conn10] Successfully authenticated as principal __system on local from client 127.0.0.1:36456
+ 2023-05-02T10:29:39.378Z I  ACCESS   [conn9] Successfully authenticated as principal __system on local from client 127.0.0.1:36440
+ 2023-05-02T10:29:39.515Z I  ACCESS   [conn11] Successfully authenticated as principal __system on local from client 127.0.0.1:36466
+ 2023-05-02T10:29:39.516Z I  NETWORK  [conn11] end connection 127.0.0.1:36466 (7 connections now open)
+ 2023-05-02T10:29:40.517Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36480 #12 (8 connections now open)
+ 2023-05-02T10:29:40.529Z I  NETWORK  [conn12] received client metadata from 127.0.0.1:36480 conn12: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:40.718Z I  ACCESS   [conn12] Successfully authenticated as principal __system on local from client 127.0.0.1:36480
+ 2023-05-02T10:29:40.722Z I  NETWORK  [conn12] end connection 127.0.0.1:36480 (7 connections now open)
+ 2023-05-02T10:29:40.735Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36490 #13 (8 connections now open)
+ 2023-05-02T10:29:40.741Z I  NETWORK  [conn13] received client metadata from 127.0.0.1:36490 conn13: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:40.741Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36498 #14 (9 connections now open)
+ 2023-05-02T10:29:40.748Z I  NETWORK  [conn14] received client metadata from 127.0.0.1:36498 conn14: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:40.882Z I  ACCESS   [conn14] Successfully authenticated as principal __system on local from client 127.0.0.1:36498
+ 2023-05-02T10:29:40.884Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36504 #15 (10 connections now open)
+ 2023-05-02T10:29:40.893Z I  NETWORK  [conn15] received client metadata from 127.0.0.1:36504 conn15: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:41.026Z I  ACCESS   [conn15] Successfully authenticated as principal __system on local from client 127.0.0.1:36504
+ 2023-05-02T10:29:41.033Z I  NETWORK  [conn15] end connection 127.0.0.1:36504 (9 connections now open)
+ 2023-05-02T10:29:41.033Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36512 #16 (10 connections now open)
+ 2023-05-02T10:29:41.042Z I  NETWORK  [conn16] received client metadata from 127.0.0.1:36512 conn16: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:41.168Z I  ACCESS   [conn16] Successfully authenticated as principal __system on local from client 127.0.0.1:36512
+ 2023-05-02T10:29:41.169Z I  NETWORK  [conn16] end connection 127.0.0.1:36512 (9 connections now open)
+ 2023-05-02T10:29:41.170Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36516 #17 (10 connections now open)
+ 2023-05-02T10:29:41.183Z I  NETWORK  [conn17] received client metadata from 127.0.0.1:36516 conn17: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:41.254Z I  ACCESS   [conn17] Successfully authenticated as principal __system on local from client 127.0.0.1:36516
+ 2023-05-02T10:29:41.254Z I  NETWORK  [conn17] end connection 127.0.0.1:36516 (9 connections now open)
+ 2023-05-02T10:29:41.263Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36528 #18 (10 connections now open)
+ 2023-05-02T10:29:41.280Z I  NETWORK  [conn18] received client metadata from 127.0.0.1:36528 conn18: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:41.282Z I  NETWORK  [listener] connection accepted from 127.0.0.1:36544 #19 (11 connections now open)
+ 2023-05-02T10:29:41.286Z I  NETWORK  [conn19] received client metadata from 127.0.0.1:36544 conn19: { driver: { name: "mongoc", version: "1.16.2" }, os: { type: "Linux", name: "Ubuntu", version: "20.04", architecture: "x86_64" }, platform: "cfg=0x00001620c9 posix=200112 stdc=201710 CC=GCC 9.1.0 CFLAGS="-g -fstack-protector-strong -static-libgcc -L/opt/splunk-home/lib/static-libstdc" LDFLA..." }
+ 2023-05-02T10:29:41.356Z I  ACCESS   [conn19] Successfully authenticated as principal __system on local from client 127.0.0.1:36544
+ 2023-05-02T10:29:41.356Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 100, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.357Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.357Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.358Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.358Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.359Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.360Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.361Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.361Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.362Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.363Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.364Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.365Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.365Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.366Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.367Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.367Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.368Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.369Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.369Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.370Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.370Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.371Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.372Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.372Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.373Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.374Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.374Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.375Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.375Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.376Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.377Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.377Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.378Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.379Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.379Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.380Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.381Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.381Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.382Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:29:41.383Z I  COMMAND  [conn19] {msg: "Profiler settings changed", from:{ level: 0, slowms: 1000, sampleRate: 1.0 }, to:{ level: 0, slowms: 1000, sampleRate: 1.0 }}
+ 2023-05-02T10:34:38.220Z I  CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+ 2023-05-02T10:34:38.242Z I  STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with provided UUID: 43b0fd4d-38c2-427a-9440-080cffea44be and options: { uuid: UUID("43b0fd4d-38c2-427a-9440-080cffea44be") }
+ 2023-05-02T10:34:38.318Z I  INDEX    [LogicalSessionCacheRefresh] index build: done building index _id_ on ns config.system.sessions
+ 2023-05-02T10:34:38.394Z I  INDEX    [LogicalSessionCacheRefresh] index build: starting on config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 } using method: Hybrid
+ 2023-05-02T10:34:38.394Z I  INDEX    [LogicalSessionCacheRefresh] build may temporarily use up to 200 megabytes of RAM
+ 2023-05-02T10:34:38.394Z I  INDEX    [LogicalSessionCacheRefresh] index build: collection scan done. scanned 0 total records in 0 seconds
+ 2023-05-02T10:34:38.395Z I  INDEX    [LogicalSessionCacheRefresh] index build: inserted 0 keys from external sorter into index in 0 seconds
+ 2023-05-02T10:34:38.410Z I  INDEX    [LogicalSessionCacheRefresh] index build: done building index lsidTTLIndex on ns config.system.sessions
+ 2023-05-02T10:34:38.758Z I  CONNPOOL [ReplicaSetMonitor-TaskExecutor] Dropping all pooled connections to 127.0.0.1:8191 due to ShutdownInProgress: Pool for 127.0.0.1:8191 has expired.
+ 2023-05-02T10:34:38.758Z I  NETWORK  [conn2] end connection 127.0.0.1:36400 (10 connections now open)
+ 2023-05-02T10:40:21.824Z I  NETWORK  [conn19] end connection 127.0.0.1:36544 (9 connections now open)
+ 2023-05-02T10:40:21.824Z I  NETWORK  [conn18] end connection 127.0.0.1:36528 (8 connections now open)
+ 2023-05-02T10:40:21.825Z I  CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+ 2023-05-02T10:40:21.825Z I  REPL     [signalProcessingThread] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+ 2023-05-02T10:40:21.825Z I  SHARDING [signalProcessingThread] Shutting down the WaitForMajorityService
+ 2023-05-02T10:40:21.825Z I  NETWORK  [conn13] end connection 127.0.0.1:36490 (7 connections now open)
+ 2023-05-02T10:40:21.825Z I  NETWORK  [conn14] end connection 127.0.0.1:36498 (6 connections now open)
+ 2023-05-02T10:40:21.833Z I  CONTROL  [signalProcessingThread] Shutting down the LogicalSessionCache
+ 2023-05-02T10:40:21.833Z I  NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+ 2023-05-02T10:40:21.833Z I  NETWORK  [signalProcessingThread] Shutting down the global connection pool
+ 2023-05-02T10:40:21.833Z I  STORAGE  [signalProcessingThread] Shutting down the FlowControlTicketholder
+ 2023-05-02T10:40:21.833Z I  -        [signalProcessingThread] Stopping further Flow Control ticket acquisitions.
+ 2023-05-02T10:40:21.833Z I  STORAGE  [signalProcessingThread] Shutting down the PeriodicThreadToAbortExpiredTransactions
+ 2023-05-02T10:40:21.834Z I  STORAGE  [signalProcessingThread] Shutting down the PeriodicThreadToDecreaseSnapshotHistoryIfNotNeeded
+ 2023-05-02T10:40:21.834Z I  REPL     [signalProcessingThread] Shutting down the ReplicationCoordinator
+ 2023-05-02T10:40:21.834Z I  REPL     [signalProcessingThread] shutting down replication subsystems
+ 2023-05-02T10:40:21.834Z I  REPL     [signalProcessingThread] Stopping replication reporter thread
+ 2023-05-02T10:40:21.834Z I  REPL     [signalProcessingThread] Stopping replication fetcher thread
+ 2023-05-02T10:40:21.834Z I  REPL     [signalProcessingThread] Stopping replication applier thread
+ 2023-05-02T10:40:21.834Z I  REPL     [rsBackgroundSync] Stopping replication producer
+ 2023-05-02T10:40:22.583Z I  REPL     [rsSync-0] Finished oplog application
+ 2023-05-02T10:40:22.583Z I  REPL     [signalProcessingThread] Stopping replication storage threads
+ 2023-05-02T10:40:22.583Z I  ASIO     [RS] Killing all outstanding egress activity.
+ 2023-05-02T10:40:22.583Z I  ASIO     [RS] Killing all outstanding egress activity.
+ 2023-05-02T10:40:22.584Z I  ASIO     [Replication] Killing all outstanding egress activity.
+ 2023-05-02T10:40:22.584Z I  SHARDING [signalProcessingThread] Shutting down the ShardingInitializationMongoD
+ 2023-05-02T10:40:22.584Z I  REPL     [signalProcessingThread] Enqueuing the ReplicationStateTransitionLock for shutdown
+ 2023-05-02T10:40:22.584Z I  -        [signalProcessingThread] Killing all operations for shutdown
+ 2023-05-02T10:40:22.584Z I  COMMAND  [signalProcessingThread] Shutting down all open transactions
+ 2023-05-02T10:40:22.584Z I  REPL     [signalProcessingThread] Acquiring the ReplicationStateTransitionLock for shutdown
+ 2023-05-02T10:40:22.584Z I  INDEX    [signalProcessingThread] Shutting down the IndexBuildsCoordinator
+ 2023-05-02T10:40:22.584Z I  NETWORK  [signalProcessingThread] Shutting down the ReplicaSetMonitor
+ 2023-05-02T10:40:22.584Z I  ASIO     [ReplicaSetMonitor-TaskExecutor] Killing all outstanding egress activity.
+ 2023-05-02T10:40:22.584Z I  REPL     [signalProcessingThread] Shutting down the LogicalTimeValidator
+ 2023-05-02T10:40:22.618Z I  CONTROL  [signalProcessingThread] Shutting down free monitoring
+ 2023-05-02T10:40:22.618Z I  FTDC     [signalProcessingThread] Shutting down full-time data capture
+ 2023-05-02T10:40:22.618Z I  FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+ 2023-05-02T10:40:22.621Z I  STORAGE  [signalProcessingThread] Shutting down the HealthLog
+ 2023-05-02T10:40:22.621Z I  STORAGE  [signalProcessingThread] Shutting down the storage engine
+ 2023-05-02T10:40:22.621Z I  STORAGE  [signalProcessingThread] Deregistering all the collections
+ 2023-05-02T10:40:22.621Z I  STORAGE  [WTOplogJournalThread] Oplog journal thread loop shutting down
+ 2023-05-02T10:40:22.622Z I  STORAGE  [signalProcessingThread] Timestamp monitor shutting down
+ 2023-05-02T10:40:22.622Z I  STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+ 2023-05-02T10:40:22.640Z I  STORAGE  [signalProcessingThread] Shutting down session sweeper thread
+ 2023-05-02T10:40:22.641Z I  STORAGE  [signalProcessingThread] Finished shutting down session sweeper thread
+ 2023-05-02T10:40:22.641Z I  STORAGE  [signalProcessingThread] Shutting down journal flusher thread
+ 2023-05-02T10:40:22.713Z I  STORAGE  [signalProcessingThread] Finished shutting down journal flusher thread
+ 2023-05-02T10:40:22.713Z I  STORAGE  [signalProcessingThread] Shutting down checkpoint thread
+ 2023-05-02T10:40:22.713Z I  STORAGE  [signalProcessingThread] Finished shutting down checkpoint thread
+ 2023-05-02T10:40:22.876Z I  STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+ 2023-05-02T10:40:22.876Z I  -        [signalProcessingThread] Dropping the scope cache for shutdown
+ 2023-05-02T10:40:22.876Z I  CONTROL  [signalProcessingThread] now exiting
+ 2023-05-02T10:40:22.876Z I  CONTROL  [signalProcessingThread] shutting down with code:0

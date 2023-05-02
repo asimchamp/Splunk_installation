@@ -1,0 +1,10 @@
+2023-05-02 10:34:40,037 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7021] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2023-05-02 10:34:40,043 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7021] Supervisor metadata found, platform=linux
+2023-05-02 10:34:40,114 INFO [assist::selfupdate_modular_input.py] [selfupdate_modular_input] [_apply_update] [7021] Supervisor update required, etag="bcf134594b0b472e28af9547f2b2a26d", url=https://beam.scs.splunk.com/assistsup/v0.0.198-689fac1f-20221119t005809/linux/assistsup.tar.gz
+2023-05-02 10:34:40,196 INFO [assist::selfupdate_modular_input.py] [download] [run] [7021] Download command started
+2023-05-02 10:34:40,820 INFO [assist::selfupdate_modular_input.py] [logging] [log_process_output] [7021] Download will extract, file=/workspaces/Splunk_installation/splunk/var/splunk_assist/supervisor/updates/d7349d380f4623b4b4e8ddb77abd193582324a2bc61fbd2361dda25ab9d9b861/assistsup.tar
+2023-05-02 10:34:40,821 INFO [assist::selfupdate_modular_input.py] [download] [run] [7021] Download command complete, return_code=0
+2023-05-02 10:34:40,821 INFO [assist::selfupdate_modular_input.py] [config] [_set_app_config] [7021] Updating local node config, key=etag, value="bcf134594b0b472e28af9547f2b2a26d"
+2023-05-02 10:34:40,833 INFO [assist::selfupdate_modular_input.py] [config] [_set_app_config] [7021] Updating local node config, key=local_path, value=/workspaces/Splunk_installation/splunk/var/splunk_assist/supervisor/updates/d7349d380f4623b4b4e8ddb77abd193582324a2bc61fbd2361dda25ab9d9b861/assistsup.tar
+2023-05-02 10:39:40,140 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9750] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2023-05-02 10:39:40,163 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9750] Supervisor metadata found, platform=linux

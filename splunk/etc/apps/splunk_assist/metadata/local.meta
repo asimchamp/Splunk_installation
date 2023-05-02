@@ -1,3 +1,15 @@
 [assist/metadata]
 version = 9.0.4.1
 modtime = 1683021640.115939000
+
+[assist/ui]
+version = 9.0.4.1
+modtime = 1683023425.715462000
+
+[assist/updates]
+version = 9.0.4.1
+modtime = 1683023680.830605000
+
+[assist/supervisor]
+version = 9.0.4.1
+modtime = 1683023680.840489000

@@ -1,0 +1,3 @@
+0	2	845	1683023409	1683024018	1683024018	
+1	source::/workspaces/Splunk_installation/splunk/var/log/splunk/metrics.log	793	1683023409	1683023998	1683024001	
+2	source::/workspaces/Splunk_installation/splunk/var/log/introspection/resource_usage.log	 52	1683023508	1683024018	1683024018	

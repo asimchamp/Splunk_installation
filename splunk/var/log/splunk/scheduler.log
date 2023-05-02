@@ -4,3 +4,13 @@
 05-02-2023 10:02:00.477 +0000 INFO  SavedSplunker - DCSS: completed reading history for continuous scheduled searches
 05-02-2023 10:02:16.302 +0000 INFO  SavedSplunker - Shutting down the SavedSearchFetcher thread
 05-02-2023 10:02:16.302 +0000 INFO  SavedSplunker - Ending SavedSearchFetcher thread
+05-02-2023 10:29:39.246 +0000 INFO  SavedSplunker - Starting SavedSearchFetcher thread
+05-02-2023 10:29:39.254 +0000 INFO  SavedSplunker - async_saved_search_fetch has been activated with an interval of 30.000 seconds.
+05-02-2023 10:30:09.271 +0000 INFO  SavedSplunker - DCSS: completed reading history for continuous scheduled searches
+05-02-2023 10:30:09.552 +0000 INFO  SavedSearchHistory - Thread started
+05-02-2023 10:30:09.564 +0000 INFO  SavedSplunker - savedsearch_id="nobody;splunk_monitoring_console;DMC Asset - Build Standalone Asset Table", search_type="scheduled", search_streaming=0, user="nobody", app="splunk_monitoring_console", savedsearch_name="DMC Asset - Build Standalone Asset Table", priority=default, status=success, digest_mode=1, durable_cursor=0, scheduled_time=1683023378, window_time=0, dispatch_time=1683023409, run_time=0.149, result_count=4, alert_actions="populate_lookup", sid="scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1683023378_0", suppressed=0, thread_id="AlertNotifierWorker-0", workload_pool=""
+05-02-2023 10:40:21.822 +0000 INFO  SavedSearchHistory - Shut-down started
+05-02-2023 10:40:21.822 +0000 INFO  SavedSearchHistory - Thread stopped
+05-02-2023 10:40:21.822 +0000 INFO  SavedSearchHistory - Shut-down completed
+05-02-2023 10:40:24.007 +0000 INFO  SavedSplunker - Shutting down the SavedSearchFetcher thread
+05-02-2023 10:40:24.008 +0000 INFO  SavedSplunker - Ending SavedSearchFetcher thread

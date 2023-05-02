@@ -1,2 +1,3 @@
 id,path,"raw_size","event_count","host_count","source_count","sourcetype_count","size_on_disk",modtime,"frozen_in_cluster","origin_site","tsidx_minified","journal_size","merge_source",createdate
-"_introspection~0~C39C9F92-4A71-49A3-92DB-0A4A14639E88","hot_v1_0","","","","","","","",0,"",0,"","",""
+"_introspection~1~C39C9F92-4A71-49A3-92DB-0A4A14639E88","hot_v1_1","","","","","","","",0,"",0,"","",""
+"_introspection~0~C39C9F92-4A71-49A3-92DB-0A4A14639E88","db_1683021735_1683021636_0",236756,129,1,6,5,479232,1683023381,0,"",0,72346,"",""
